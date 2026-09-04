@@ -1,0 +1,30 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next
+/out
+
+# testing and coverage
+/coverage
+/test-results
+/playwright-report
+
+# local environment files
+.env*
+!.env.example
+
+# deployment and local tooling
+.netlify
+.vercel
+
+# logs and system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
