@@ -16,6 +16,7 @@ const pages = {
   imprint: { de: "/de/impressum", en: "/en/imprint", tr: "/tr/kunye" },
   privacy: { de: "/de/datenschutz", en: "/en/privacy", tr: "/tr/gizlilik" },
 };
+const renderedBodies = [];
 
 const get = async (path, init) => {
   const response = await fetch(`${baseUrl}${path}`, init);
@@ -26,6 +27,7 @@ const get = async (path, init) => {
 for (const [pageKey, translations] of Object.entries(pages)) {
   for (const [locale, path] of Object.entries(translations)) {
     const { response, body } = await get(path);
+    renderedBodies.push(body);
     assert.equal(response.status, 200, `${path} should return 200`);
     assert.match(body, new RegExp(`<html lang="${locale}"`), `${path} should set html lang`);
     assert.match(body, /<title>[^<]+<\/title>/, `${path} should have a title`);
@@ -50,7 +52,26 @@ for (const [pageKey, translations] of Object.entries(pages)) {
     if (["home", "cie", "trade", "ecommerce", "company"].includes(pageKey)) {
       assert.match(body, /application\/ld\+json/, `${path} should include structured data`);
     }
+
+    if (pageKey === "home") {
+      assert.match(body, /CIE Marketplace/);
+      assert.match(body, /cie-marketplace-hero\.webm/);
+      assert.match(body, /cie-marketplace-hero-poster\.webp/);
+      assert.match(body, /name="exwest-commercial-inquiry"/);
+      assert.match(body, /data-netlify="true"/);
+      assert.ok(body.indexOf("CIE Marketplace") < body.indexOf(locale === "tr" ? "Uluslararası Ticaret" : "International Trade"), `${path} should lead with CIE Marketplace`);
+    }
   }
+}
+
+const internalLinks = new Set(
+  renderedBodies.flatMap((body) =>
+    Array.from(body.matchAll(/href="(\/[^"]*)"/g), (match) => match[1].split("#")[0]).filter(Boolean),
+  ),
+);
+for (const path of internalLinks) {
+  const response = await fetch(`${baseUrl}${path}`);
+  assert.ok(response.ok, `internal link ${path} should resolve`);
 }
 
 const redirectCases = [
@@ -81,6 +102,19 @@ for (const locale of ["de", "en", "tr", "x-default"]) {
 const { response: llmsResponse, body: llms } = await get("/llms.txt");
 assert.equal(llmsResponse.status, 200);
 assert.match(llms, /not a ranking mechanism/i);
+assert.match(llms, /CIE Marketplace is Exwest's Commercial Intelligence system/);
+
+const { response: formDetectorResponse, body: formDetector } = await get("/__forms.html");
+assert.equal(formDetectorResponse.status, 200);
+assert.match(formDetectorResponse.headers.get("x-robots-tag") ?? "", /noindex, nofollow/);
+assert.match(formDetector, /name="exwest-commercial-inquiry"/);
+assert.match(formDetector, /data-netlify="true"/);
+
+for (const mediaPath of ["/cie-marketplace-hero.mp4", "/cie-marketplace-hero.webm", "/cie-marketplace-hero-poster.webp"]) {
+  const response = await fetch(`${baseUrl}${mediaPath}`);
+  assert.equal(response.status, 200, `${mediaPath} should return 200`);
+  assert.ok(Number(response.headers.get("content-length") ?? 0) > 10_000, `${mediaPath} should not be a placeholder`);
+}
 
 for (const imagePath of ["/de/opengraph-image", "/en/international-trade/opengraph-image", "/tr/cie/opengraph-image"]) {
   const response = await fetch(`${baseUrl}${imagePath}`);
@@ -88,4 +122,4 @@ for (const imagePath of ["/de/opengraph-image", "/en/international-trade/opengra
   assert.match(response.headers.get("content-type") ?? "", /^image\/png/);
 }
 
-console.log(`PASS: 21 localized pages, resolver priority, metadata, crawlers, sitemap, llms.txt, and OpenGraph images (${baseUrl})`);
+console.log(`PASS: 21 localized pages, CIE Marketplace hierarchy, hero media, Netlify form detection, resolver priority, metadata, crawlers, sitemap, llms.txt, and OpenGraph images (${baseUrl})`);

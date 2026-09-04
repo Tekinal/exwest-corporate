@@ -15,6 +15,16 @@ Date: 2026-09-04
 - Semantic question-and-answer content that addresses real commercial decision intent without FAQ spam or fabricated proof.
 - Experimental `/llms.txt` containing only verified orientation and canonical links. It is not presented as a ranking mechanism.
 
+## Homepage semantic ownership after the CIE Marketplace repositioning
+
+The homepage now defines Exwest primarily through **CIE Marketplace** and owns the product/marketplace decision cluster: marketplace intelligence, product opportunity, pricing and channel decisions, margin context, E-Commerce growth and product commercialization. Its visible server-rendered copy answers what CIE Marketplace is, who it is for, which fragmented signals it brings together, how it supports marketplace growth, how it relates to supply, and where human approval remains decisive.
+
+International Trade remains a major Exwest business area but its sourcing, procurement, supplier discovery, export and market-entry cluster belongs to the dedicated localized trade routes. Homepage trade content is intentionally a short explanatory bridge and link. This avoids asking one URL to rank for two different primary intents.
+
+The canonical entity definition is substantively equivalent in German, English and Turkish: CIE Marketplace is Exwest's Commercial Intelligence system for identifying product, pricing, channel, supplier and marketplace opportunities and turning fragmented commercial signals into better marketplace decisions. Copy and structured data do not claim autonomous transaction execution.
+
+The hero film is supplementary. Its product/signals/decision/action story is repeated in semantic HTML, the video has a descriptive poster and caption, and no crawler or assistive-technology user must play it to understand the offer.
+
 Google states that established SEO fundamentals remain applicable to its AI features and that no special AI text file or schema is required; crawlability, textual content, useful images, internal links and structured-data consistency remain the practical priorities. [Google Search Central](https://developers.google.com/search/docs/appearance/ai-features)
 
 OpenAI documents that public sites can allow `OAI-SearchBot` for search discovery/citation while keeping separate controls for model training. This site explicitly permits the search crawler only through its public production robots policy. [OpenAI Publishers and Developers FAQ](https://help.openai.com/en/articles/12627856-publishers-and-developers-faq)

@@ -1,16 +1,18 @@
 const content = `# Exwest GmbH
 
-Exwest GmbH is an international commerce and Commercial Intelligence company headquartered in Düsseldorf, Germany.
+Exwest GmbH is a marketplace-commercialization and international-commerce company headquartered in Düsseldorf, Germany.
 
-## Primary technology
+## Primary product
 
-CIE is Exwest's governed Commercial Intelligence system for discovering, investigating, explaining and prioritizing commercial opportunities. AI-assisted workflows prepare evidence and recommendations; people retain decision, communication, negotiation and approval authority. Agentic transaction execution is product direction, not a claim of current autonomous production capability.
+CIE Marketplace is Exwest's Commercial Intelligence system for identifying product, pricing, channel, supplier and marketplace opportunities and turning fragmented commercial signals into better marketplace decisions. It supports manufacturers, brands, marketplace operators and commercial teams with opportunity analysis, assortment, pricing, margin, channel and supply context.
+
+AI-assisted workflows prepare evidence and recommendations; people retain decision, communication, negotiation and approval authority. CIE Marketplace does not autonomously execute transactions. Governed agentic action is product direction, not a claim of current autonomous production capability.
 
 ## Business pillars
 
-- CIE Solutions — Intelligence
-- International Trade — Execution
-- E-Commerce Commercialization — Scale
+- CIE Marketplace — primary product and marketplace decision layer
+- E-Commerce Commercialization — product, channel and growth execution
+- International Trade & Global Supply — supplier, procurement and cross-border execution
 
 ## Canonical pages
 

@@ -29,7 +29,7 @@ export function SiteFooter({ locale, copy }: { locale: Locale; copy: SiteCopy["f
           <a href="https://realestate.exwest.de" rel="noopener noreferrer">Exwest Real Estate ↗</a>
         </div>
       </div>
-      <div className="footer-bottom"><span>© {new Date().getFullYear()} Exwest GmbH</span><span>{copy.location}</span><span>Intelligence → Execution → Scale</span></div>
+      <div className="footer-bottom"><span>© {new Date().getFullYear()} Exwest GmbH</span><span>{copy.location}</span><span>{locale === "de" ? "Produkt → Entscheidung → Wachstum" : locale === "tr" ? "Ürün → Karar → Büyüme" : "Product → Decision → Growth"}</span></div>
     </footer>
   );
 }

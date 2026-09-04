@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { resolveDetailPage } from "@/lib/detail-content";
 import { isLocale } from "@/lib/i18n";
 
-export const alt = "Exwest commercial intelligence and international commerce";
+export const alt = "Exwest CIE Marketplace and international commerce";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -14,7 +14,7 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
   const resolved = resolveDetailPage(locale, slug);
   if (!resolved) notFound();
   const page = resolved.page;
-  const lane = page.kind === "cie" ? "INTELLIGENCE" : page.kind === "trade" ? "EXECUTION" : page.kind === "ecommerce" ? "SCALE" : "EXWEST";
+  const lane = page.kind === "cie" ? "MARKETPLACE" : page.kind === "trade" ? "EXECUTION" : page.kind === "ecommerce" ? "GROWTH" : "EXWEST";
 
   return new ImageResponse(
     <div style={{ width: "100%", height: "100%", display: "flex", position: "relative", overflow: "hidden", background: "#07100d", color: "#f4f0e7", padding: "64px 70px", fontFamily: "Arial, sans-serif" }}>

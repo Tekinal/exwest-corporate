@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 
 import { heroContent, isLocale } from "@/lib/i18n";
 
-export const alt = "Exwest — International Commerce powered by intelligence";
+export const alt = "Exwest CIE Marketplace — marketplace opportunity and profitable growth";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -11,7 +11,7 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const copy = heroContent[locale];
-  const principle = locale === "de" ? "INTELLIGENCE → UMSETZUNG → SKALIERUNG" : locale === "tr" ? "İSTİHBARAT → UYGULAMA → ÖLÇEK" : "INTELLIGENCE → EXECUTION → SCALE";
+  const principle = locale === "de" ? "PRODUKT → ENTSCHEIDUNG → WACHSTUM" : locale === "tr" ? "ÜRÜN → KARAR → BÜYÜME" : "PRODUCT → DECISION → GROWTH";
 
   return new ImageResponse(
     <div style={{ width: "100%", height: "100%", display: "flex", position: "relative", overflow: "hidden", background: "#07100d", color: "#f4f0e7", padding: "62px 68px", fontFamily: "Arial, sans-serif" }}>
@@ -24,7 +24,7 @@ export default async function OpenGraphImage({ params }: { params: Promise<{ loc
       <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", position: "relative" }}>
         <div style={{ width: 360, height: 360, display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(184,241,207,.24)", borderRadius: "50%" }}>
           <div style={{ width: 270, height: 270, display: "flex", alignItems: "center", justifyContent: "center", border: "1px dashed rgba(255,255,255,.14)", borderRadius: "50%" }}>
-            <div style={{ width: 160, height: 160, display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(241,188,118,.35)", borderRadius: "50%", background: "#11231b", color: "#b8f1cf", fontSize: 34, letterSpacing: -1 }}>CIE</div>
+            <div style={{ width: 160, height: 160, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", border: "1px solid rgba(241,188,118,.35)", borderRadius: "50%", background: "#11231b", color: "#b8f1cf", fontSize: 34, letterSpacing: -1 }}><span>CIE</span><span style={{ marginTop: 4, fontSize: 11, letterSpacing: 2 }}>MARKETPLACE</span></div>
           </div>
         </div>
         <span style={{ position: "absolute", left: -12, top: 157, width: 8, height: 8, display: "flex", borderRadius: "50%", background: "#f1bc76" }} />

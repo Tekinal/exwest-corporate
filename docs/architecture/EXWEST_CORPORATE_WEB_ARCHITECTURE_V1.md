@@ -20,31 +20,29 @@ exwest-configurator
 → Operational CIE / CRM / Starium infrastructure
 ```
 
-The corporate frontend is presentation-only. It contains no database client, CRM integration, Supabase dependency, operational agent, commercial pipeline, tenant runtime, or copied configurator code. The only conversion action in V1 opens the visitor's local email client.
+The corporate frontend is presentation-only. It contains no database client, CRM integration, Supabase dependency, operational agent, commercial pipeline, tenant runtime, or copied configurator code. Commercial enquiries are submitted to Netlify Forms through a statically detectable form contract; no form submission is written to this repository or to an Exwest operational system.
 
 ## 2. Positioning and information hierarchy
 
-The flagship is **CIE Solutions — Commercial Intelligence**. International Trade and E-Commerce are substantial secondary pillars that demonstrate practical execution and digital scale.
+The homepage and primary product proposition are led by **CIE Marketplace**: Exwest's Commercial Intelligence system for product, pricing, channel, supplier and marketplace decisions. International Trade is the second major business area. E-Commerce commercialization is connected directly to CIE Marketplace rather than presented as an unrelated consulting offer.
 
 ```text
-CIE                    → Intelligence
-International Trade    → Execution
-E-Commerce             → Scale
+CIE Marketplace         → Marketplace and product decisions
+E-Commerce              → Commercialization and growth
+International Trade     → Supply and cross-border execution
 ```
 
-The homepage remains the fast corporate narrative. The V1 amendment adds substantive localized CIE, International Trade, E-Commerce and Company routes so deeper product and answer-engine content does not overload Home:
+The homepage remains the fast commercial narrative. Detailed localized CIE, International Trade, E-Commerce and Company routes carry deeper product and answer-engine content:
 
-1. Corporate hero and global commercial-intelligence graph.
-2. Three-pillar commercial system.
-3. CIE architecture, governance and decision-support outputs.
-4. Four distinct CIE solution areas.
-5. International Trade execution flow and bounded capabilities.
-6. E-Commerce commercialization flow and potential ecosystems.
-7. Exwest operating model.
-8. Global market orientation and application contexts.
-9. Controlled portfolio references.
-10. Company position and commercial-intent conversion.
-11. Legal and corporate footer.
+1. CIE Marketplace hero, owned product-motion film and demo conversion.
+2. Fragmented marketplace problem: product, pricing, competition, stock, margin and supplier signals.
+3. CIE Marketplace decision layer and evidence-backed outputs.
+4. Prominent conceptual product experience and the commercial questions it supports.
+5. Marketplace commercialization from product through channel, launch, optimization and scale.
+6. Agentic Commerce as governed future direction, not current autonomous execution.
+7. International Trade as a concise secondary homepage route into its substantive dedicated page.
+8. Exwest company and controlled operating-business references.
+9. Localized Netlify lead form and corporate footer.
 
 ```text
 /de | /en | /tr
@@ -66,9 +64,9 @@ The amendment adds the **Agentic Commercial Operating System** as product direct
 ## 4. Application architecture
 
 - Next.js 16 App Router (patched 16.3.4 baseline), React 19 and strict TypeScript.
-- Server Components by default. Client JavaScript is limited to navigation/language controls and the contact-intent selector.
-- Central trilingual content in `lib/site-content.ts`, `lib/detail-content.ts` and `lib/i18n.ts`.
-- Original, dependency-free CSS/SVG visuals; no dashboard library, video payload, remote font, tracking script or stock-image dependency.
+- Server Components by default. Client JavaScript is limited to navigation/language controls, progressive product experience and the accessible lead-form state machine.
+- Central trilingual content in `lib/site-content.ts`, `lib/detail-content.ts`, `lib/homepage-content.ts`, `lib/form-content.ts` and `lib/i18n.ts`.
+- Original CSS/SVG visuals and one owned, locally rendered CIE Marketplace hero motion asset; no dashboard library, remote font, tracking script or third-party hero footage.
 - Generated route metadata, sitemap, robots policy, schema and localized legal metadata.
 - Netlify build target with a pinned adapter, Node 20 and non-indexable preview contexts.
 
@@ -86,7 +84,7 @@ No permanent geo-IP redirect is used or required. Automatic selection never repl
 
 ## 6. SEO ownership
 
-`exwest.de` owns Commercial Intelligence, CIE Solutions, export/market/marketplace intelligence, international trade, sourcing/procurement, market entry, E-Commerce strategy and product commercialization. It does not publish a real-estate topic cluster.
+The homepage owns the CIE Marketplace, marketplace intelligence, product opportunity, pricing/channel decision, E-Commerce growth and product-commercialization cluster. Dedicated International Trade pages own international trade, sourcing/procurement, supplier discovery and market-entry intent. This separation reduces topical ambiguity. The corporate site does not publish a real-estate topic cluster.
 
 `realestate.exwest.de` must independently own real-estate content, canonicals, sitemap, robots rules, metadata and structured data. It appears here only as one intentional portfolio link. It is never present in the corporate sitemap and is never used as a corporate canonical.
 
@@ -99,6 +97,9 @@ The legacy visual DNA is retained through warm ivory surfaces, charcoal-green hi
 Custom visual modules:
 
 - `GlobalCommerceGraph`
+- `MarketplaceHeroVideo`
+- `MarketplaceSignalField`
+- `MarketplaceDecisionGrid`
 - `CIEIntelligenceFlow`
 - `CommercialSignalCard`
 - `SolutionVisual`
@@ -112,24 +113,24 @@ Custom visual modules:
 
 The conceptual CIE interface is explicitly labeled as a marketing/product visualization. One generated editorial image connects Trade to human sourcing work; its caption states that it is not a depicted customer or Exwest office. The built-in image-generation prompt requested a candid, diverse European commercial team evaluating unlabeled product samples and supplier documentation in a restrained project room, with no logos, flags, claimed location or customer evidence. The optimized derivative is `public/exwest-commercial-operations.jpg`.
 
-All motion is transform/opacity or SVG dash based, slow and disabled by `prefers-reduced-motion`. Mobile layouts recompose flows rather than scaling the desktop geometry down.
+The hero film is rendered from Exwest-native SVG/product-interface compositions by `scripts/render-marketplace-hero.mjs`; it uses no third-party media and presents no operational metrics as evidence. The 12-second, silent local WebM/MP4 loop has a strong WebP poster and nearby semantic explanation. Small screens and `prefers-reduced-motion` receive the poster instead of an active source. Other motion is transform/opacity or SVG dash based, slow and disabled by `prefers-reduced-motion`. Mobile layouts recompose flows rather than scaling desktop geometry down.
 
 ## 8. Privacy, legal and security posture
 
 The German Impressum uses the verified company identity preserved in the legacy/company evidence: Exwest GmbH, Königsallee 92a, 40212 Düsseldorf, managing director Tekin Aldemir, Amtsgericht Düsseldorf HRB 104648 and VAT ID DE370220220. The provider basis is updated to § 5 DDG; the discontinued legacy EU ODR reference is not reused.
 
-Privacy copy is implementation-specific: necessary locale cookie, intended Netlify server logs, mailto contact, no analytics, no external fonts and no embedded third-party media. It retains an explicit pre-cutover legal/technical verification gate. German text is authoritative; English and Turkish texts are explanatory.
+Privacy copy is implementation-specific: necessary locale cookie, intended Netlify server logs and Netlify Forms processing, no analytics, no external fonts and no embedded third-party media. The form is not connected to CRM, CIE runtime, Supabase or a database. It retains an explicit pre-cutover legal/technical verification gate for recipients, processing terms, storage, notifications and retention. German text is authoritative; English and Turkish texts are explanatory.
 
 Security headers set nosniff, strict-origin referrer policy, browser capability restrictions and same-origin framing. A production CSP and HSTS should be enabled only after the final domain, services and redirect topology are confirmed, to avoid freezing an incorrect policy.
 
 ## 9. Performance and accessibility budgets
 
-- No remote font dependency and no homepage raster hero/video.
+- No remote font dependency. The sole above-the-fold media asset is an owned 1280×800 silent hero loop (approximately 206KB WebM / 268KB MP4) with metadata preload, fixed aspect ratio and static mobile/reduced-motion fallback.
 - Localized 1200×630 social images are generated server-side; the existing legal fallback image is metadata-only.
 - One 305KB editorial JPEG is loaded responsively below the fold on Trade pages and optimized by Next Image.
 - No UI or animation framework.
 - Semantic landmarks and heading levels, skip link, visible focus states, keyboard-operable controls and accessible navigation state.
-- Layout adaptations at 1100, 820 and 560 CSS breakpoints cover required review widths 1440, 1280, 1024, 768, 430, 390, 375 and 320.
+- Layout adaptations at 1100, 820, 560 and 360 CSS breakpoints cover required review widths 1440, 1280, 1024, 768, 430, 390, 375 and 320. Turkish headline wrapping and form stacking receive explicit narrow-screen rules.
 - Non-critical visual semantics are CSS/SVG; decorative elements are hidden from accessibility APIs.
 
 Release QA still requires a connected browser/device screenshot baseline and keyboard/assistive-technology pass on an approved preview.

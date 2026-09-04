@@ -1,34 +1,38 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { CIEIntelligenceFlow } from "@/components/CIEIntelligenceFlow";
 import { AgenticDirectionTeaser } from "@/components/AgenticDirectionTeaser";
+import { CIEIntelligenceFlow } from "@/components/CIEIntelligenceFlow";
+import { CIEProductExperience } from "@/components/CIEProductExperience";
+import { CommercialLeadForm } from "@/components/CommercialLeadForm";
 import { CommercialSignalCard } from "@/components/CommercialSignalCard";
-import { ContactIntent } from "@/components/ContactIntent";
-import { ExwestOperatingModel } from "@/components/ExwestOperatingModel";
-import { GlobalCommerceGraph } from "@/components/GlobalCommerceGraph";
-import { GlobalCommercialNetwork } from "@/components/GlobalCommercialNetwork";
 import { MarketplaceCommerceFlow } from "@/components/MarketplaceCommerceFlow";
+import { MarketplaceDecisionGrid } from "@/components/MarketplaceDecisionGrid";
+import { MarketplaceHeroVideo } from "@/components/MarketplaceHeroVideo";
+import { MarketplaceSignalField } from "@/components/MarketplaceSignalField";
 import { SectionHeading } from "@/components/SectionHeading";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
-import { SolutionVisual } from "@/components/SolutionVisual";
 import { TradeExecutionFlow } from "@/components/TradeExecutionFlow";
+import { detailContent } from "@/lib/detail-content";
+import { formContent } from "@/lib/form-content";
+import { homepageContent } from "@/lib/homepage-content";
 import { heroContent, isLocale, locales, localizedRoutes, type Locale } from "@/lib/i18n";
 import { siteContent } from "@/lib/site-content";
 
 const metadataByLocale: Record<Locale, { title: string; description: string }> = {
   de: {
-    title: "Exwest | Commercial Intelligence & International Commerce",
-    description: "Exwest verbindet CIE Solutions, International Trade und E-Commerce, um kommerzielle Chancen zu erkennen, umzusetzen und zu skalieren.",
+    title: "CIE Marketplace | Marktplatz- & Produktintelligenz | Exwest",
+    description: "CIE Marketplace verbindet Produkt-, Preis-, Wettbewerbs-, Margen-, Channel- und Supplier-Signale für bessere Marketplace-Entscheidungen und profitables E-Commerce-Wachstum.",
   },
   en: {
-    title: "Exwest | Commercial Intelligence & International Commerce",
-    description: "Exwest combines CIE Solutions, international trade and e-commerce to identify, execute and scale commercial opportunities.",
+    title: "CIE Marketplace | Marketplace & Product Intelligence | Exwest",
+    description: "CIE Marketplace connects product, pricing, competitor, margin, channel and supplier signals for better marketplace decisions and profitable e-commerce growth.",
   },
   tr: {
-    title: "Exwest | Ticari İstihbarat ve Uluslararası Ticaret",
-    description: "Exwest; ticari fırsatları belirlemek, uygulamak ve ölçeklemek için CIE Çözümleri, uluslararası ticaret ve e-ticareti birleştirir.",
+    title: "CIE Marketplace | Pazaryeri Zekâsı ve Büyüme | Exwest",
+    description: "CIE Marketplace; ürün, fiyat, rekabet, marj, kanal ve tedarikçi verilerini daha güçlü pazaryeri kararları ve kârlı e-ticaret büyümesi için birleştirir.",
   },
 };
 
@@ -46,8 +50,14 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: meta.description,
     alternates: { canonical: `/${locale}`, languages: { de: "/de", en: "/en", tr: "/tr", "x-default": "/de" } },
     openGraph: {
-      type: "website", locale: locale === "de" ? "de_DE" : locale === "tr" ? "tr_TR" : "en_GB", alternateLocale: locale === "de" ? ["en_GB", "tr_TR"] : locale === "tr" ? ["de_DE", "en_GB"] : ["de_DE", "tr_TR"],
-      url: `/${locale}`, siteName: "Exwest", title: meta.title, description: meta.description,
+      type: "website",
+      locale: locale === "de" ? "de_DE" : locale === "tr" ? "tr_TR" : "en_GB",
+      alternateLocale: locale === "de" ? ["en_GB", "tr_TR"] : locale === "tr" ? ["de_DE", "en_GB"] : ["de_DE", "tr_TR"],
+      url: `/${locale}`,
+      siteName: "Exwest",
+      title: meta.title,
+      description: meta.description,
+      videos: [{ url: "/cie-marketplace-hero.mp4", secureUrl: "/cie-marketplace-hero.mp4", type: "video/mp4", width: 1280, height: 800 }],
       images: [{ url: image, width: 1200, height: 630, alt: `${heroContent[locale].titleTop} ${heroContent[locale].titleBottom}` }],
     },
     twitter: { card: "summary_large_image", title: meta.title, description: meta.description, images: [image] },
@@ -59,64 +69,60 @@ export default async function LocaleHome({ params }: { params: Promise<{ locale:
   if (!isLocale(locale)) notFound();
   const hero = heroContent[locale];
   const copy = siteContent[locale];
+  const home = homepageContent[locale];
+  const leadForm = formContent[locale];
+  const productExperience = detailContent.cie[locale].experience;
   const organizationSchema = {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": ["Organization", "Corporation"], "@id": "https://exwest.de/#organization", name: "Exwest GmbH", url: "https://exwest.de", email: "contact@exwest.de",
         address: { "@type": "PostalAddress", streetAddress: "Königsallee 92a", postalCode: "40212", addressLocality: "Düsseldorf", addressCountry: "DE" },
-        knowsAbout: ["Commercial Intelligence", "International Trade", "E-Commerce Commercialization"],
+        knowsAbout: ["CIE Marketplace", "Marketplace Intelligence", "Product Commercialization", "E-Commerce Growth", "International Trade", "Global Sourcing"],
       },
       { "@type": "WebSite", "@id": "https://exwest.de/#website", url: "https://exwest.de", name: "Exwest", publisher: { "@id": "https://exwest.de/#organization" }, inLanguage: ["de", "en", "tr"] },
-      { "@type": "WebPage", "@id": `https://exwest.de/${locale}#webpage`, url: `https://exwest.de/${locale}`, name: metadataByLocale[locale].title, description: metadataByLocale[locale].description, inLanguage: locale, isPartOf: { "@id": "https://exwest.de/#website" } },
+      { "@type": "WebPage", "@id": `https://exwest.de/${locale}#webpage`, url: `https://exwest.de/${locale}`, name: metadataByLocale[locale].title, description: metadataByLocale[locale].description, inLanguage: locale, isPartOf: { "@id": "https://exwest.de/#website" }, primaryImageOfPage: { "@type": "ImageObject", url: `https://exwest.de/${locale}/opengraph-image` } },
       {
-        "@type": "Service", "@id": `https://exwest.de/${locale}#cie-service`, name: "Exwest CIE Solutions", serviceType: "Commercial Intelligence",
+        "@type": "Service", "@id": `https://exwest.de/${locale}#cie-marketplace`, name: "CIE Marketplace", serviceType: "Marketplace and Commercial Intelligence",
         provider: { "@id": "https://exwest.de/#organization" }, description: metadataByLocale[locale].description,
       },
     ],
   };
 
   return (
-    <main id="main-content" className="site-shell">
+    <main id="main-content" className="site-shell marketplace-home">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema).replaceAll("<", "\\u003c") }} />
 
-      <section className="hero" id="top">
+      <section className="hero marketplace-hero" id="top">
         <SiteHeader locale={locale} content={hero} />
-        <div className="hero-inner">
+        <div className="hero-inner marketplace-hero-inner">
           <div className="hero-copy">
             <p className="eyebrow"><span />{hero.eyebrow}</p>
             <h1><span>{hero.titleTop}</span><span className="accent-line">{hero.titleBottom}</span></h1>
             <p className="hero-summary">{hero.summary}</p>
             <div className="hero-actions">
-              <a className="button primary" href={localizedRoutes.cie[locale]}>{hero.primary}<span aria-hidden="true">↗</span></a>
-              <a className="button secondary" href={`/${locale}#contact`}>{hero.secondary}<span aria-hidden="true">→</span></a>
+              <Link className="button primary" href={localizedRoutes.cie[locale]}>{hero.primary}<span aria-hidden="true">↗</span></Link>
+              <a className="button secondary" href={`/${locale}#contact`}>{hero.secondary}<span aria-hidden="true">↓</span></a>
             </div>
-            <div className="hero-principle"><span>Intelligence</span><i aria-hidden="true" /><span>Execution</span><i aria-hidden="true" /><span>Scale</span></div>
+            <div className="hero-principle"><span>{hero.principle[0]}</span><i aria-hidden="true" /><span>{hero.principle[1]}</span><i aria-hidden="true" /><span>{hero.principle[2]}</span></div>
           </div>
-          <GlobalCommerceGraph labels={hero.signalLabels} locale={locale} />
+          <MarketplaceHeroVideo label={hero.visualLabel} caption={hero.visualCaption} />
         </div>
-        <div className="hero-bottomline" aria-hidden="true"><span>01 / CIE</span><span>Düsseldorf · International Commerce</span></div>
+        <div className="hero-bottomline" aria-hidden="true"><span>01 / CIE MARKETPLACE</span><span>Düsseldorf · Marketplace Commerce</span></div>
       </section>
 
-      <section className="section intro-section">
-        <div className="container">
-          <SectionHeading eyebrow={copy.intro.eyebrow} title={copy.intro.title} text={copy.intro.text} />
-          <div className="pillar-grid">
-            {copy.intro.pillars.map((pillar) => (
-              <article className={pillar.index === "01" ? "primary-pillar" : ""} key={pillar.title}>
-                <div className="pillar-top"><span>{pillar.index}</span><b>{pillar.role}</b></div>
-                <h3>{pillar.title}</h3><p>{pillar.text}</p><div className="pillar-rule" aria-hidden="true"><i /><i /><i /></div>
-              </article>
-            ))}
-          </div>
+      <section className="section marketplace-problem-section">
+        <div className="container marketplace-problem-grid">
+          <SectionHeading eyebrow={home.problem.eyebrow} title={home.problem.title} text={home.problem.text} />
+          <MarketplaceSignalField signals={home.problem.signals} fragmented={home.problem.fragmented} resolved={home.problem.resolved} />
         </div>
       </section>
 
-      <section className="section cie-section" id="cie">
+      <section className="section cie-section marketplace-decision-layer" id="cie">
         <div className="container">
           <div className="cie-heading-row">
-            <SectionHeading eyebrow={copy.cie.eyebrow} title={copy.cie.title} text={copy.cie.text} invert />
-            <aside className="governance-note"><span /><div><strong>{copy.cie.governanceTitle}</strong><p>{copy.cie.governanceText}</p></div></aside>
+            <SectionHeading eyebrow={home.decisionLayer.eyebrow} title={home.decisionLayer.title} text={home.decisionLayer.text} invert />
+            <aside className="governance-note"><span /><div><strong>{home.decisionLayer.governanceTitle}</strong><p>{home.decisionLayer.governanceText}</p></div></aside>
           </div>
           <CIEIntelligenceFlow copy={copy.cie} />
           <div className="signal-strip">
@@ -127,67 +133,48 @@ export default async function LocaleHome({ params }: { params: Promise<{ locale:
         </div>
       </section>
 
+      <section className="section homepage-product-experience">
+        <div className="container">
+          <div className="product-experience-heading">
+            <SectionHeading eyebrow={home.experience.eyebrow} title={home.experience.title} text={home.experience.text} />
+            <Link className="text-link dark-link" href={localizedRoutes.cie[locale]}>{home.experience.cta}<span aria-hidden="true">↗</span></Link>
+          </div>
+          <CIEProductExperience copy={productExperience} />
+        </div>
+      </section>
+
+      <section className="section marketplace-decisions-section">
+        <div className="container">
+          <SectionHeading eyebrow={home.decisions.eyebrow} title={home.decisions.title} text={home.decisions.text} invert />
+          <MarketplaceDecisionGrid items={home.decisions.items} />
+        </div>
+      </section>
+
+      <section className="section ecommerce-section marketplace-commercialization-section" id="ecommerce">
+        <div className="container">
+          <SectionHeading eyebrow={home.commercialization.eyebrow} title={home.commercialization.title} text={home.commercialization.text} invert />
+          <MarketplaceCommerceFlow stages={home.commercialization.stages} ecosystems={home.commercialization.ecosystems} ecosystemLabel={home.commercialization.ecosystemsLabel} />
+        </div>
+      </section>
+
       <AgenticDirectionTeaser copy={copy.agentic} href={localizedRoutes.cie[locale]} />
 
-      <section className="section solutions-section">
-        <div className="container">
-          <SectionHeading eyebrow={copy.solutions.eyebrow} title={copy.solutions.title} text={copy.solutions.text} />
-          <div className="solution-grid">
-            {copy.solutions.items.map((item, index) => (
-              <article className="solution-card" key={item.title}>
-                <div className="solution-index">{String(index + 1).padStart(2, "0")} / 04</div><SolutionVisual type={item.type} />
-                <div className="solution-body"><h3>{item.title}</h3><p>{item.text}</p><span>{item.meta}</span></div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section trade-section" id="trade">
+      <section className="section trade-section homepage-trade-teaser" id="trade">
         <div className="container">
           <div className="split-heading">
-            <SectionHeading eyebrow={copy.trade.eyebrow} title={copy.trade.title} text={copy.trade.text} />
-            <div className="trade-capabilities">{copy.trade.capabilities.map((capability, index) => <span key={capability}><i>{String(index + 1).padStart(2, "0")}</i>{capability}</span>)}</div>
+            <SectionHeading eyebrow={home.trade.eyebrow} title={home.trade.title} text={home.trade.text} />
+            <Link className="button ink-button" href={localizedRoutes.trade[locale]}>{home.trade.cta}<span aria-hidden="true">↗</span></Link>
           </div>
-          <TradeExecutionFlow stages={copy.trade.stages} />
-          <p className="compliance-note"><span>i</span>{copy.trade.note}</p>
-        </div>
-      </section>
-
-      <section className="section ecommerce-section" id="ecommerce">
-        <div className="container">
-          <div className="ecommerce-heading">
-            <SectionHeading eyebrow={copy.ecommerce.eyebrow} title={copy.ecommerce.title} text={copy.ecommerce.text} invert />
-            <div className="commerce-capability-cloud">{copy.ecommerce.capabilities.map((capability, index) => <span className={index % 3 === 0 ? "accent" : ""} key={capability}>{capability}</span>)}</div>
-          </div>
-          <MarketplaceCommerceFlow stages={copy.ecommerce.stages} ecosystems={copy.ecommerce.ecosystems} ecosystemLabel={copy.ecommerce.ecosystemsLabel} />
-        </div>
-      </section>
-
-      <section className="section model-section" id="model">
-        <div className="container"><SectionHeading eyebrow={copy.model.eyebrow} title={copy.model.title} text={copy.model.text} invert /><ExwestOperatingModel items={copy.model.items} /></div>
-      </section>
-
-      <section className="section global-section">
-        <div className="container">
-          <div className="global-copy-grid">
-            <SectionHeading eyebrow={copy.global.eyebrow} title={copy.global.title} text={copy.global.text} />
-            <dl className="global-facts"><div><dt>{copy.global.office}</dt><dd>{copy.global.officeValue}</dd></div><div><dt>{copy.global.coverage}</dt><dd>{copy.global.regions.join(" · ")}</dd></div></dl>
-          </div>
-          <GlobalCommercialNetwork regions={copy.global.regions} />
-        </div>
-      </section>
-
-      <section className="section industries-section">
-        <div className="container compact-grid">
-          <SectionHeading eyebrow={copy.industries.eyebrow} title={copy.industries.title} text={copy.industries.text} />
-          <div className="industry-list">{copy.industries.items.map((item, index) => <div key={item}><span>{String(index + 1).padStart(2, "0")}</span><strong>{item}</strong><i aria-hidden="true">↗</i></div>)}</div>
+          <TradeExecutionFlow stages={home.trade.stages} />
         </div>
       </section>
 
       <section className="section portfolio-section" id="businesses">
         <div className="container">
-          <SectionHeading eyebrow={copy.portfolio.eyebrow} title={copy.portfolio.title} text={copy.portfolio.text} />
+          <div className="company-home-intro">
+            <SectionHeading eyebrow={home.company.eyebrow} title={home.company.title} text={home.company.text} />
+            <Link className="text-link dark-link" href={localizedRoutes.company[locale]}>{locale === "de" ? "Unternehmen kennenlernen" : locale === "tr" ? "Exwest'i tanıyın" : "Meet Exwest"}<span aria-hidden="true">↗</span></Link>
+          </div>
           <div className="business-grid">
             {copy.portfolio.businesses.map((business, index) => (
               <article className={`business-card business-${index + 1}`} key={business.name}>
@@ -199,17 +186,13 @@ export default async function LocaleHome({ params }: { params: Promise<{ locale:
         </div>
       </section>
 
-      <section className="section company-section" id="company">
-        <div className="container company-grid">
-          <SectionHeading eyebrow={copy.company.eyebrow} title={copy.company.title} text={copy.company.text} invert />
-          <div className="principle-stack">{copy.company.principles.map((principle, index) => <div key={principle}><span>{String(index + 1).padStart(2, "0")}</span><strong>{principle}</strong></div>)}</div>
-        </div>
-      </section>
-
-      <section className="section contact-section" id="contact">
-        <div className="container contact-grid">
-          <div><SectionHeading eyebrow={copy.contact.eyebrow} title={copy.contact.title} text={copy.contact.text} /><div className="contact-identity"><span>EXWEST GMBH</span><strong>Düsseldorf</strong><a href="mailto:contact@exwest.de">contact@exwest.de</a></div></div>
-          <ContactIntent intents={copy.contact.intents} cta={copy.contact.cta} subject={copy.contact.mailSubject} locale={locale} />
+      <section className="section contact-section lead-conversion-section" id="contact">
+        <div className="container lead-conversion-grid">
+          <div className="lead-conversion-copy">
+            <SectionHeading eyebrow={leadForm.eyebrow} title={leadForm.title} text={leadForm.text} invert />
+            <div className="contact-identity"><span>EXWEST GMBH</span><strong>Düsseldorf</strong><a href="mailto:contact@exwest.de">contact@exwest.de</a></div>
+          </div>
+          <CommercialLeadForm locale={locale} copy={leadForm} />
         </div>
       </section>
 

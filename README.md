@@ -35,11 +35,13 @@ npm run qa:site
 
 Set `QA_BASE_URL` to test another authorized preview origin. The HTTP QA suite is read-only.
 
+The owned CIE Marketplace hero media can be reproduced with `npm run render:hero`. The script uses local vector composition and FFmpeg; it does not download third-party footage.
+
 ## Deployment posture
 
 `netlify.toml` prepares a Next.js build and Netlify preview. Deploy-preview and branch-deploy contexts are non-indexable through generated metadata and `robots.txt`. Attaching `exwest.de`, changing DNS, adding production environment variables, or cutting over traffic requires separate approval.
 
-The V1 contact path uses `mailto:` and stores no form submission. Do not connect it to CRM, CIE runtime, Supabase, or another data processor without a separately approved technical and legal contract.
+The corporate enquiry form uses Netlify Forms with a static detection blueprint, accessible client-side validation and a honeypot. It is not connected to CRM, CIE runtime, Supabase or a database. Netlify form recipients, processing terms, retention and notifications require final legal and operational verification before production cutover.
 
 ## Documentation
 

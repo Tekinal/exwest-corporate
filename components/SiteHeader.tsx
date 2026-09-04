@@ -61,6 +61,9 @@ export function SiteHeader({ locale, content }: { locale: Locale; content: Heade
               <span>{String(index + 1).padStart(2, "0")}</span>{label}
             </a>
           ))}
+          <a className="mobile-demo-cta" href={`/${locale}#contact`} onClick={() => setOpen(false)}>
+            {locale === "de" ? "Demo anfragen" : locale === "tr" ? "Demo Talep Edin" : "Request a demo"}<span aria-hidden="true">→</span>
+          </a>
         </nav>
       </div>
     </header>
