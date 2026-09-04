@@ -24,15 +24,15 @@ import { siteContent } from "@/lib/site-content";
 const metadataByLocale: Record<Locale, { title: string; description: string }> = {
   de: {
     title: "CIE Marketplace | Marktplatz- & Produktintelligenz | Exwest",
-    description: "CIE Marketplace verbindet Produkt-, Preis-, Wettbewerbs-, Margen-, Channel- und Supplier-Signale für bessere Marketplace-Entscheidungen und profitables E-Commerce-Wachstum.",
+    description: "CIE Marketplace verbindet Produkt-, Preis-, Wettbewerbs-, Nachfrage-, Bestands-, Margen- und Channel-Signale für fundierte Marktplatzentscheidungen von Marken.",
   },
   en: {
     title: "CIE Marketplace | Marketplace & Product Intelligence | Exwest",
-    description: "CIE Marketplace connects product, pricing, competitor, margin, channel and supplier signals for better marketplace decisions and profitable e-commerce growth.",
+    description: "CIE Marketplace connects product, pricing, competitor, demand, inventory, margin and channel signals for stronger marketplace decisions by brands.",
   },
   tr: {
     title: "CIE Marketplace | Pazaryeri Zekâsı ve Büyüme | Exwest",
-    description: "CIE Marketplace; ürün, fiyat, rekabet, marj, kanal ve tedarikçi verilerini daha güçlü pazaryeri kararları ve kârlı e-ticaret büyümesi için birleştirir.",
+    description: "CIE Marketplace; markaların daha güçlü pazaryeri kararları verebilmesi için ürün, fiyat, rekabet, talep, stok, marj ve kanal sinyallerini birleştirir.",
   },
 };
 

@@ -36,7 +36,27 @@ export function CIEProductExperience({ copy }: { copy: ExperienceCopy }) {
 
   return (
     <div className="cie-experience-layout">
-      <div className="cie-product-frame" role="img" aria-label={copy.note}>
+      <div className="cie-product-mobile" role="img" aria-label={copy.note}>
+        <header><span>CIE</span><strong>Marketplace</strong><small>{copy.label}</small></header>
+        <section className="mobile-product-signals">
+          <p>{copy.signalsLabel}</p>
+          <div>{copy.signals.slice(0, 4).map((signal, index) => <span key={signal}><i>{String(index + 1).padStart(2, "0")}</i>{signal}</span>)}</div>
+        </section>
+        <i className="mobile-product-arrow" aria-hidden="true">↓</i>
+        <section className="mobile-decision-layer">
+          <small>{copy.evidenceLabel}</small>
+          <strong>CIE</strong>
+          <div>{copy.evidence.slice(0, 4).map((item) => <span key={item}>{item}</span>)}</div>
+        </section>
+        <i className="mobile-product-arrow" aria-hidden="true">↓</i>
+        <section className="mobile-product-result">
+          <small>{copy.recommendationLabel}</small>
+          <strong>{copy.recommendation}</strong>
+          <span>{copy.approval}</span>
+        </section>
+        <p>{copy.note}</p>
+      </div>
+      <div className="cie-product-frame cie-product-frame-desktop" role="img" aria-label={copy.note}>
         <div className="product-topbar" aria-hidden="true">
           <span><i />CIE / Commercial Intelligence</span><small>{copy.label}</small>
         </div>

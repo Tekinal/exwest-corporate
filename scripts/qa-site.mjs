@@ -110,7 +110,7 @@ assert.match(formDetectorResponse.headers.get("x-robots-tag") ?? "", /noindex, n
 assert.match(formDetector, /name="exwest-commercial-inquiry"/);
 assert.match(formDetector, /data-netlify="true"/);
 
-for (const mediaPath of ["/cie-marketplace-hero.mp4", "/cie-marketplace-hero.webm", "/cie-marketplace-hero-poster.webp"]) {
+for (const mediaPath of ["/cie-marketplace-hero.mp4", "/cie-marketplace-hero.webm", "/cie-marketplace-hero-poster.webp", "/cie-marketplace-hero-mobile-poster.webp"]) {
   const response = await fetch(`${baseUrl}${mediaPath}`);
   assert.equal(response.status, 200, `${mediaPath} should return 200`);
   assert.ok(Number(response.headers.get("content-length") ?? 0) > 10_000, `${mediaPath} should not be a placeholder`);

@@ -4,7 +4,9 @@ Exwest GmbH is a marketplace-commercialization and international-commerce compan
 
 ## Primary product
 
-CIE Marketplace is Exwest's Commercial Intelligence system for identifying product, pricing, channel, supplier and marketplace opportunities and turning fragmented commercial signals into better marketplace decisions. It supports manufacturers, brands, marketplace operators and commercial teams with opportunity analysis, assortment, pricing, margin, channel and supply context.
+CIE Marketplace is Exwest's Commercial Intelligence system for helping brand owners, manufacturers, e-commerce operators and marketplace teams evaluate product, pricing, competition, demand, inventory, margin, market and channel opportunities. It turns fragmented commercial signals into better marketplace decisions.
+
+Supplier context, landed cost, MOQ and reorder economics can support marketplace profitability where relevant, but supplier discovery, qualification, RFQ, negotiation, sourcing and cross-border execution belong primarily to Exwest International Trade & Global Supply.
 
 AI-assisted workflows prepare evidence and recommendations; people retain decision, communication, negotiation and approval authority. CIE Marketplace does not autonomously execute transactions. Governed agentic action is product direction, not a claim of current autonomous production capability.
 

@@ -24,7 +24,7 @@ The corporate frontend is presentation-only. It contains no database client, CRM
 
 ## 2. Positioning and information hierarchy
 
-The homepage and primary product proposition are led by **CIE Marketplace**: Exwest's Commercial Intelligence system for product, pricing, channel, supplier and marketplace decisions. International Trade is the second major business area. E-Commerce commercialization is connected directly to CIE Marketplace rather than presented as an unrelated consulting offer.
+The homepage and primary product proposition are led by **CIE Marketplace**: Exwest's Commercial Intelligence system for brand-owner decisions across product, pricing, competition, demand, inventory, margin, channel and marketplace. International Trade is the second major business area. E-Commerce commercialization is connected directly to CIE Marketplace rather than presented as an unrelated consulting offer.
 
 ```text
 CIE Marketplace         → Marketplace and product decisions
@@ -35,7 +35,7 @@ International Trade     → Supply and cross-border execution
 The homepage remains the fast commercial narrative. Detailed localized CIE, International Trade, E-Commerce and Company routes carry deeper product and answer-engine content:
 
 1. CIE Marketplace hero, owned product-motion film and demo conversion.
-2. Fragmented marketplace problem: product, pricing, competition, stock, margin and supplier signals.
+2. Fragmented marketplace problem: product, pricing, competition, demand, stock, margin and channel signals.
 3. CIE Marketplace decision layer and evidence-backed outputs.
 4. Prominent conceptual product experience and the commercial questions it supports.
 5. Marketplace commercialization from product through channel, launch, optimization and scale.
@@ -130,7 +130,8 @@ Security headers set nosniff, strict-origin referrer policy, browser capability 
 - One 305KB editorial JPEG is loaded responsively below the fold on Trade pages and optimized by Next Image.
 - No UI or animation framework.
 - Semantic landmarks and heading levels, skip link, visible focus states, keyboard-operable controls and accessible navigation state.
-- Layout adaptations at 1100, 820, 560 and 360 CSS breakpoints cover required review widths 1440, 1280, 1024, 768, 430, 390, 375 and 320. Turkish headline wrapping and form stacking receive explicit narrow-screen rules.
+- Core layouts now use a mobile-first base for 320–430px, then progressively enhance at 561, 821 and 1101px. The CIE product experience has a dedicated vertical mobile composition rather than a scaled desktop interface. Turkish headline wrapping, form stacking, navigation, operating-model, network and workflow visuals receive explicit narrow-screen rules.
+- Marketplace copy addresses brand owners, manufacturers, E-Commerce operators, marketplace teams and consumer-product companies first. Supplier discovery, qualification, RFQ and negotiation remain owned by International Trade; landed cost, MOQ and supply constraints may appear in CIE Marketplace only when they affect product economics.
 - Non-critical visual semantics are CSS/SVG; decorative elements are hidden from accessibility APIs.
 
 Release QA still requires a connected browser/device screenshot baseline and keyboard/assistive-technology pass on an approved preview.

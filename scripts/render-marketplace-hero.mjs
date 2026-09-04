@@ -131,6 +131,26 @@ function frameSvg(frame) {
   </svg>`;
 }
 
+function mobilePosterSvg() {
+  const signal = (y, label, accent) => `<g transform="translate(70 ${y})">
+    <rect width="580" height="88" rx="5" fill="#10231c" stroke="#ffffff" stroke-opacity=".15"/>
+    <circle cx="34" cy="44" r="7" fill="${accent}"/>
+    ${text(62, 53, label, 21, "#d6ded9", 'font-weight="550" letter-spacing=".7"')}
+  </g>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="720" height="900" viewBox="0 0 720 900">
+    <defs><pattern id="mobile-grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern><radialGradient id="mobile-glow"><stop offset="0" stop-color="#7ee2a8" stop-opacity=".17"/><stop offset="1" stop-color="#7ee2a8" stop-opacity="0"/></radialGradient></defs>
+    <rect width="720" height="900" fill="#07120e"/><rect width="720" height="900" fill="url(#mobile-grid)"/><circle cx="360" cy="470" r="330" fill="url(#mobile-glow)"/>
+    ${text(50, 60, "CIE MARKETPLACE", 22, "#b8f1cf", 'font-weight="650" letter-spacing="3"')}
+    ${signal(100, "PRODUCT  /  PRICE  /  DEMAND", "#b8f1cf")}
+    ${signal(204, "COMPETITION  /  STOCK  /  MARGIN", "#f1bc76")}
+    <path d="M360 310V366" stroke="#7ee2a8" stroke-opacity=".65" stroke-width="2"/><path d="m348 352 12 14 12-14" fill="none" stroke="#7ee2a8" stroke-width="2"/>
+    <circle cx="360" cy="490" r="114" fill="#10251d" stroke="#b8f1cf" stroke-opacity=".42"/><circle cx="360" cy="490" r="150" fill="none" stroke="#b8f1cf" stroke-opacity=".13"/><circle cx="360" cy="490" r="182" fill="none" stroke="#f1bc76" stroke-opacity=".13" stroke-dasharray="5 10"/>
+    ${text(360, 483, "CIE", 66, "#f3f0e9", 'font-weight="520" text-anchor="middle" letter-spacing="-2"')}${text(360, 522, "MARKETPLACE", 18, "#7ee2a8", 'text-anchor="middle" letter-spacing="3"')}
+    <path d="M360 674V720" stroke="#7ee2a8" stroke-opacity=".65" stroke-width="2"/><path d="m348 706 12 14 12-14" fill="none" stroke="#7ee2a8" stroke-width="2"/>
+    <g transform="translate(50 744)"><rect width="620" height="108" rx="5" fill="#f3f0e9"/>${text(28, 39, "MARKETPLACE FIT", 17, "#52605a", 'font-weight="650" letter-spacing="1.5"')}${text(28, 78, "CHANNEL  ·  PRIORITY  ·  NEXT ACTION", 22, "#08120f", 'font-weight="560" letter-spacing=".3"')}<circle cx="580" cy="34" r="8" fill="#60c98b"/></g>
+  </svg>`;
+}
+
 const frameDirectory = await mkdtemp(join(tmpdir(), "exwest-marketplace-hero-"));
 
 try {
@@ -151,7 +171,8 @@ try {
   }
 
   await sharp(Buffer.from(frameSvg(Math.round(frames * 0.72)))).webp({ quality: 88 }).toFile(`${outputBase}-poster.webp`);
-  console.log(`Rendered ${outputBase}.mp4, ${outputBase}.webm and ${outputBase}-poster.webp`);
+  await sharp(Buffer.from(mobilePosterSvg())).webp({ quality: 88 }).toFile(`${outputBase}-mobile-poster.webp`);
+  console.log(`Rendered ${outputBase}.mp4, ${outputBase}.webm, ${outputBase}-poster.webp and ${outputBase}-mobile-poster.webp`);
 } finally {
   await rm(frameDirectory, { recursive: true, force: true });
 }

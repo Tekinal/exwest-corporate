@@ -21,7 +21,7 @@ The homepage now defines Exwest primarily through **CIE Marketplace** and owns t
 
 International Trade remains a major Exwest business area but its sourcing, procurement, supplier discovery, export and market-entry cluster belongs to the dedicated localized trade routes. Homepage trade content is intentionally a short explanatory bridge and link. This avoids asking one URL to rank for two different primary intents.
 
-The canonical entity definition is substantively equivalent in German, English and Turkish: CIE Marketplace is Exwest's Commercial Intelligence system for identifying product, pricing, channel, supplier and marketplace opportunities and turning fragmented commercial signals into better marketplace decisions. Copy and structured data do not claim autonomous transaction execution.
+The canonical entity definition is substantively equivalent in German, English and Turkish: CIE Marketplace is Exwest's Commercial Intelligence system for brand owners and commercial teams, connecting product, pricing, competition, demand, inventory, margin, channel and marketplace signals to support better marketplace decisions. Supplier discovery, qualification, RFQ and negotiation remain primary International Trade topics. Copy and structured data do not claim autonomous transaction execution.
 
 The hero film is supplementary. Its product/signals/decision/action story is repeated in semantic HTML, the video has a descriptive poster and caption, and no crawler or assistive-technology user must play it to understand the offer.
 

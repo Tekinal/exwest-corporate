@@ -34,7 +34,7 @@ export const heroContent = {
     titleTop: "Marktplatzchancen erkennen.",
     titleBottom: "Profitables Wachstum steuern.",
     summary:
-      "CIE Marketplace verbindet Produkt-, Preis-, Wettbewerbs-, Margen- und Marktsignale, damit Unternehmen erkennen, welche Produkte in welchen Channels unter welchen kommerziellen Bedingungen wachsen können.",
+      "CIE Marketplace verbindet Produkt-, Preis-, Wettbewerbs-, Nachfrage-, Bestands- und Margensignale. So können Marken fundierter entscheiden, welche Produkte auf welchen Kanälen und unter welchen kommerziellen Bedingungen wachsen können.",
     primary: "CIE Marketplace entdecken",
     secondary: "Demo anfragen",
     visualLabel: "CIE Marketplace · konzeptionelle Produktansicht",
@@ -43,7 +43,7 @@ export const heroContent = {
     signalLabels: [
       "Marktsignal",
       "Buyer identifiziert",
-      "Supplier Match",
+      "Nachfragesignal",
       "RFQ",
       "Preissignal",
       "Marketplace-Chance",
@@ -62,7 +62,7 @@ export const heroContent = {
     titleTop: "Find marketplace opportunity.",
     titleBottom: "Manage profitable growth.",
     summary:
-      "CIE Marketplace connects product, pricing, competitor, margin and market signals so businesses can see which products can grow, in which channels and under which commercial conditions.",
+      "CIE Marketplace connects product, pricing, competitor, demand, inventory and margin signals so brands can make better decisions about which products to grow, in which channels and under which commercial conditions.",
     primary: "Explore CIE Marketplace",
     secondary: "Request a demo",
     visualLabel: "CIE Marketplace · conceptual product view",
@@ -71,7 +71,7 @@ export const heroContent = {
     signalLabels: [
       "Market Signal",
       "Buyer Identified",
-      "Supplier Match",
+      "Demand Signal",
       "RFQ",
       "Pricing Signal",
       "Marketplace Opportunity",
@@ -90,7 +90,7 @@ export const heroContent = {
     titleTop: "Pazaryerlerinde fırsatı bulun.",
     titleBottom: "Kârlı büyümeyi yönetin.",
     summary:
-      "CIE Marketplace; ürün, fiyat, rekabet, marj ve pazar sinyallerini bir araya getirerek hangi ürünü, hangi kanalda ve hangi ticari koşullarla büyütebileceğinizi görmenize yardımcı olur.",
+      "CIE Marketplace; ürün, fiyat, rekabet, talep, stok ve marj sinyallerini bir araya getirerek markaların hangi ürünü, hangi pazaryerinde ve hangi ticari koşullarla büyütebileceğini değerlendirmesine yardımcı olur.",
     primary: "CIE Marketplace'i Keşfedin",
     secondary: "Demo Talep Edin",
     visualLabel: "CIE Marketplace · kavramsal ürün görünümü",
@@ -99,7 +99,7 @@ export const heroContent = {
     signalLabels: [
       "Pazar Sinyali",
       "Alıcı Belirlendi",
-      "Tedarikçi Eşleşmesi",
+      "Talep Sinyali",
       "Teklif Talebi",
       "Fiyat Sinyali",
       "Pazaryeri Fırsatı",

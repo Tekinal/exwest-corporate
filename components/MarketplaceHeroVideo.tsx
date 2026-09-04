@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type MarketplaceHeroVideoProps = {
   label: string;
   caption: string;
@@ -7,7 +9,7 @@ export function MarketplaceHeroVideo({ label, caption }: MarketplaceHeroVideoPro
   return (
     <figure className="marketplace-hero-visual" aria-labelledby="marketplace-hero-visual-title">
       <div className="marketplace-video-frame">
-        <video
+        <video className="marketplace-hero-video"
           autoPlay
           muted
           loop
@@ -19,6 +21,15 @@ export function MarketplaceHeroVideo({ label, caption }: MarketplaceHeroVideoPro
           <source src="/cie-marketplace-hero.webm" type="video/webm" media="(min-width: 561px) and (prefers-reduced-motion: no-preference)" />
           <source src="/cie-marketplace-hero.mp4" type="video/mp4" media="(min-width: 561px) and (prefers-reduced-motion: no-preference)" />
         </video>
+        <Image
+          className="marketplace-mobile-poster"
+          src="/cie-marketplace-hero-mobile-poster.webp"
+          alt=""
+          width={720}
+          height={900}
+          sizes="(max-width: 560px) calc(100vw - 32px), 1px"
+          priority
+        />
         <div className="marketplace-video-edge" aria-hidden="true"><span>LIVE SIGNAL</span><i /><b>CIE</b></div>
       </div>
       <figcaption id="marketplace-hero-visual-caption">

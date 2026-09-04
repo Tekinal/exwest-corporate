@@ -39,9 +39,71 @@ test("hero video is owned, optimized and has a mobile/reduced-motion poster fall
   assert.match(component, /playsInline/);
   assert.match(component, /prefers-reduced-motion: no-preference/);
   assert.match(component, /min-width: 561px/);
-  for (const asset of ["public/cie-marketplace-hero.mp4", "public/cie-marketplace-hero.webm", "public/cie-marketplace-hero-poster.webp"]) {
+  for (const asset of ["public/cie-marketplace-hero.mp4", "public/cie-marketplace-hero.webm", "public/cie-marketplace-hero-poster.webp", "public/cie-marketplace-hero-mobile-poster.webp"]) {
     assert.ok(statSync(new URL(`../${asset}`, import.meta.url)).size > 10_000, `${asset} should be a real local asset`);
   }
+});
+
+test("core responsive contract is mobile-first and has a dedicated product composition", () => {
+  const css = read("app/globals.css");
+  const component = read("components/CIEProductExperience.tsx");
+  for (const token of ["--type-display", "--type-h1", "--type-h2", "--type-h3", "--type-body-large", "--type-body", "--type-small", "--type-micro"]) {
+    assert.match(css, new RegExp(token));
+  }
+  assert.match(css, /V3 release candidate: mobile-first core layout/);
+  assert.match(css, /@media \(min-width: 375px\)/);
+  assert.match(css, /@media \(min-width: 561px\)/);
+  assert.match(css, /@media \(min-width: 821px\)/);
+  assert.match(css, /@media \(min-width: 1101px\)/);
+  assert.doesNotMatch(css, /\.site-shell\s*\{[^}]*overflow(?:-x)?:\s*(?:hidden|clip)/);
+  assert.match(css, /\.commerce-graph \{ width: 100%; max-width: 100%; margin-inline: 0; \}/);
+  assert.match(css, /h1, h2, h3 \{ hyphens: none; overflow-wrap: normal; word-break: normal/);
+  assert.match(component, /cie-product-mobile/);
+  assert.match(component, /mobile-product-signals/);
+  assert.match(component, /mobile-decision-layer/);
+  assert.match(component, /mobile-product-result/);
+});
+
+test("brand owners lead Marketplace questions while procurement stays on Trade", () => {
+  const homepage = read("lib/homepage-content.ts");
+  const cie = read("lib/detail-content.ts");
+  const metadata = read("app/[locale]/page.tsx");
+  for (const phrase of [
+    "Hangi SKU'lar büyütülmeli?",
+    "Welcher Marktplatz passt zu Produkt und Marke?",
+    "Which channels best fit the brand and product?",
+    "brand owners",
+    "Markeninhaber",
+    "Marka sahipleri",
+  ]) assert.match(`${homepage}\n${cie}`, new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  assert.doesNotMatch(homepage, /Welcher Supplier passt|Which supplier fits|Hangi tedarikçi ihtiyaca/);
+  assert.doesNotMatch(metadata, /Supplier-Signale|supplier signals|tedarikçi verilerini/);
+  for (const tradeQuestion of [
+    "Welche Lieferanten erfüllen die technischen und kommerziellen Anforderungen?",
+    "Which suppliers meet the technical and commercial requirements?",
+    "Hangi tedarikçiler teknik ve ticari kriterleri karşılıyor?",
+  ]) assert.match(cie, new RegExp(tradeQuestion.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+});
+
+test("specified foreground and background color pairs meet WCAG AA", () => {
+  const luminance = (hex) => {
+    const channels = hex.match(/[a-f\d]{2}/gi).map((channel) => Number.parseInt(channel, 16) / 255);
+    return channels.map((channel) => channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4)
+      .reduce((sum, channel, index) => sum + channel * [0.2126, 0.7152, 0.0722][index], 0);
+  };
+  const contrast = (foreground, background) => {
+    const values = [luminance(foreground), luminance(background)].sort((a, b) => b - a);
+    return (values[0] + 0.05) / (values[1] + 0.05);
+  };
+  for (const [foreground, background] of [
+    ["#c0cac5", "#08120f"],
+    ["#a6b2ac", "#08120f"],
+    ["#4f5d56", "#f3f0e9"],
+    ["#5d6a64", "#f3f0e9"],
+    ["#34423b", "#f3f0e9"],
+    ["#43514a", "#e7e1d5"],
+  ]) assert.ok(contrast(foreground, background) >= 4.5, `${foreground} on ${background} should meet 4.5:1`);
+  assert.ok(contrast("#b8f1cf", "#08120f") >= 3, "mint large text on ink should meet 3:1");
 });
 
 test("Netlify lead form has detection markup, validation states and required fields", () => {
