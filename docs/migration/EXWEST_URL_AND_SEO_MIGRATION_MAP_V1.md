@@ -42,12 +42,13 @@ If historical backlinks contain query strings or paths not present in the source
 
 | URL | Canonical | hreflang peers | Index status |
 |---|---|---|---|
-| `/de` | `https://exwest.de/de` | DE, EN `/en`, x-default `/de` | Index |
-| `/en` | `https://exwest.de/en` | EN, DE `/de`, x-default `/de` | Index |
-| `/de/impressum` | self | `/en/imprint`, x-default DE | Index |
-| `/en/imprint` | self | `/de/impressum`, x-default DE | Index |
-| `/de/datenschutz` | self | `/en/privacy`, x-default DE | Index |
-| `/en/privacy` | self | `/de/datenschutz`, x-default DE | Index |
+| `/de`, `/en`, `/tr` | self | DE, EN, TR, x-default DE | Index |
+| `/de/cie`, `/en/cie`, `/tr/cie` | self | DE, EN, TR, x-default DE | Index |
+| `/de/internationaler-handel`, `/en/international-trade`, `/tr/uluslararasi-ticaret` | self | DE, EN, TR, x-default DE | Index |
+| `/de/e-commerce`, `/en/e-commerce`, `/tr/e-ticaret` | self | DE, EN, TR, x-default DE | Index |
+| `/de/unternehmen`, `/en/company`, `/tr/sirket` | self | DE, EN, TR, x-default DE | Index |
+| `/de/impressum`, `/en/imprint`, `/tr/kunye` | self | DE, EN, TR, x-default DE | Index |
+| `/de/datenschutz`, `/en/privacy`, `/tr/gizlilik` | self | DE, EN, TR, x-default DE | Index |
 | `/` | none; temporary locale selection | destination supplies canonical | Do not include separately in sitemap |
 
 The generated sitemap contains only these corporate URLs. It must never include `realestate.exwest.de` or `exwestmodular.de` destinations.
