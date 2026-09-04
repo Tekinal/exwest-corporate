@@ -367,9 +367,6 @@ a { color: inherit; }
 .agentic-teaser-grid > div > p:not(.section-eyebrow) { font-size: 17px; }.direction-status { font-size: 11px; }.text-link { min-height: 44px; align-items: center; font-size: 14px; }
 .trade-signal-lane, .trade-signal-lane b { font-size: 10px; }.trade-stages span { font-size: 10px; }.trade-stages strong { font-size: 14px; }.commerce-stages span { font-size: 10px; }.commerce-stages strong { font-size: 16px; }.ecosystem-row p { font-size: 10px; }.ecosystem-row span { font-size: 12px; }
 .business-copy > p { font-size: 10px; }.business-copy > span { font-size: 16px; }.business-copy a { min-height: 44px; font-size: 14px; }
-.footer-brand > p { font-size: 15px; }.footer-brand > a:last-child, .footer-column a { min-height: 32px; font-size: 14px; }.footer-column h2 { font-size: 10px; }.footer-bottom { font-size: 10px; }
-.product-topbar { font-size: 11px; }.product-topbar small, .product-workspace nav span, .product-feed > p, .product-opportunity > header, .product-recommendation > span { font-size: 9px; }.product-feed > div, .product-opportunity dl > div { font-size: 11px; }.product-feed b, .product-opportunity dt { font-size: 9px; }.product-recommendation > strong { font-size: 16px; }.product-recommendation p { font-size: 13px; }.product-recommendation button { min-height: 44px; font-size: 11px; }.product-disclaimer { font-size: 11px; }.experience-narrative span { font-size: 10px; }.experience-narrative h3 { font-size: 32px; }.experience-narrative p { font-size: 16px; }
-.claim-spectrum span, .future-application-grid header, .payment-boundary > span, .detail-capability-list article > span, .detail-capability-grid article > span, .portfolio-note > span, .answer-list article > span, .detail-cta > div > span { font-size: 10px; }.claim-spectrum p, .future-application-grid p, .payment-boundary p, .detail-capability-list p, .detail-capability-grid p, .portfolio-note p, .answer-list p, .detail-cta p { font-size: 16px; }.detail-boundary { font-size: 14px; }.company-facts-grid dt { font-size: 11px; }.company-facts-grid dd { font-size: 16px; }.legal-content p, .legal-content address { font-size: 16px; }
 
 /* Company and contact */
 .company-section { color: var(--white); background: #12211b; }
@@ -655,3 +652,52 @@ a { color: inherit; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .marketplace-video-frame video { background: url("/cie-marketplace-hero-poster.webp") center / cover no-repeat; }
 }
+
+/* Final readability layer: intentionally follows detail and responsive modules. */
+.footer-brand > p { font-size: 15px; }
+.footer-brand > a:last-child, .footer-column a { min-height: 32px; font-size: 14px; }
+.footer-column h2, .footer-bottom { font-size: 10px; }
+.contact-identity span { font-size: 11px; }
+.detail-back, .detail-hero-rule { font-size: 11px; }
+.claim-spectrum span,
+.future-application-grid header,
+.payment-boundary > span,
+.detail-capability-list article > span,
+.detail-capability-grid article > span,
+.portfolio-note > span,
+.answer-list article > span,
+.detail-cta > div > span { font-size: 10px; }
+.claim-spectrum p,
+.future-application-grid p,
+.payment-boundary p,
+.detail-capability-list p,
+.detail-capability-grid p,
+.portfolio-note p,
+.answer-list p,
+.detail-cta p { font-size: 16px; }
+.process-ribbon span, .agentic-commerce-flow span { font-size: 10px; }
+.process-ribbon strong, .agentic-commerce-flow strong { font-size: 13px; }
+.authority-legend { font-size: 11px; }
+.authority-model li > span { font-size: 10px; }
+.authority-model li strong { font-size: 14px; }
+.future-application-grid article > div span { font-size: 10px; }
+.trade-context-media > div, .trade-context-media figcaption { font-size: 10px; }
+.detail-boundary { font-size: 14px; }
+.company-facts-grid dt { font-size: 11px; }
+.company-facts-grid dd { font-size: 16px; }
+.legal-content p, .legal-content address { font-size: 16px; }
+.product-topbar { font-size: 11px; }
+.product-topbar small,
+.product-workspace nav span,
+.product-feed > p,
+.product-opportunity > header,
+.product-recommendation > span { font-size: 9px; }
+.product-feed > div, .product-opportunity dl > div { font-size: 11px; }
+.product-feed b, .product-opportunity dt { font-size: 9px; }
+.product-recommendation > strong { font-size: 16px; }
+.product-recommendation p { font-size: 13px; }
+.product-recommendation button { min-height: 44px; font-size: 11px; }
+.product-disclaimer { font-size: 11px; }
+.experience-narrative span { font-size: 10px; }
+.experience-narrative h3 { font-size: 32px; }
+.experience-narrative p { font-size: 16px; }
