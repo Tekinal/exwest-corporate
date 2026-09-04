@@ -7,6 +7,7 @@ export const metadata = legalMetadata({
   description: "Privacy information for the Exwest GmbH corporate website.",
   dePath: "/de/datenschutz",
   enPath: "/en/privacy",
+  trPath: "/tr/gizlilik",
 });
 
 export default function PrivacyPage() {

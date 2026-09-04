@@ -5,8 +5,8 @@ import type { Locale } from "@/lib/i18n";
 import type { SiteCopy } from "@/lib/site-content";
 
 export function SiteFooter({ locale, copy }: { locale: Locale; copy: SiteCopy["footer"] }) {
-  const imprintPath = locale === "de" ? "/de/impressum" : "/en/imprint";
-  const privacyPath = locale === "de" ? "/de/datenschutz" : "/en/privacy";
+  const imprintPath = locale === "de" ? "/de/impressum" : locale === "tr" ? "/tr/kunye" : "/en/imprint";
+  const privacyPath = locale === "de" ? "/de/datenschutz" : locale === "tr" ? "/tr/gizlilik" : "/en/privacy";
   return (
     <footer className="site-footer">
       <div className="footer-top">

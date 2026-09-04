@@ -1,6 +1,6 @@
 type GlobalCommerceGraphProps = {
   labels: readonly string[];
-  locale: "de" | "en";
+  locale: "de" | "en" | "tr";
 };
 
 const nodes = [
@@ -14,7 +14,7 @@ const nodes = [
 
 export function GlobalCommerceGraph({ labels, locale }: GlobalCommerceGraphProps) {
   return (
-    <div className="commerce-graph" role="img" aria-label={locale === "de" ? "Visualisierung eines globalen Commercial-Intelligence-Netzwerks" : "Global commercial intelligence network visualization"}>
+    <div className="commerce-graph" role="img" aria-label={locale === "de" ? "Visualisierung eines globalen Commercial-Intelligence-Netzwerks" : locale === "tr" ? "Küresel ticari istihbarat ağı görselleştirmesi" : "Global commercial intelligence network visualization"}>
       <div className="graph-grid" aria-hidden="true" />
       <svg className="graph-lines" viewBox="0 0 760 650" aria-hidden="true" preserveAspectRatio="none">
         <path className="line muted" d="M96 118 C250 110 250 260 374 318" />
@@ -42,7 +42,7 @@ export function GlobalCommerceGraph({ labels, locale }: GlobalCommerceGraphProps
 
       <div className="graph-status" aria-hidden="true">
         <span className="status-light" />
-        <span>{locale === "de" ? "Signale werden strukturiert" : "Structuring signals"}</span>
+        <span>{locale === "de" ? "Signale werden strukturiert" : locale === "tr" ? "Sinyaller yapılandırılıyor" : "Structuring signals"}</span>
         <b>06</b>
       </div>
     </div>

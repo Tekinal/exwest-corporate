@@ -12,7 +12,8 @@
     "start": "next start",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "qa:site": "node scripts/qa-site.mjs"
   },
   "dependencies": {
     "next": "16.3.4",

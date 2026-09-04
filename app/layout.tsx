@@ -11,20 +11,23 @@ export const metadata: Metadata = {
   openGraph: { images: [{ url: "/exwest-og.png", width: 1200, height: 630, alt: "Exwest — International Commerce. Powered by Intelligence." }] },
   twitter: { images: ["/exwest-og.png"] },
   robots:
-    process.env.CONTEXT === "deploy-preview" || process.env.CONTEXT === "branch-deploy"
+    process.env.NEXT_PUBLIC_SITE_ENV === "preview" ||
+    process.env.CONTEXT === "deploy-preview" ||
+    process.env.CONTEXT === "branch-deploy"
       ? { index: false, follow: false }
       : undefined,
 };
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const requestHeaders = await headers();
-  const locale = requestHeaders.get("x-exwest-locale") === "en" ? "en" : "de";
+  const requestedLocale = requestHeaders.get("x-exwest-locale");
+  const locale = requestedLocale === "en" || requestedLocale === "tr" ? requestedLocale : "de";
 
   return (
     <html lang={locale}>
       <body>
         <a className="skip-link" href="#main-content">
-          {locale === "de" ? "Zum Inhalt" : "Skip to content"}
+          {locale === "de" ? "Zum Inhalt" : locale === "tr" ? "İçeriğe geç" : "Skip to content"}
         </a>
         {children}
       </body>

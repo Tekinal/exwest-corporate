@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const supportedLocales = ["de", "en"] as const;
+const supportedLocales = ["de", "en", "tr"] as const;
 const preferenceCookie = "exwest_locale";
 
 type Locale = (typeof supportedLocales)[number];
 
 function selectLocale(request: NextRequest): Locale {
   const stored = request.cookies.get(preferenceCookie)?.value;
-  if (stored === "de" || stored === "en") return stored;
+  if (stored === "de" || stored === "en" || stored === "tr") return stored;
 
   const accepted = request.headers.get("accept-language")?.toLowerCase() ?? "";
   const preferred = accepted
@@ -18,10 +18,11 @@ function selectLocale(request: NextRequest): Locale {
       const quality = qualityParameter ? Number.parseFloat(qualityParameter.split("=")[1]) : 1;
       return { locale: tag.split("-")[0], quality: Number.isFinite(quality) ? quality : 0, index };
     })
-    .filter((entry) => entry.locale === "de" || entry.locale === "en")
+    .filter((entry) => entry.locale === "de" || entry.locale === "en" || entry.locale === "tr")
     .sort((a, b) => b.quality - a.quality || a.index - b.index)[0]?.locale;
 
-  return preferred === "en" ? "en" : "de";
+  if (preferred === "en" || preferred === "tr") return preferred;
+  return "de";
 }
 
 export function proxy(request: NextRequest) {
@@ -33,11 +34,13 @@ export function proxy(request: NextRequest) {
   }
 
   if (pathname === "/impressum") {
-    return NextResponse.redirect(new URL(selectedLocale === "de" ? "/de/impressum" : "/en/imprint", request.url));
+    const destination = selectedLocale === "de" ? "/de/impressum" : selectedLocale === "tr" ? "/tr/kunye" : "/en/imprint";
+    return NextResponse.redirect(new URL(destination, request.url));
   }
 
   if (pathname === "/datenschutz") {
-    return NextResponse.redirect(new URL(selectedLocale === "de" ? "/de/datenschutz" : "/en/privacy", request.url));
+    const destination = selectedLocale === "de" ? "/de/datenschutz" : selectedLocale === "tr" ? "/tr/gizlilik" : "/en/privacy";
+    return NextResponse.redirect(new URL(destination, request.url));
   }
 
   const locale = supportedLocales.find(

@@ -7,7 +7,12 @@ export default function robots(): MetadataRoute.Robots {
   }
 
   return {
-    rules: { userAgent: "*", allow: "/" },
+    rules: [
+      { userAgent: "Googlebot", allow: "/" },
+      { userAgent: "Bingbot", allow: "/" },
+      { userAgent: "OAI-SearchBot", allow: "/" },
+      { userAgent: "*", allow: "/" },
+    ],
     sitemap: "https://exwest.de/sitemap.xml",
     host: "https://exwest.de",
   };

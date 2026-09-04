@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import { CIEIntelligenceFlow } from "@/components/CIEIntelligenceFlow";
+import { AgenticDirectionTeaser } from "@/components/AgenticDirectionTeaser";
 import { CommercialSignalCard } from "@/components/CommercialSignalCard";
 import { ContactIntent } from "@/components/ContactIntent";
 import { ExwestOperatingModel } from "@/components/ExwestOperatingModel";
@@ -13,7 +14,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SolutionVisual } from "@/components/SolutionVisual";
 import { TradeExecutionFlow } from "@/components/TradeExecutionFlow";
-import { heroContent, isLocale, locales, type Locale } from "@/lib/i18n";
+import { heroContent, isLocale, locales, localizedRoutes, type Locale } from "@/lib/i18n";
 import { siteContent } from "@/lib/site-content";
 
 const metadataByLocale: Record<Locale, { title: string; description: string }> = {
@@ -25,6 +26,10 @@ const metadataByLocale: Record<Locale, { title: string; description: string }> =
     title: "Exwest | Commercial Intelligence & International Commerce",
     description: "Exwest combines CIE Solutions, international trade and e-commerce to identify, execute and scale commercial opportunities.",
   },
+  tr: {
+    title: "Exwest | Ticari İstihbarat ve Uluslararası Ticaret",
+    description: "Exwest; ticari fırsatları belirlemek, uygulamak ve ölçeklemek için CIE Çözümleri, uluslararası ticaret ve e-ticareti birleştirir.",
+  },
 };
 
 export function generateStaticParams() {
@@ -35,16 +40,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   if (!isLocale(locale)) return {};
   const meta = metadataByLocale[locale];
+  const image = `/${locale}/opengraph-image`;
   return {
     title: meta.title,
     description: meta.description,
-    alternates: { canonical: `/${locale}`, languages: { de: "/de", en: "/en", "x-default": "/de" } },
+    alternates: { canonical: `/${locale}`, languages: { de: "/de", en: "/en", tr: "/tr", "x-default": "/de" } },
     openGraph: {
-      type: "website", locale: locale === "de" ? "de_DE" : "en_GB", alternateLocale: locale === "de" ? ["en_GB"] : ["de_DE"],
+      type: "website", locale: locale === "de" ? "de_DE" : locale === "tr" ? "tr_TR" : "en_GB", alternateLocale: locale === "de" ? ["en_GB", "tr_TR"] : locale === "tr" ? ["de_DE", "en_GB"] : ["de_DE", "tr_TR"],
       url: `/${locale}`, siteName: "Exwest", title: meta.title, description: meta.description,
-      images: [{ url: "/exwest-og.png", width: 1200, height: 630, alt: "Exwest — International Commerce. Powered by Intelligence." }],
+      images: [{ url: image, width: 1200, height: 630, alt: `${heroContent[locale].titleTop} ${heroContent[locale].titleBottom}` }],
     },
-    twitter: { card: "summary_large_image", title: meta.title, description: meta.description, images: ["/exwest-og.png"] },
+    twitter: { card: "summary_large_image", title: meta.title, description: meta.description, images: [image] },
   };
 }
 
@@ -57,9 +63,12 @@ export default async function LocaleHome({ params }: { params: Promise<{ locale:
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Organization", "@id": "https://exwest.de/#organization", name: "Exwest GmbH", url: "https://exwest.de", email: "contact@exwest.de",
+        "@type": ["Organization", "Corporation"], "@id": "https://exwest.de/#organization", name: "Exwest GmbH", url: "https://exwest.de", email: "contact@exwest.de",
         address: { "@type": "PostalAddress", streetAddress: "Königsallee 92a", postalCode: "40212", addressLocality: "Düsseldorf", addressCountry: "DE" },
+        knowsAbout: ["Commercial Intelligence", "International Trade", "E-Commerce Commercialization"],
       },
+      { "@type": "WebSite", "@id": "https://exwest.de/#website", url: "https://exwest.de", name: "Exwest", publisher: { "@id": "https://exwest.de/#organization" }, inLanguage: ["de", "en", "tr"] },
+      { "@type": "WebPage", "@id": `https://exwest.de/${locale}#webpage`, url: `https://exwest.de/${locale}`, name: metadataByLocale[locale].title, description: metadataByLocale[locale].description, inLanguage: locale, isPartOf: { "@id": "https://exwest.de/#website" } },
       {
         "@type": "Service", "@id": `https://exwest.de/${locale}#cie-service`, name: "Exwest CIE Solutions", serviceType: "Commercial Intelligence",
         provider: { "@id": "https://exwest.de/#organization" }, description: metadataByLocale[locale].description,
@@ -69,7 +78,7 @@ export default async function LocaleHome({ params }: { params: Promise<{ locale:
 
   return (
     <main id="main-content" className="site-shell">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema).replaceAll("<", "\\u003c") }} />
 
       <section className="hero" id="top">
         <SiteHeader locale={locale} content={hero} />
@@ -79,7 +88,7 @@ export default async function LocaleHome({ params }: { params: Promise<{ locale:
             <h1><span>{hero.titleTop}</span><span className="accent-line">{hero.titleBottom}</span></h1>
             <p className="hero-summary">{hero.summary}</p>
             <div className="hero-actions">
-              <a className="button primary" href={`/${locale}#cie`}>{hero.primary}<span aria-hidden="true">↗</span></a>
+              <a className="button primary" href={localizedRoutes.cie[locale]}>{hero.primary}<span aria-hidden="true">↗</span></a>
               <a className="button secondary" href={`/${locale}#contact`}>{hero.secondary}<span aria-hidden="true">→</span></a>
             </div>
             <div className="hero-principle"><span>Intelligence</span><i aria-hidden="true" /><span>Execution</span><i aria-hidden="true" /><span>Scale</span></div>
@@ -111,12 +120,14 @@ export default async function LocaleHome({ params }: { params: Promise<{ locale:
           </div>
           <CIEIntelligenceFlow copy={copy.cie} />
           <div className="signal-strip">
-            <CommercialSignalCard label="SOURCE" value="Evidence context" tone="stone" />
-            <CommercialSignalCard label="METHOD" value="Human-reviewed" tone="mint" />
-            <CommercialSignalCard label="OUTPUT" value="Decision support" tone="amber" />
+            <CommercialSignalCard label={copy.cie.signalStrip[0][0]} value={copy.cie.signalStrip[0][1]} tone="stone" />
+            <CommercialSignalCard label={copy.cie.signalStrip[1][0]} value={copy.cie.signalStrip[1][1]} tone="mint" />
+            <CommercialSignalCard label={copy.cie.signalStrip[2][0]} value={copy.cie.signalStrip[2][1]} tone="amber" />
           </div>
         </div>
       </section>
+
+      <AgenticDirectionTeaser copy={copy.agentic} href={localizedRoutes.cie[locale]} />
 
       <section className="section solutions-section">
         <div className="container">

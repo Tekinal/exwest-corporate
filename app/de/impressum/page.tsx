@@ -7,6 +7,7 @@ export const metadata = legalMetadata({
   description: "Anbieterkennzeichnung und rechtliche Unternehmensangaben der Exwest GmbH.",
   dePath: "/de/impressum",
   enPath: "/en/imprint",
+  trPath: "/tr/kunye",
 });
 
 export default function ImprintPage() {

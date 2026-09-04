@@ -1,8 +1,25 @@
-export const locales = ["de", "en"] as const;
+export const locales = ["de", "en", "tr"] as const;
 export type Locale = (typeof locales)[number];
 
 export function isLocale(value: string): value is Locale {
   return locales.includes(value as Locale);
+}
+
+export const localizedRoutes = {
+  home: { de: "/de", en: "/en", tr: "/tr" },
+  cie: { de: "/de/cie", en: "/en/cie", tr: "/tr/cie" },
+  trade: { de: "/de/internationaler-handel", en: "/en/international-trade", tr: "/tr/uluslararasi-ticaret" },
+  ecommerce: { de: "/de/e-commerce", en: "/en/e-commerce", tr: "/tr/e-ticaret" },
+  company: { de: "/de/unternehmen", en: "/en/company", tr: "/tr/sirket" },
+  imprint: { de: "/de/impressum", en: "/en/imprint", tr: "/tr/kunye" },
+  privacy: { de: "/de/datenschutz", en: "/en/privacy", tr: "/tr/gizlilik" },
+} as const;
+
+export type RouteKey = keyof typeof localizedRoutes;
+
+export function localizePath(pathname: string, locale: Locale) {
+  const route = Object.values(localizedRoutes).find((paths) => (Object.values(paths) as readonly string[]).includes(pathname));
+  return route?.[locale] ?? pathname.replace(/^\/(de|en|tr)(?=\/|$)/, `/${locale}`);
 }
 
 export const heroContent = {
@@ -55,5 +72,30 @@ export const heroContent = {
     ],
     localeLabel: "Switch language",
     menuLabel: "Open navigation",
+  },
+  tr: {
+    nav: [
+      ["CIE Çözümleri", "/cie"],
+      ["Uluslararası Ticaret", "/uluslararasi-ticaret"],
+      ["E-Ticaret", "/e-ticaret"],
+      ["Şirket", "/sirket"],
+    ],
+    eyebrow: "Exwest · Ticari İstihbarat",
+    titleTop: "Uluslararası Ticaret.",
+    titleBottom: "İstihbaratla Güçlenir.",
+    summary:
+      "Exwest; ticari fırsatları belirlemek, pazarlara girmek ve ölçeklenebilir satış kanalları kurmak için Ticari İstihbarat, uluslararası ticaret ve dijital ticareti bir araya getirir.",
+    primary: "CIE Çözümlerini Keşfedin",
+    secondary: "Bir Fırsatı Görüşün",
+    signalLabels: [
+      "Pazar Sinyali",
+      "Alıcı Belirlendi",
+      "Tedarikçi Eşleşmesi",
+      "Teklif Talebi",
+      "Fiyat Sinyali",
+      "Pazaryeri Fırsatı",
+    ],
+    localeLabel: "Dil seçimi",
+    menuLabel: "Menüyü aç",
   },
 } as const;

@@ -1,21 +1,22 @@
 import type { Metadata } from "next";
 
-export function legalMetadata({ locale, title, description, dePath, enPath }: {
-  locale: "de" | "en";
+export function legalMetadata({ locale, title, description, dePath, enPath, trPath }: {
+  locale: "de" | "en" | "tr";
   title: string;
   description: string;
   dePath: string;
   enPath: string;
+  trPath: string;
 }): Metadata {
-  const canonical = locale === "de" ? dePath : enPath;
+  const canonical = locale === "de" ? dePath : locale === "tr" ? trPath : enPath;
   return {
     title,
     description,
-    alternates: { canonical, languages: { de: dePath, en: enPath, "x-default": dePath } },
+    alternates: { canonical, languages: { de: dePath, en: enPath, tr: trPath, "x-default": dePath } },
     openGraph: {
       type: "website",
-      locale: locale === "de" ? "de_DE" : "en_GB",
-      alternateLocale: locale === "de" ? ["en_GB"] : ["de_DE"],
+      locale: locale === "de" ? "de_DE" : locale === "tr" ? "tr_TR" : "en_GB",
+      alternateLocale: locale === "de" ? ["en_GB", "tr_TR"] : locale === "tr" ? ["de_DE", "en_GB"] : ["de_DE", "tr_TR"],
       url: canonical,
       siteName: "Exwest",
       title,
