@@ -1,71 +1,15 @@
-"use client";
-
-import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
-import { useState } from "react";
-
-import { BrandMark } from "@/components/BrandMark";
-import { localizePath, type Locale } from "@/lib/i18n";
-
-type HeaderContent = {
-  nav: ReadonlyArray<readonly [string, string]>;
-  localeLabel: string;
-  menuLabel: string;
-};
-
-export function SiteHeader({ locale, content }: { locale: Locale; content: HeaderContent }) {
-  const [open, setOpen] = useState(false);
-  const pathname = usePathname();
-  const router = useRouter();
-
-  function switchLocale(nextLocale: Locale) {
-    document.cookie = `exwest_locale=${nextLocale}; Max-Age=15552000; Path=/; SameSite=Lax`;
-    const nextPath = localizePath(pathname, nextLocale);
-    router.push(nextPath || `/${nextLocale}`);
-    setOpen(false);
-  }
-
-  return (
-    <header className="site-header">
-      <Link className="brand-link" href={`/${locale}`} aria-label={locale === "de" ? "Exwest Startseite" : locale === "tr" ? "Exwest ana sayfa" : "Exwest home"}>
-        <BrandMark />
-      </Link>
-      <nav className="desktop-nav" aria-label={locale === "de" ? "Hauptnavigation" : locale === "tr" ? "Ana menü" : "Primary navigation"}>
-        {content.nav.map(([label, href]) => (
-          <a href={`/${locale}${href}`} key={href}>{label}</a>
-        ))}
-      </nav>
-      <div className="header-actions">
-        <div className="language-switcher" aria-label={content.localeLabel}>
-          <button type="button" aria-pressed={locale === "de"} className={locale === "de" ? "active" : ""} onClick={() => switchLocale("de")}>DE</button>
-          <span aria-hidden="true">|</span>
-          <button type="button" aria-pressed={locale === "en"} className={locale === "en" ? "active" : ""} onClick={() => switchLocale("en")}>EN</button>
-          <span aria-hidden="true">|</span>
-          <button type="button" aria-pressed={locale === "tr"} className={locale === "tr" ? "active" : ""} onClick={() => switchLocale("tr")}>TR</button>
-        </div>
-        <button
-          className="menu-button"
-          aria-expanded={open}
-          aria-controls="mobile-navigation"
-          aria-label={open ? (locale === "de" ? "Navigation schließen" : locale === "tr" ? "Menüyü kapat" : "Close navigation") : content.menuLabel}
-          onClick={() => setOpen((value) => !value)}
-        >
-          <span />
-          <span />
-        </button>
-      </div>
-      <div className={`mobile-nav ${open ? "open" : ""}`} id="mobile-navigation">
-        <nav aria-label={locale === "de" ? "Mobile Navigation" : locale === "tr" ? "Mobil menü" : "Mobile navigation"}>
-          {content.nav.map(([label, href], index) => (
-            <a href={`/${locale}${href}`} key={href} onClick={() => setOpen(false)}>
-              <span>{String(index + 1).padStart(2, "0")}</span>{label}
-            </a>
-          ))}
-          <a className="mobile-demo-cta" href={`/${locale}#contact`} onClick={() => setOpen(false)}>
-            {locale === "de" ? "Demo anfragen" : locale === "tr" ? "Demo Talep Edin" : "Request a demo"}<span aria-hidden="true">→</span>
-          </a>
-        </nav>
-      </div>
-    </header>
-  );
+'use client';
+import Link from 'next/link';
+import {usePathname} from 'next/navigation';
+import {useEffect,useRef,useState} from 'react';
+import {BrandMark} from './BrandMark';
+import {ui,navGroups,shortLabel} from '@/lib/corporate';
+import {localizePath,localizedRoutes,type Locale} from '@/lib/i18n';
+type HeaderContent={nav:ReadonlyArray<readonly[string,string]>;localeLabel:string;menuLabel:string};
+export function SiteHeader({locale}:{locale:Locale;content?:HeaderContent}){
+ const u=ui[locale],pathname=usePathname();const [open,setOpen]=useState(false),[group,setGroup]=useState<string|null>(null);const trigger=useRef<HTMLButtonElement>(null);const button=useRef<HTMLButtonElement>(null),mobile=useRef<HTMLDivElement>(null),header=useRef<HTMLElement>(null);
+ useEffect(()=>{function key(e:KeyboardEvent){if(e.key==='Escape'){setOpen(false);setGroup(null);if(open)button.current?.focus();else trigger.current?.focus();}if(e.key==='Tab'&&open){const els=[button.current,...Array.from(mobile.current?.querySelectorAll<HTMLAnchorElement>('a')??[])].filter(Boolean) as HTMLElement[];const first=els[0],last=els.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus();}}}function outside(e:PointerEvent){if(!header.current?.contains(e.target as Node))setGroup(null);}document.addEventListener('keydown',key);document.addEventListener('pointerdown',outside);return()=>{document.removeEventListener('keydown',key);document.removeEventListener('pointerdown',outside);};},[open]);
+ useEffect(()=>{if(open)mobile.current?.querySelector<HTMLAnchorElement>('a')?.focus();},[open]);
+ const languages=<div className="corp-languages" aria-label={u.language}>{(['de','en','tr'] as const).map(l=><a key={l} href={localizePath(pathname,l)} hrefLang={l} lang={l} aria-current={locale===l?'true':undefined} onClick={()=>{document.cookie=`exwest_locale=${l}; Max-Age=15552000; Path=/; SameSite=Lax`;setOpen(false);}}>{l.toUpperCase()}</a>)}</div>;
+ return <header ref={header} className="corp-header"><div className="corp-navrow"><Link href={localizedRoutes.home[locale]} aria-label="Exwest" className="corp-brand"><BrandMark/></Link><nav className="corp-desktop" aria-label={locale==='de'?'Hauptnavigation':locale==='tr'?'Ana menü':'Main navigation'}>{navGroups.map(([label,keys])=><div className="corp-navgroup" key={label}><button type="button" aria-expanded={group===label} aria-controls={`nav-${label}`} onClick={e=>{trigger.current=e.currentTarget;setGroup(group===label?null:label);}}>{u[label]} <span aria-hidden="true">⌄</span></button><div className="corp-dropdown" id={`nav-${label}`} hidden={group!==label}>{keys.map(k=><Link key={k} href={localizedRoutes[k][locale]} onClick={()=>setGroup(null)}>{shortLabel(k,locale)} <span aria-hidden="true">↗</span></Link>)}</div></div>)}</nav><div className="corp-nav-actions">{languages}<a className="corp-header-cta" href={`/${locale}#contact`}>{u.contact} <span aria-hidden="true">↗</span></a><button type="button" className="corp-menu-button" ref={button} aria-expanded={open} aria-controls="corporate-mobile-menu" aria-label={open?u.close:u.menu} onClick={()=>{setOpen(!open);setGroup(null);}}>{open?'×':'☰'}</button></div></div><div id="corporate-mobile-menu" ref={mobile} className="corp-mobile" hidden={!open}><nav aria-label={u.menu}>{navGroups.map(([label,keys])=><section key={label}><h2>{u[label]}</h2>{keys.map(k=><a key={k} href={localizedRoutes[k][locale]} onClick={()=>setOpen(false)}>{shortLabel(k,locale)}</a>)}</section>)}<section><h2>{u.next}</h2><a href={localizedRoutes.pricing[locale]}>{u.pricing}</a><a href={localizedRoutes.docs[locale]}>{u.docs}</a><a href={`/${locale}#contact`}>{u.contact}</a></section></nav></div></header>;
 }

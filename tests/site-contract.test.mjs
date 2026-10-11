@@ -4,31 +4,30 @@ import { test } from "node:test";
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), "utf8");
 
-test("CIE Marketplace leads the homepage in all three languages", () => {
-  const content = [read("lib/i18n.ts"), read("lib/homepage-content.ts")].join("\n");
-  for (const phrase of [
-    "CIE Marketplace",
-    "International Trade",
-    "Find marketplace opportunity.",
-    "Marktplatzchancen erkennen.",
-    "Pazaryerlerinde fırsatı bulun.",
-    "Kârlı büyümeyi yönetin.",
-  ]) assert.match(content, new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
-  assert.doesNotMatch(read("lib/i18n.ts"), /Uluslararası Ticaret\.\s*İstihbaratla Güçlenir/);
+test("corporate content is complete and equivalent across EN/DE/TR", () => {
+  const content = JSON.parse(read("lib/corporate-pages.json"));
+  assert.equal(Object.keys(content).length, 31);
+  for (const [key, translations] of Object.entries(content)) {
+    for (const locale of ["en", "de", "tr"]) {
+      const page = translations[locale];
+      assert.ok(page.title && page.lead.length > 60, `${key}/${locale} needs a useful lead`);
+      assert.ok(page.blocks.length && page.blocks.every(b => b.title && b.body.length > 100), `${key}/${locale} has substantive sections`);
+      assert.equal(page.blocks.length, translations.en.blocks.length, `${key} structure is equivalent`);
+      assert.deepEqual(page.links, translations.en.links);
+      if(page.family === "article") assert.ok(page.blocks.reduce((n,b)=>n+b.body.split(/\s+/).length,0)>260, `${key}/${locale} is a complete article`);
+    }
+  }
 });
 
-test("homepage tells the CIE Marketplace story through visual modules", () => {
-  const page = read("app/[locale]/page.tsx");
-  for (const component of [
-    "MarketplaceHeroVideo",
-    "MarketplaceSignalField",
-    "CIEIntelligenceFlow",
-    "CIEProductExperience",
-    "CommercialSignalCard",
-    "MarketplaceDecisionGrid",
-    "TradeExecutionFlow",
-    "MarketplaceCommerceFlow",
-  ]) assert.match(page, new RegExp(`<${component}`));
+test("Home, root and nested pages resolve the same corporate route map", () => {
+  for (const path of ["app/[locale]/page.tsx", "app/[locale]/[slug]/page.tsx", "app/[locale]/[slug]/[...path]/page.tsx"]) assert.match(read(path), /CorporateSite/);
+  const demo = read("components/CorporateDemo.tsx");
+  assert.match(demo, /aria-pressed/);
+  assert.match(demo, /noscript/);
+  assert.match(demo, /changedAction/);
+  assert.doesNotMatch(demo, /fetch\(|XMLHttpRequest|localStorage|WebSocket/);
+  const demos=JSON.parse(read("lib/corporate-demos.json"));
+  for(const key of ["modular","tasgo","canceviz"]) for(const locale of ["en","de","tr"]) assert.equal(demos[key][locale].stages.length,6);
 });
 
 test("hero video is owned, optimized and has a mobile/reduced-motion poster fallback", () => {
@@ -121,8 +120,8 @@ test("Netlify lead form has detection markup, validation states and required fie
 test("sitemap is corporate-only and has DE, EN, TR and x-default alternates", () => {
   const sitemap = read("app/sitemap.ts");
   assert.doesNotMatch(sitemap, /realestate\.exwest\.de|exwestmodular\.de/);
-  assert.match(sitemap, /"x-default"/);
-  assert.match(sitemap, /tr: `\$\{origin\}\$\{paths\.tr\}`/);
+  assert.match(sitemap, /[\'"]x-default[\'"]/);
+  assert.match(sitemap, /tr:\s*`\$\{origin\}\$\{paths\.tr\}`/);
   const routes = read("lib/i18n.ts");
   assert.match(routes, /\/de\/datenschutz/);
   assert.match(routes, /\/en\/privacy/);

@@ -1,39 +1,27 @@
-const content = `# Exwest GmbH
+const content = `# Exwest GmbH and CIE
 
-Exwest GmbH is a marketplace-commercialization and international-commerce company headquartered in Düsseldorf, Germany.
+Exwest GmbH is based at Königsallee 92a, 40212 Düsseldorf, Germany. Public contact: contact@exwest.de.
 
-## Primary product
+## CIE
+CIE is an AI commercial operator designed to discover opportunities and coordinate customer conversations towards agreed commercial outcomes under human control. AI Commercial Operating System is its product category.
+Market research, sales representation and account coordination are responsibilities within one coordinated system.
+Four connected capabilities: Commercial Signal Intelligence, Commercial Strategy, Sales Operations, CRM and Human Control.
+Lifecycle: Discover -> Qualify -> Engage -> Quote -> Follow Up -> Close -> Learn.
+TasGO, Exwest Modular and Canceviz are CIE customers. Their public stories describe RFQ coordination, product enquiries and commercial opportunity discovery. Walkthroughs explain workflows without presenting invented customer transactions.
+Communication channels are scoped for each business and follow contact permissions. CRM, REST, webhooks and MCP are planned integration approaches.
 
-CIE Marketplace is Exwest's Commercial Intelligence system for helping brand owners, manufacturers, e-commerce operators and marketplace teams evaluate product, pricing, competition, demand, inventory, margin, market and channel opportunities. It turns fragmented commercial signals into better marketplace decisions.
+## Company and solutions
+Exwest combines IT, sales and business-development expertise. Individual team members have up to 25 years of relevant professional experience.
+International trade and e-commerce are CIE solution contexts, rather than a description of Exwest as a trading or e-commerce operator.
 
-Supplier context, landed cost, MOQ and reorder economics can support marketplace profitability where relevant, but supplier discovery, qualification, RFQ, negotiation, sourcing and cross-border execution belong primarily to Exwest International Trade & Global Supply.
+## Pages
+DE: https://www.exwest.de/de | https://www.exwest.de/de/cie
+EN: https://www.exwest.de/en | https://www.exwest.de/en/cie
+TR: https://www.exwest.de/tr | https://www.exwest.de/tr/cie
+Trade: https://www.exwest.de/de/internationaler-handel | https://www.exwest.de/en/international-trade | https://www.exwest.de/tr/uluslararasi-ticaret
+E-Commerce: https://www.exwest.de/de/e-commerce | https://www.exwest.de/en/e-commerce | https://www.exwest.de/tr/e-ticaret
+Company: https://www.exwest.de/de/unternehmen | https://www.exwest.de/en/company | https://www.exwest.de/tr/sirket
 
-AI-assisted workflows prepare evidence and recommendations; people retain decision, communication, negotiation and approval authority. CIE Marketplace does not autonomously execute transactions. Governed agentic action is product direction, not a claim of current autonomous production capability.
-
-## Business pillars
-
-- CIE Marketplace — primary product and marketplace decision layer
-- E-Commerce Commercialization — product, channel and growth execution
-- International Trade & Global Supply — supplier, procurement and cross-border execution
-
-## Canonical pages
-
-- German: https://exwest.de/de
-- English: https://exwest.de/en
-- Turkish: https://exwest.de/tr
-- CIE: https://exwest.de/de/cie | https://exwest.de/en/cie | https://exwest.de/tr/cie
-- International Trade: https://exwest.de/de/internationaler-handel | https://exwest.de/en/international-trade | https://exwest.de/tr/uluslararasi-ticaret
-- E-Commerce: https://exwest.de/de/e-commerce | https://exwest.de/en/e-commerce | https://exwest.de/tr/e-ticaret
-- Company: https://exwest.de/de/unternehmen | https://exwest.de/en/company | https://exwest.de/tr/sirket
-
-## Related businesses
-
-- Exwest Modular: https://exwestmodular.de
-- Exwest Real Estate: https://realestate.exwest.de
-
-This experimental orientation file is not a ranking mechanism. Canonical HTML, structured data, sitemap and robots policies remain authoritative.
+This optional orientation file is not a ranking mechanism or an operational availability guarantee. Visible HTML and approved evidence remain authoritative.
 `;
-
-export function GET() {
-  return new Response(content, { headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, max-age=3600" } });
-}
+export function GET() { return new Response(content, { headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "public, max-age=3600" } }); }

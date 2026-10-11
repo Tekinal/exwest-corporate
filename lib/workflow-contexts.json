@@ -1,0 +1,305 @@
+{
+  "modular": {
+    "en": {
+      "need": "A retail showroom enquiry",
+      "normal": "Standard installation window",
+      "context": "Showroom requirements, product options and approved price rules",
+      "decision": "The project owner reviews feasibility and exceptional terms",
+      "changedChecks": "Access, installation capacity and revised delivery timing",
+      "changedDecision": "Review the revised scope before committing",
+      "changedOutcome": "A reviewed project scope with a responsible next action",
+      "checks": [
+        "Usage, site access and utilities",
+        "Approved catalogue and project scope",
+        "Request, reply and current scope",
+        "Clarification or agreed review",
+        "Scope, timing and authority",
+        "Agreement, review or reasoned no-go"
+      ],
+      "changedActions": [
+        "Ask for the revised installation date and site access.",
+        "Prepare options after capacity and price review.",
+        "Confirm the revised scope with the customer.",
+        "Assign follow-up on the unresolved delivery question.",
+        "The project owner reviews the earlier installation request.",
+        "Record the reviewed terms and any remaining condition."
+      ],
+      "outcomes": [
+        "Use, location, scope and timing",
+        "Approved catalogue and project scope",
+        "Request, reply and current scope",
+        "Clarification or agreed review",
+        "Scope, timing and authority",
+        "Agreement, review or reasoned no-go"
+      ]
+    },
+    "de": {
+      "need": "Anfrage für einen Verkaufsraum",
+      "normal": "Regulär geplanter Einbau",
+      "context": "Projektbedarf, Produktoptionen und freigegebene Preisregeln",
+      "decision": "Projektverantwortliche prüfen Machbarkeit und Sonderkonditionen",
+      "changedChecks": "Zufahrt, Montagekapazität und neuer Liefertermin",
+      "changedDecision": "Geänderten Umfang vor einer Zusage prüfen",
+      "changedOutcome": "Geprüfter Projektumfang mit einem zuständigen Ansprechpartner",
+      "checks": [
+        "Nutzung, Zufahrt und Anschlüsse",
+        "Freigegebener Katalog und Projektumfang",
+        "Anfrage, Antwort und aktueller Umfang",
+        "Klärung oder vereinbarte Prüfung",
+        "Umfang, Termin und Befugnis",
+        "Vereinbarung, Prüfung oder begründetes Nein"
+      ],
+      "changedActions": [
+        "Neuen Montagetermin und Zufahrt erfragen.",
+        "Optionen nach Kapazitäts- und Preisprüfung vorbereiten.",
+        "Geänderten Umfang mit dem Kunden bestätigen.",
+        "Nachfassen zur offenen Lieferfrage zuweisen.",
+        "Projektverantwortliche prüfen die frühere Montage.",
+        "Geprüfte Konditionen und verbleibende Bedingungen festhalten."
+      ],
+      "outcomes": [
+        "Nutzung, Ort, Umfang und Termin",
+        "Freigegebener Katalog und Projektumfang",
+        "Anfrage, Antwort und aktueller Umfang",
+        "Klärung oder vereinbarte Prüfung",
+        "Umfang, Termin und Befugnis",
+        "Vereinbarung, Prüfung oder begründetes Nein"
+      ]
+    },
+    "tr": {
+      "need": "Satış alanı için modüler yapı talebi",
+      "normal": "Planlanan montaj takvimi",
+      "context": "Proje ihtiyaçları, ürün seçenekleri ve onaylı fiyat kuralları",
+      "decision": "Proje sorumlusu uygulanabilirliği ve özel koşulları değerlendirir",
+      "changedChecks": "Saha erişimi, montaj kapasitesi ve yeni teslim tarihi",
+      "changedDecision": "Taahhütten önce değişen kapsamı inceleyin",
+      "changedOutcome": "Sorumlusu ve sonraki adımı belirlenmiş proje kapsamı",
+      "checks": [
+        "Kullanım amacı, saha erişimi ve altyapı",
+        "Onaylı katalog ve proje kapsamı",
+        "Talep, yanıt ve mevcut kapsam",
+        "Netleştirme veya kararlaştırılan inceleme",
+        "Kapsam, süre ve yetki",
+        "Anlaşma, inceleme veya gerekçeli vazgeçme"
+      ],
+      "changedActions": [
+        "Yeni montaj tarihini ve saha erişimini netleştirin.",
+        "Kapasite ve fiyat incelendikten sonra seçenekleri hazırlayın.",
+        "Değişen kapsamı müşteriyle doğrulayın.",
+        "Açık teslim sorusunun takibini sorumluya atayın.",
+        "Proje sorumlusu erken montaj talebini inceler.",
+        "İncelenen koşulları ve kalan şartları kaydedin."
+      ],
+      "outcomes": [
+        "Kullanım, konum, kapsam ve süre",
+        "Onaylı katalog ve proje kapsamı",
+        "Talep, yanıt ve mevcut kapsam",
+        "Netleştirme veya kararlaştırılan inceleme",
+        "Kapsam, süre ve yetki",
+        "Anlaşma, inceleme veya gerekçeli vazgeçme"
+      ]
+    }
+  },
+  "tasgo": {
+    "en": {
+      "need": "A logistics or Aero RFQ",
+      "normal": "Standard request timing",
+      "context": "The same RFQ scope, customer requirements and response conditions",
+      "decision": "The coordinator reviews provider selection, feasibility and terms",
+      "changedChecks": "Availability, urgent handling cost and required documentation",
+      "changedDecision": "The coordinator approves feasibility before a time-critical commitment",
+      "changedOutcome": "Comparable options with conditions ready for human review",
+      "checks": [
+        "Route, dimensions, weights and documentation",
+        "Dimensions and applicable documentation",
+        "Included services and conditions",
+        "Scope, timing, cost and exclusions",
+        "Responsible commercial and technical reviewers",
+        "Clarify, review, proceed or pause"
+      ],
+      "changedActions": [
+        "Record the urgent deadline with the request.",
+        "Clarify the documents required for urgent handling.",
+        "Request availability and urgent cost on the same scope.",
+        "Compare timing, exclusions and urgent charges together.",
+        "Get coordinator approval before quoting the urgent service.",
+        "Follow up on the revised deadline and conditions."
+      ],
+      "outcomes": [
+        "Route, scope, timing and documentation",
+        "Dimensions and applicable documentation",
+        "Included services and conditions",
+        "Scope, timing, cost and exclusions",
+        "Responsible commercial and technical reviewers",
+        "Clarify, review, proceed or pause"
+      ]
+    },
+    "de": {
+      "need": "Logistik- oder Aero-Angebotsanfrage",
+      "normal": "Regulärer Anfrageablauf",
+      "context": "Einheitlicher Anfrageumfang, Kundenbedarf und Anbieterbedingungen",
+      "decision": "Die Koordination prüft Anbieterwahl, Machbarkeit und Konditionen",
+      "changedChecks": "Verfügbarkeit, Eilzuschläge und erforderliche Unterlagen",
+      "changedDecision": "Machbarkeit vor einer zeitkritischen Zusage freigeben",
+      "changedOutcome": "Vergleichbare Optionen mit Bedingungen für die Entscheidung",
+      "checks": [
+        "Route, Maße, Gewicht und Unterlagen",
+        "Maße und erforderliche Unterlagen",
+        "Enthaltene Leistungen und Bedingungen",
+        "Umfang, Termin, Kosten und Ausschlüsse",
+        "Kaufmännisch und technisch Verantwortliche",
+        "Klären, prüfen, fortsetzen oder pausieren"
+      ],
+      "changedActions": [
+        "Dringlichen Termin bei der Anfrage erfassen.",
+        "Unterlagen für die Eilabwicklung klären.",
+        "Verfügbarkeit und Eilkosten auf gleicher Grundlage erfragen.",
+        "Termine, Ausschlüsse und Eilzuschläge gemeinsam vergleichen.",
+        "Eilangebot vor Versand durch die Koordination freigeben lassen.",
+        "Geänderten Termin und Bedingungen nachverfolgen."
+      ],
+      "outcomes": [
+        "Route, Umfang, Termin und Unterlagen",
+        "Maße und erforderliche Unterlagen",
+        "Enthaltene Leistungen und Bedingungen",
+        "Umfang, Termin, Kosten und Ausschlüsse",
+        "Kaufmännisch und technisch Verantwortliche",
+        "Klären, prüfen, fortsetzen oder pausieren"
+      ]
+    },
+    "tr": {
+      "need": "Lojistik veya Aero teklif talebi",
+      "normal": "Normal talep takvimi",
+      "context": "Ortak talep kapsamı, müşteri ihtiyaçları ve sağlayıcı koşulları",
+      "decision": "Koordinatör sağlayıcı seçimini, uygulanabilirliği ve koşulları inceler",
+      "changedChecks": "Uygunluk, acil işlem maliyeti ve gerekli belgeler",
+      "changedDecision": "Acil teslim taahhüdünden önce uygulanabilirliği onaylayın",
+      "changedOutcome": "Karar için koşulları netleştirilmiş, karşılaştırılabilir seçenekler",
+      "checks": [
+        "Güzergâh, ölçüler, ağırlık ve belgeler",
+        "Ölçüler ve gerekli belgeler",
+        "Dahil hizmetler ve koşullar",
+        "Kapsam, süre, maliyet ve hariç kalemler",
+        "Ticari ve teknik sorumlular",
+        "Netleştirme, inceleme, devam veya bekleme"
+      ],
+      "changedActions": [
+        "Acil teslim tarihini talep kaydına ekleyin.",
+        "Acil işlem için gerekli belgeleri netleştirin.",
+        "Aynı kapsamda uygunluk ve acil işlem bedeli isteyin.",
+        "Süreyi, hariç hizmetleri ve acil işlem bedellerini birlikte karşılaştırın.",
+        "Acil hizmet teklifinden önce koordinatör onayını alın.",
+        "Yeni teslim tarihini ve koşulları takip edin."
+      ],
+      "outcomes": [
+        "Güzergâh, kapsam, süre ve belgeler",
+        "Ölçüler ve gerekli belgeler",
+        "Dahil hizmetler ve koşullar",
+        "Kapsam, süre, maliyet ve hariç kalemler",
+        "Ticari ve teknik sorumlular",
+        "Netleştirme, inceleme, devam veya bekleme"
+      ]
+    }
+  },
+  "canceviz": {
+    "en": {
+      "need": "A buyer signal for walnut or almond saplings",
+      "normal": "The buyer’s initial delivery window",
+      "context": "Product fit, buyer requirements and questions still to resolve",
+      "decision": "The owner decides whether to investigate, bid after checks or decline",
+      "changedChecks": "Stock, export documents and the shorter delivery window",
+      "changedDecision": "Check capacity and eligibility before deciding whether to pursue",
+      "changedOutcome": "A reasoned pursue or decline decision; no automatic submission",
+      "checks": [
+        "Original source, variety, quantity and response deadline",
+        "Quantity, variety and response deadline",
+        "Variety, quantity and growing conditions",
+        "Delivery window, export documents and eligibility",
+        "Responsible business owner",
+        "Further research, reviewed bid or no-go"
+      ],
+      "changedActions": [
+        "Verify the original buyer source and revised delivery window.",
+        "Confirm quantity, variety and the shorter delivery window.",
+        "Check stock and product fit against the revised request.",
+        "Review export documents, capacity and eligibility questions.",
+        "The owner decides whether the shorter window is feasible.",
+        "Record a reasoned next action without automatic submission."
+      ],
+      "outcomes": [
+        "Original notice or buyer enquiry",
+        "Quantity, variety and response deadline",
+        "Variety, quantity and growing conditions",
+        "Delivery window, export documents and eligibility",
+        "Responsible business owner",
+        "Further research, reviewed bid or no-go"
+      ]
+    },
+    "de": {
+      "need": "Käuferhinweis für Walnuss- oder Mandeljungpflanzen",
+      "normal": "Ursprünglich gewünschte Lieferfrist",
+      "context": "Produktpassung, Käuferbedarf und offene Fragen",
+      "decision": "Die Geschäftsleitung entscheidet über Recherche, Angebot oder Verzicht",
+      "changedChecks": "Bestand, Exportunterlagen und verkürzte Lieferfrist",
+      "changedDecision": "Kapazität und Eignung vor dem Weiterverfolgen prüfen",
+      "changedOutcome": "Begründet weiterverfolgen oder verzichten; keine automatische Einreichung",
+      "checks": [
+        "Originalquelle, Sorte, Menge und Antwortfrist",
+        "Menge, Sorte und Antwortfrist",
+        "Sorte, Menge und Anbaubedingungen",
+        "Lieferfrist, Exportunterlagen und Eignung",
+        "Verantwortliche Geschäftsleitung",
+        "Weitere Recherche, geprüftes Angebot oder Verzicht"
+      ],
+      "changedActions": [
+        "Käuferquelle und geänderte Lieferfrist überprüfen.",
+        "Menge, Sorte und verkürzte Lieferfrist bestätigen.",
+        "Bestand und Produktpassung zum geänderten Bedarf prüfen.",
+        "Exportunterlagen, Kapazität und Eignungsfragen prüfen.",
+        "Geschäftsleitung entscheidet über die kürzere Lieferfrist.",
+        "Begründeten nächsten Schritt ohne automatische Einreichung festhalten."
+      ],
+      "outcomes": [
+        "Originalbekanntmachung oder Käuferanfrage",
+        "Menge, Sorte und Antwortfrist",
+        "Sorte, Menge und Anbaubedingungen",
+        "Lieferfrist, Exportunterlagen und Eignung",
+        "Verantwortliche Geschäftsleitung",
+        "Weitere Recherche, geprüftes Angebot oder Verzicht"
+      ]
+    },
+    "tr": {
+      "need": "Ceviz veya badem fidanı için alıcı fırsatı",
+      "normal": "Alıcının ilk teslim takvimi",
+      "context": "Ürün uygunluğu, alıcı ihtiyaçları ve açık sorular",
+      "decision": "İşletme sahibi araştırma, kontroller sonrası teklif veya vazgeçme kararı verir",
+      "changedChecks": "Stok, ihracat belgeleri ve kısalan teslim süresi",
+      "changedDecision": "Fırsata devam kararından önce kapasiteyi ve yeterliliği inceleyin",
+      "changedOutcome": "Gerekçeli devam veya vazgeçme kararı; otomatik başvuru yapılmaz",
+      "checks": [
+        "Asıl kaynak, çeşit, miktar ve yanıt tarihi",
+        "Miktar, çeşit ve yanıt tarihi",
+        "Çeşit, miktar ve yetiştirme koşulları",
+        "Teslim süresi, ihracat belgeleri ve yeterlilik",
+        "Sorumlu işletme sahibi",
+        "Yeni araştırma, incelenmiş teklif veya vazgeçme"
+      ],
+      "changedActions": [
+        "Alıcı kaynağını ve yeni teslim süresini doğrulayın.",
+        "Miktarı, çeşidi ve kısalan teslim süresini netleştirin.",
+        "Stoku ve ürün uygunluğunu değişen talebe göre inceleyin.",
+        "İhracat belgelerini, kapasiteyi ve yeterlilik sorularını değerlendirin.",
+        "İşletme sahibi kısa teslim süresinin uygunluğuna karar verir.",
+        "Otomatik başvuru yapmadan gerekçeli sonraki adımı kaydedin."
+      ],
+      "outcomes": [
+        "Asıl duyuru veya alıcı talebi",
+        "Miktar, çeşit ve yanıt tarihi",
+        "Çeşit, miktar ve yetiştirme koşulları",
+        "Teslim süresi, ihracat belgeleri ve yeterlilik",
+        "Sorumlu işletme sahibi",
+        "Yeni araştırma, incelenmiş teklif veya vazgeçme"
+      ]
+    }
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "modular": {
+    "en": {
+      "title": "One enquiry. A connected sales journey.",
+      "context": "Explore a sample enquiry for a modular building, from requirements to your approval.",
+      "change": "Delivery is needed earlier than the standard lead time.",
+      "changedAction": "Ask the project owner to confirm capacity and revised terms before changing the offer.",
+      "stages": [
+        {
+          "title": "Requirements",
+          "text": "Understand intended use, site conditions, dimensions, utilities and delivery timing. Missing information becomes a focused question.",
+          "fields": [
+            {
+              "label": "Project inputs",
+              "value": "Use, location, scope and timing"
+            }
+          ],
+          "next": "Clarify the missing requirements."
+        },
+        {
+          "title": "Offer",
+          "text": "Prepare scope, options and exclusions from approved product information and pricing rules. Delivery and feasibility checks remain visible.",
+          "fields": [
+            {
+              "label": "Price basis",
+              "value": "Approved catalogue and project scope"
+            }
+          ],
+          "next": "Review the offer scope."
+        },
+        {
+          "title": "Customer reply",
+          "text": "A reply may clarify a requirement or change the scope. Connect it to the affected offer instead of starting a separate record.",
+          "fields": [
+            {
+              "label": "Context",
+              "value": "Request, reply and current scope"
+            }
+          ],
+          "next": "Check what changed."
+        },
+        {
+          "title": "Follow-up",
+          "text": "Follow up on the unanswered question or pending decision. Use the recorded context and applicable contact permissions.",
+          "fields": [
+            {
+              "label": "Next task",
+              "value": "Clarification or agreed review"
+            }
+          ],
+          "next": "Assign the next action."
+        },
+        {
+          "title": "Human decision",
+          "text": "A responsible person reviews exceptions, capacity and commercial terms. Approve, revise, pause or decline with the relevant information in view.",
+          "fields": [
+            {
+              "label": "Review",
+              "value": "Scope, timing and authority"
+            }
+          ],
+          "next": "Record the decision."
+        },
+        {
+          "title": "Outcome",
+          "text": "Record the agreed outcome and remaining conditions. Review the workflow to propose improvements without silently changing business rules.",
+          "fields": [
+            {
+              "label": "Outcome record",
+              "value": "Agreement, review or reasoned no-go"
+            }
+          ],
+          "next": "Review and learn."
+        }
+      ]
+    },
+    "de": {
+      "title": "Eine Anfrage. Ein durchgängiger Vertriebsablauf.",
+      "context": "Erkunden Sie eine beispielhafte Anfrage für ein modulares Gebäude: vom Bedarf bis zu Ihrer Freigabe.",
+      "change": "Die Lieferung wird vor der üblichen Vorlaufzeit benötigt.",
+      "changedAction": "Die Projektverantwortlichen prüfen Kapazität und Konditionen, bevor das Angebot geändert wird.",
+      "stages": [
+        {
+          "title": "Bedarf",
+          "text": "Nutzung, Standort, Maße, Anschlüsse und Liefertermin klären. Fehlende Angaben werden gezielt erfragt.",
+          "fields": [
+            {
+              "label": "Projektangaben",
+              "value": "Nutzung, Ort, Umfang und Termin"
+            }
+          ],
+          "next": "Fehlende Anforderungen klären."
+        },
+        {
+          "title": "Angebot",
+          "text": "Umfang, Optionen und Ausschlüsse anhand freigegebener Produkt- und Preisangaben vorbereiten. Liefer- und Machbarkeitsprüfungen bleiben sichtbar.",
+          "fields": [
+            {
+              "label": "Preisgrundlage",
+              "value": "Freigegebener Katalog und Projektumfang"
+            }
+          ],
+          "next": "Angebotsumfang prüfen."
+        },
+        {
+          "title": "Kundenantwort",
+          "text": "Eine Antwort kann den Bedarf klären oder den Umfang ändern. Sie wird dem betroffenen Angebot zugeordnet.",
+          "fields": [
+            {
+              "label": "Kontext",
+              "value": "Anfrage, Antwort und aktueller Umfang"
+            }
+          ],
+          "next": "Änderung prüfen."
+        },
+        {
+          "title": "Nachfassen",
+          "text": "Bei der offenen Frage oder Entscheidung nachfassen. Verlauf und geltende Kontakterlaubnis berücksichtigen.",
+          "fields": [
+            {
+              "label": "Nächste Aufgabe",
+              "value": "Klärung oder vereinbarte Prüfung"
+            }
+          ],
+          "next": "Nächste Aktion zuweisen."
+        },
+        {
+          "title": "Freigabe",
+          "text": "Zuständige Personen prüfen Ausnahmen, Kapazität und Konditionen. Freigeben, ändern, pausieren oder ablehnen – mit den nötigen Informationen.",
+          "fields": [
+            {
+              "label": "Prüfung",
+              "value": "Umfang, Termin und Befugnis"
+            }
+          ],
+          "next": "Entscheidung festhalten."
+        },
+        {
+          "title": "Ergebnis",
+          "text": "Vereinbartes Ergebnis und offene Bedingungen festhalten. Verbesserungen vorschlagen, ohne Regeln stillschweigend zu ändern.",
+          "fields": [
+            {
+              "label": "Ergebnisverlauf",
+              "value": "Vereinbarung, Prüfung oder begründetes Nein"
+            }
+          ],
+          "next": "Auswerten und lernen."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Tek talep. Birbirine bağlı satış süreci.",
+      "context": "Örnek bir modüler yapı talebini, ihtiyaçların netleştirilmesinden sizin onayınıza kadar inceleyin.",
+      "change": "Teslimat standart süreden daha erken isteniyor.",
+      "changedAction": "Teklif değişmeden önce proje sorumlusu kapasiteyi ve yeni koşulları onaylar.",
+      "stages": [
+        {
+          "title": "İhtiyaçlar",
+          "text": "Kullanım amacı, saha koşulları, ölçüler, altyapı ve teslim zamanı netleştirilir. Eksik bilgiler için belirli sorular hazırlanır.",
+          "fields": [
+            {
+              "label": "Proje bilgileri",
+              "value": "Kullanım, konum, kapsam ve süre"
+            }
+          ],
+          "next": "Eksik ihtiyaçları netleştirin."
+        },
+        {
+          "title": "Teklif",
+          "text": "Onaylı ürün ve fiyat bilgileriyle kapsam, seçenekler ve hariç tutulan kalemler hazırlanır. Teslim ve uygulanabilirlik kontrolleri görünür kalır.",
+          "fields": [
+            {
+              "label": "Fiyat temeli",
+              "value": "Onaylı katalog ve proje kapsamı"
+            }
+          ],
+          "next": "Teklif kapsamını inceleyin."
+        },
+        {
+          "title": "Müşteri yanıtı",
+          "text": "Yanıt bir ihtiyacı netleştirebilir veya kapsamı değiştirebilir. İlgili teklifle ilişkilendirilir.",
+          "fields": [
+            {
+              "label": "Bağlam",
+              "value": "Talep, yanıt ve mevcut kapsam"
+            }
+          ],
+          "next": "Değişikliği değerlendirin."
+        },
+        {
+          "title": "Takip",
+          "text": "Açık soru veya bekleyen karar takip edilir. Kayıtlı bağlam ve iletişim izinleri dikkate alınır.",
+          "fields": [
+            {
+              "label": "Sonraki görev",
+              "value": "Netleştirme veya kararlaştırılan inceleme"
+            }
+          ],
+          "next": "Sonraki adımı atayın."
+        },
+        {
+          "title": "Sizin onayınız",
+          "text": "Sorumlu kişi istisnaları, kapasiteyi ve ticari koşulları inceler. Gerekli bilgilerle onaylar, değiştirir, bekletir veya reddeder.",
+          "fields": [
+            {
+              "label": "İnceleme",
+              "value": "Kapsam, süre ve yetki"
+            }
+          ],
+          "next": "Kararı kaydedin."
+        },
+        {
+          "title": "Sonuç",
+          "text": "Anlaşılan sonuç ve kalan koşullar kaydedilir. İş kuralları kendiliğinden değiştirilmeden iyileştirme önerilir.",
+          "fields": [
+            {
+              "label": "Sonuç kaydı",
+              "value": "Anlaşma, inceleme veya gerekçeli vazgeçme"
+            }
+          ],
+          "next": "İnceleyin ve öğrenin."
+        }
+      ]
+    }
+  },
+  "tasgo": {
+    "en": {
+      "title": "TasGO. See the RFQ workflow.",
+      "context": "Explore an illustrative RFQ: clarification, comparable responses, quotation and follow-up.",
+      "change": "The request becomes time-critical.",
+      "changedAction": "Confirm feasibility, additional cost and documentation with the responsible coordinator before a commitment.",
+      "stages": [
+        {
+          "title": "Request intake",
+          "text": "Record route or specification, quantity, delivery timing and the customer’s request.",
+          "fields": [
+            {
+              "label": "Request basis",
+              "value": "Route, scope, timing and documentation"
+            }
+          ],
+          "next": "Check completeness."
+        },
+        {
+          "title": "Missing requirements",
+          "text": "Ask for dimensions, weights, technical references or documents needed for comparable responses.",
+          "fields": [
+            {
+              "label": "Open questions",
+              "value": "Dimensions and applicable documentation"
+            }
+          ],
+          "next": "Clarify before requesting responses."
+        },
+        {
+          "title": "Service responses",
+          "text": "Keep each response with its scope, timing, exclusions and unanswered questions.",
+          "fields": [
+            {
+              "label": "Response context",
+              "value": "Included services and conditions"
+            }
+          ],
+          "next": "Prepare a comparable view."
+        },
+        {
+          "title": "Comparison",
+          "text": "Compare on the same requirement basis. Review feasibility and technical documents with qualified people.",
+          "fields": [
+            {
+              "label": "Decision basis",
+              "value": "Scope, timing, cost and exclusions"
+            }
+          ],
+          "next": "Review the preferred option."
+        },
+        {
+          "title": "Quotation",
+          "text": "Prepare the customer quotation within approved terms. Escalate exceptions before making a commitment.",
+          "fields": [
+            {
+              "label": "Approval",
+              "value": "Responsible commercial and technical reviewers"
+            }
+          ],
+          "next": "Approve or revise the offer."
+        },
+        {
+          "title": "Follow-up",
+          "text": "Connect the customer reply to the RFQ and record the next action or outcome. Changed requirements return to review.",
+          "fields": [
+            {
+              "label": "Next action",
+              "value": "Clarify, review, proceed or pause"
+            }
+          ],
+          "next": "Follow the agreed next step."
+        }
+      ]
+    },
+    "de": {
+      "title": "TasGO. Den Anfrageablauf verstehen.",
+      "context": "Erkunden Sie eine beispielhafte Angebotsanfrage: Klärung, vergleichbare Antworten, Angebot und Nachfassen.",
+      "change": "Die Anfrage wird zeitkritisch.",
+      "changedAction": "Machbarkeit, Mehrkosten und Unterlagen vor einer Zusage mit der zuständigen Koordination prüfen.",
+      "stages": [
+        {
+          "title": "Anfrageeingang",
+          "text": "Route oder Spezifikation, Menge, Termin und Kundenbedarf erfassen.",
+          "fields": [
+            {
+              "label": "Anfragegrundlage",
+              "value": "Route, Umfang, Termin und Unterlagen"
+            }
+          ],
+          "next": "Vollständigkeit prüfen."
+        },
+        {
+          "title": "Fehlende Angaben",
+          "text": "Maße, Gewicht, technische Referenzen oder Unterlagen für vergleichbare Antworten erfragen.",
+          "fields": [
+            {
+              "label": "Offene Fragen",
+              "value": "Maße und erforderliche Unterlagen"
+            }
+          ],
+          "next": "Vor Anbieteranfragen klären."
+        },
+        {
+          "title": "Anbieterantworten",
+          "text": "Jede Antwort mit Umfang, Termin, Ausschlüssen und offenen Fragen festhalten.",
+          "fields": [
+            {
+              "label": "Antwortkontext",
+              "value": "Enthaltene Leistungen und Bedingungen"
+            }
+          ],
+          "next": "Vergleich vorbereiten."
+        },
+        {
+          "title": "Vergleich",
+          "text": "Auf derselben Anforderungsgrundlage vergleichen. Machbarkeit und technische Unterlagen fachlich prüfen.",
+          "fields": [
+            {
+              "label": "Entscheidungsgrundlage",
+              "value": "Umfang, Termin, Kosten und Ausschlüsse"
+            }
+          ],
+          "next": "Bevorzugte Option prüfen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Kundenangebot nach freigegebenen Konditionen vorbereiten. Ausnahmen vor einer Zusage klären.",
+          "fields": [
+            {
+              "label": "Freigabe",
+              "value": "Kaufmännisch und technisch Verantwortliche"
+            }
+          ],
+          "next": "Angebot freigeben oder ändern."
+        },
+        {
+          "title": "Nachfassen",
+          "text": "Kundenantwort der Anfrage zuordnen und nächsten Schritt oder Ergebnis festhalten. Geänderte Anforderungen erneut prüfen.",
+          "fields": [
+            {
+              "label": "Nächste Aktion",
+              "value": "Klären, prüfen, fortsetzen oder pausieren"
+            }
+          ],
+          "next": "Vereinbarten Schritt verfolgen."
+        }
+      ]
+    },
+    "tr": {
+      "title": "TasGO. Teklif talebi sürecini inceleyin.",
+      "context": "Örnek bir teklif talebinde eksik bilgilerin tamamlanmasını, yanıtların karşılaştırılmasını, teklifi ve takibi inceleyin.",
+      "change": "Talep acil hâle geliyor.",
+      "changedAction": "Taahhütten önce uygulanabilirliği, ek maliyeti ve belgeleri sorumlu koordinatörle doğrulayın.",
+      "stages": [
+        {
+          "title": "Talep alımı",
+          "text": "Güzergâhı veya teknik şartları, miktarı, teslim zamanını ve müşteri talebini kaydedin.",
+          "fields": [
+            {
+              "label": "Talep temeli",
+              "value": "Güzergâh, kapsam, süre ve belgeler"
+            }
+          ],
+          "next": "Eksikleri kontrol edin."
+        },
+        {
+          "title": "Eksik bilgiler",
+          "text": "Karşılaştırılabilir yanıtlar için ölçü, ağırlık, teknik referans veya gerekli belgeleri isteyin.",
+          "fields": [
+            {
+              "label": "Açık sorular",
+              "value": "Ölçüler ve gerekli belgeler"
+            }
+          ],
+          "next": "Yanıt istemeden önce netleştirin."
+        },
+        {
+          "title": "Sağlayıcı yanıtları",
+          "text": "Her yanıtı kapsamı, süresi, hariç kalemleri ve açık sorularıyla kaydedin.",
+          "fields": [
+            {
+              "label": "Yanıt bağlamı",
+              "value": "Dahil hizmetler ve koşullar"
+            }
+          ],
+          "next": "Karşılaştırma hazırlayın."
+        },
+        {
+          "title": "Karşılaştırma",
+          "text": "Aynı ihtiyaç temelinde karşılaştırın. Uygulanabilirliği ve teknik belgeleri uzmanlarla inceleyin.",
+          "fields": [
+            {
+              "label": "Karar temeli",
+              "value": "Kapsam, süre, maliyet ve hariç kalemler"
+            }
+          ],
+          "next": "Uygun seçeneği inceleyin."
+        },
+        {
+          "title": "Teklif",
+          "text": "Müşteri teklifini onaylı koşullarla hazırlayın. Taahhütten önce istisnaları değerlendirin.",
+          "fields": [
+            {
+              "label": "Onay",
+              "value": "Ticari ve teknik sorumlular"
+            }
+          ],
+          "next": "Teklifi onaylayın veya değiştirin."
+        },
+        {
+          "title": "Takip",
+          "text": "Müşteri yanıtını talebe bağlayıp sonraki adımı veya sonucu kaydedin. Değişen ihtiyaçlar yeniden incelenir.",
+          "fields": [
+            {
+              "label": "Sonraki adım",
+              "value": "Netleştirme, inceleme, devam veya bekleme"
+            }
+          ],
+          "next": "Kararlaştırılan adımı takip edin."
+        }
+      ]
+    }
+  },
+  "canceviz": {
+    "en": {
+      "title": "Canceviz. From a signal to a business decision.",
+      "context": "Explore opportunity research for walnut and almond saplings, with a human bid/no-bid decision.",
+      "change": "The buyer requests a shorter delivery window.",
+      "changedAction": "Check stock, delivery capacity and export requirements before deciding whether to pursue the opportunity.",
+      "stages": [
+        {
+          "title": "Source",
+          "text": "Record the original buyer or notice source and observation date. Confirm current information.",
+          "fields": [
+            {
+              "label": "Source record",
+              "value": "Original notice or buyer enquiry"
+            }
+          ],
+          "next": "Check the source."
+        },
+        {
+          "title": "Deadline & quantity",
+          "text": "Record quantity, variety and deadline separately. A deadline does not establish eligibility.",
+          "fields": [
+            {
+              "label": "Requirements",
+              "value": "Quantity, variety and response deadline"
+            }
+          ],
+          "next": "Confirm the requirements."
+        },
+        {
+          "title": "Product fit",
+          "text": "Compare walnut and almond sapling specifications with the buyer’s request and available capacity.",
+          "fields": [
+            {
+              "label": "Fit basis",
+              "value": "Variety, quantity and growing conditions"
+            }
+          ],
+          "next": "Identify gaps in fit."
+        },
+        {
+          "title": "Delivery & eligibility",
+          "text": "Review delivery requirements, documentation and eligibility questions with responsible people.",
+          "fields": [
+            {
+              "label": "Open checks",
+              "value": "Delivery window, export documents and eligibility"
+            }
+          ],
+          "next": "Prepare the decision context."
+        },
+        {
+          "title": "Bid / no bid",
+          "text": "The owner decides whether to investigate further, prepare a bid after checks or decline. No automatic submission follows.",
+          "fields": [
+            {
+              "label": "Decision owner",
+              "value": "Responsible business owner"
+            }
+          ],
+          "next": "Record the reason."
+        },
+        {
+          "title": "Next action",
+          "text": "Record the decision and follow the permitted next action. Review what information would improve future research.",
+          "fields": [
+            {
+              "label": "Outcome",
+              "value": "Further research, reviewed bid or no-go"
+            }
+          ],
+          "next": "Review and improve."
+        }
+      ]
+    },
+    "de": {
+      "title": "Canceviz. Vom Hinweis zur Geschäftsentscheidung.",
+      "context": "Chancen für Walnuss- und Mandeljungpflanzen mit menschlicher Angebotsentscheidung prüfen.",
+      "change": "Der Käufer benötigt eine kürzere Lieferfrist.",
+      "changedAction": "Bestand, Lieferfähigkeit und Exportanforderungen prüfen, bevor die Chance weiterverfolgt wird.",
+      "stages": [
+        {
+          "title": "Quelle",
+          "text": "Ursprüngliche Käufer- oder Bekanntmachungsquelle und Recherchezeitpunkt festhalten. Aktualität prüfen.",
+          "fields": [
+            {
+              "label": "Quellenangabe",
+              "value": "Originalbekanntmachung oder Käuferanfrage"
+            }
+          ],
+          "next": "Quelle prüfen."
+        },
+        {
+          "title": "Frist und Menge",
+          "text": "Menge, Sorte und Frist getrennt festhalten. Eine Frist belegt keine Eignung.",
+          "fields": [
+            {
+              "label": "Anforderungen",
+              "value": "Menge, Sorte und Antwortfrist"
+            }
+          ],
+          "next": "Anforderungen bestätigen."
+        },
+        {
+          "title": "Produktpassung",
+          "text": "Spezifikationen für Walnuss- und Mandeljungpflanzen mit Bedarf und Kapazität vergleichen.",
+          "fields": [
+            {
+              "label": "Passungsgrundlage",
+              "value": "Sorte, Menge und Anbaubedingungen"
+            }
+          ],
+          "next": "Passungslücken erkennen."
+        },
+        {
+          "title": "Lieferung und Eignung",
+          "text": "Lieferanforderungen, Unterlagen und Eignungsfragen mit Verantwortlichen prüfen.",
+          "fields": [
+            {
+              "label": "Offene Prüfungen",
+              "value": "Lieferfrist, Exportunterlagen und Eignung"
+            }
+          ],
+          "next": "Entscheidungsgrundlage vorbereiten."
+        },
+        {
+          "title": "Anbieten oder verzichten",
+          "text": "Der Verantwortliche entscheidet über weitere Recherche, ein Angebot nach Prüfung oder Verzicht. Es folgt keine automatische Einreichung.",
+          "fields": [
+            {
+              "label": "Entscheider",
+              "value": "Verantwortliche Geschäftsleitung"
+            }
+          ],
+          "next": "Begründung festhalten."
+        },
+        {
+          "title": "Nächster Schritt",
+          "text": "Entscheidung festhalten und zulässigen nächsten Schritt verfolgen. Nützliche Informationen für künftige Recherche prüfen.",
+          "fields": [
+            {
+              "label": "Ergebnis",
+              "value": "Weitere Recherche, geprüftes Angebot oder Verzicht"
+            }
+          ],
+          "next": "Auswerten und verbessern."
+        }
+      ]
+    },
+    "tr": {
+      "title": "Canceviz. Fırsat işaretinden ticari karara.",
+      "context": "Ceviz ve badem fidanı alıcılarını araştırın; teklif verip vermemeye siz karar verin.",
+      "change": "Alıcı daha kısa teslim süresi istiyor.",
+      "changedAction": "Fırsata devam etmeden önce stok, teslim kapasitesi ve ihracat gerekliliklerini kontrol edin.",
+      "stages": [
+        {
+          "title": "Kaynak",
+          "text": "Alıcı veya duyurunun asıl kaynağını ve inceleme tarihini kaydedin. Güncel bilgiyi kontrol edin.",
+          "fields": [
+            {
+              "label": "Kaynak kaydı",
+              "value": "Asıl duyuru veya alıcı talebi"
+            }
+          ],
+          "next": "Kaynağı kontrol edin."
+        },
+        {
+          "title": "Son tarih ve miktar",
+          "text": "Miktarı, çeşidi ve son tarihi ayrı kaydedin. Son tarih, yeterlilik anlamına gelmez.",
+          "fields": [
+            {
+              "label": "İhtiyaçlar",
+              "value": "Miktar, çeşit ve yanıt tarihi"
+            }
+          ],
+          "next": "İhtiyaçları doğrulayın."
+        },
+        {
+          "title": "Ürün uyumu",
+          "text": "Ceviz ve badem fidanı özelliklerini alıcı talebi ve mevcut kapasiteyle karşılaştırın.",
+          "fields": [
+            {
+              "label": "Uyum temeli",
+              "value": "Çeşit, miktar ve yetiştirme koşulları"
+            }
+          ],
+          "next": "Uyum eksiklerini belirleyin."
+        },
+        {
+          "title": "Teslim ve yeterlilik",
+          "text": "Teslim koşullarını, belgeleri ve yeterlilik sorularını sorumlularla inceleyin.",
+          "fields": [
+            {
+              "label": "Açık kontroller",
+              "value": "Teslim süresi, ihracat belgeleri ve yeterlilik"
+            }
+          ],
+          "next": "Karar bilgilerini hazırlayın."
+        },
+        {
+          "title": "Teklif ver / verme",
+          "text": "İşletme sahibi araştırmaya devam etme, kontroller sonrası teklif hazırlama veya vazgeçme kararı verir. Otomatik başvuru gönderilmez.",
+          "fields": [
+            {
+              "label": "Karar sahibi",
+              "value": "Sorumlu işletme sahibi"
+            }
+          ],
+          "next": "Gerekçeyi kaydedin."
+        },
+        {
+          "title": "Sonraki adım",
+          "text": "Kararı kaydedip izinli sonraki adımı izleyin. Gelecek araştırmaları geliştirecek bilgileri değerlendirin.",
+          "fields": [
+            {
+              "label": "Sonuç",
+              "value": "Yeni araştırma, incelenmiş teklif veya vazgeçme"
+            }
+          ],
+          "next": "İnceleyin ve geliştirin."
+        }
+      ]
+    }
+  }
+}

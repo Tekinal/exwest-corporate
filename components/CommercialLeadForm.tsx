@@ -11,7 +11,7 @@ type SubmissionState = "idle" | "sending" | "success" | "error";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-export function CommercialLeadForm({ locale, copy }: { locale: Locale; copy: FormCopy }) {
+export function CommercialLeadForm({ locale, copy, interestLabels = {} }: { locale: Locale; copy: FormCopy; interestLabels?: Record<string, string> }) {
   const [submission, setSubmission] = useState<SubmissionState>("idle");
   const [errors, setErrors] = useState<Partial<Record<FieldName, string>>>({});
   const successRef = useRef<HTMLDivElement>(null);
@@ -100,7 +100,7 @@ export function CommercialLeadForm({ locale, copy }: { locale: Locale; copy: For
           <span>{copy.interest}</span>
           <select name="interest" defaultValue="" disabled={disabled} aria-invalid={Boolean(errors.interest)} aria-describedby={errors.interest ? "interest-error" : undefined} onBlur={(event) => validateOne(event.currentTarget.form!, "interest")}>
             <option value="" disabled>{copy.select}</option>
-            {copy.interests.map((interest) => <option key={interest}>{interest}</option>)}
+            {copy.interests.map((interest) => <option key={interest} value={interest}>{interestLabels[interest] ?? interest}</option>)}
           </select>
           {errors.interest ? <small id="interest-error" className="field-error">{errors.interest}</small> : null}
         </label>

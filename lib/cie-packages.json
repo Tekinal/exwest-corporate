@@ -1,0 +1,30 @@
+{
+  "currency": "EUR",
+  "vat": "Amounts exclude applicable VAT",
+  "packages": [
+    {
+      "name": "Starter",
+      "setup": 790,
+      "monthly": 299,
+      "workflows": 1
+    },
+    {
+      "name": "Growth",
+      "setup": 1990,
+      "monthly": 699,
+      "workflows": 3
+    },
+    {
+      "name": "Business",
+      "setup": 2990,
+      "monthly": 1290,
+      "workflows": 5
+    },
+    {
+      "name": "Custom",
+      "setup": null,
+      "monthly": null,
+      "workflows": null
+    }
+  ]
+}

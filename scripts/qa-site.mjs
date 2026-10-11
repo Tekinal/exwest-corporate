@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 
 const baseUrl = process.env.QA_BASE_URL ?? "http://127.0.0.1:3014";
-const origin = "https://exwest.de";
+const origin = "https://www.exwest.de";
 
 const pages = {
   home: { de: "/de", en: "/en", tr: "/tr" },
@@ -54,12 +54,15 @@ for (const [pageKey, translations] of Object.entries(pages)) {
     }
 
     if (pageKey === "home") {
-      assert.match(body, /CIE Marketplace/);
-      assert.match(body, /cie-marketplace-hero\.webm/);
-      assert.match(body, /cie-marketplace-hero-poster\.webp/);
+      assert.doesNotMatch(body, /Linden Retail|Aster Aero Demo/);
+      assert.match(body, /customer-logo-row/);
+      assert.match(body, /commercial-v3/);
+      assert.match(body, /id="demonstration"/);
+      assert.match(body, /id="businesses"/);
       assert.match(body, /name="exwest-commercial-inquiry"/);
       assert.match(body, /data-netlify="true"/);
-      assert.ok(body.indexOf("CIE Marketplace") < body.indexOf(locale === "tr" ? "Uluslararası Ticaret" : "International Trade"), `${path} should lead with CIE Marketplace`);
+      assert.match(body, /<option value="CIE Marketplace">CIE<\/option>/, "visible CIE label must preserve the existing submitted interest value");
+      for (const anchor of ["top", "cie", "ecommerce", "trade", "businesses", "contact"]) assert.match(body, new RegExp(`id="${anchor}"`));
     }
   }
 }
@@ -93,7 +96,7 @@ for (const bot of ["Googlebot", "Bingbot", "OAI-SearchBot"]) {
 }
 
 const { body: sitemap } = await get("/sitemap.xml");
-assert.equal((sitemap.match(/<url>/g) ?? []).length, 21, "sitemap should contain 21 corporate locale URLs");
+assert.equal((sitemap.match(/<url>/g) ?? []).length, 99, "sitemap should contain all 99 corporate locale URLs");
 assert.doesNotMatch(sitemap, /realestate\.exwest\.de|exwestmodular\.de/);
 for (const locale of ["de", "en", "tr", "x-default"]) {
   assert.match(sitemap, new RegExp(`hreflang="${locale}"`));
@@ -102,7 +105,7 @@ for (const locale of ["de", "en", "tr", "x-default"]) {
 const { response: llmsResponse, body: llms } = await get("/llms.txt");
 assert.equal(llmsResponse.status, 200);
 assert.match(llms, /not a ranking mechanism/i);
-assert.match(llms, /CIE Marketplace is Exwest's Commercial Intelligence system/);
+assert.match(llms, /CIE is an AI commercial operator/);
 
 const { response: formDetectorResponse, body: formDetector } = await get("/__forms.html");
 assert.equal(formDetectorResponse.status, 200);
@@ -122,4 +125,4 @@ for (const imagePath of ["/de/opengraph-image", "/en/international-trade/opengra
   assert.match(response.headers.get("content-type") ?? "", /^image\/png/);
 }
 
-console.log(`PASS: 21 localized pages, CIE Marketplace hierarchy, hero media, Netlify form detection, resolver priority, metadata, crawlers, sitemap, llms.txt, and OpenGraph images (${baseUrl})`);
+console.log(`PASS: core 21 localized pages plus full 99-URL sitemap, CIE commercial positioning, hero media, Netlify form detection, resolver priority, metadata, crawlers, sitemap, llms.txt, and OpenGraph images (${baseUrl})`);

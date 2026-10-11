@@ -1,35 +1,8 @@
-import Link from "next/link";
-
-import { BrandMark } from "@/components/BrandMark";
-import type { Locale } from "@/lib/i18n";
-import type { SiteCopy } from "@/lib/site-content";
-
-export function SiteFooter({ locale, copy }: { locale: Locale; copy: SiteCopy["footer"] }) {
-  const imprintPath = locale === "de" ? "/de/impressum" : locale === "tr" ? "/tr/kunye" : "/en/imprint";
-  const privacyPath = locale === "de" ? "/de/datenschutz" : locale === "tr" ? "/tr/gizlilik" : "/en/privacy";
-  return (
-    <footer className="site-footer">
-      <div className="footer-top">
-        <div className="footer-brand">
-          <Link href={`/${locale}`}><BrandMark /></Link>
-          <p>{copy.statement}</p>
-          <a href="mailto:contact@exwest.de">contact@exwest.de</a>
-        </div>
-        {copy.columns.map((column) => (
-          <div className="footer-column" key={column.title}>
-            <h2>{column.title}</h2>
-            {column.links.map(([label, href]) => <a href={`/${locale}${href}`} key={href}>{label}</a>)}
-          </div>
-        ))}
-        <div className="footer-column">
-          <h2>{copy.legal}</h2>
-          <Link href={imprintPath}>{copy.imprint}</Link>
-          <Link href={privacyPath}>{copy.privacy}</Link>
-          <a href="https://exwestmodular.de" rel="noopener noreferrer">Exwest Modular ↗</a>
-          <a href="https://realestate.exwest.de" rel="noopener noreferrer">Exwest Real Estate ↗</a>
-        </div>
-      </div>
-      <div className="footer-bottom"><span>© {new Date().getFullYear()} Exwest GmbH</span><span>{copy.location}</span><span>{locale === "de" ? "Produkt → Entscheidung → Wachstum" : locale === "tr" ? "Ürün → Karar → Büyüme" : "Product → Decision → Growth"}</span></div>
-    </footer>
-  );
+import Link from 'next/link';
+import {BrandMark} from './BrandMark';
+import {ui,navGroups,shortLabel} from '@/lib/corporate';
+import {localizedRoutes,type Locale} from '@/lib/i18n';
+import type {SiteCopy} from '@/lib/site-content';
+export function SiteFooter({locale}:{locale:Locale;copy?:SiteCopy['footer']}){
+ const u=ui[locale];return <footer className="corp-footer"><div className="corp-wrap"><div className="corp-footer-intro"><Link href={`/${locale}`} aria-label="Exwest"><BrandMark/></Link><p>Exwest GmbH · Düsseldorf</p><a href="mailto:contact@exwest.de">contact@exwest.de</a></div><div className="corp-footer-links">{navGroups.map(([label,keys])=><section key={label}><h2>{u[label]}</h2>{keys.map(k=><a key={k} href={localizedRoutes[k][locale]}>{shortLabel(k,locale)}</a>)}</section>)}</div><div className="corp-footer-legal"><a href={localizedRoutes.pricing[locale]}>{u.pricing}</a><a href={localizedRoutes.docs[locale]}>{u.docs}</a><a href={localizedRoutes.imprint[locale]}>{u.imprint}</a><a href={localizedRoutes.privacy[locale]}>{u.privacy}</a><a href="https://exwestmodular.de">Exwest Modular ↗</a><a href="https://realestate.exwest.de">Exwest Real Estate ↗</a></div><p className="corp-footer-bottom">© {new Date().getFullYear()} Exwest GmbH · Königsallee 92a · 40212 Düsseldorf</p></div></footer>;
 }

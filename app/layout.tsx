@@ -1,10 +1,13 @@
+import WebsiteAdviser from "@/components/WebsiteAdviser";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 
 import "./globals.css";
+import "./commercial.css";
+import "./corporate.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://exwest.de"),
+  metadataBase: new URL("https://www.exwest.de"),
   applicationName: "Exwest",
   icons: { icon: "/favicon.svg" },
   manifest: "/site.webmanifest",
@@ -24,12 +27,13 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
   const locale = requestedLocale === "en" || requestedLocale === "tr" ? requestedLocale : "de";
 
   return (
-    <html lang={locale}>
+    <html lang={locale} data-scroll-behavior="smooth">
       <body>
         <a className="skip-link" href="#main-content">
           {locale === "de" ? "Zum Inhalt" : locale === "tr" ? "İçeriğe geç" : "Skip to content"}
         </a>
         {children}
+        {process.env.CIE_WEBSITE_ADVISER_ENABLED === "1" ? <WebsiteAdviser /> : null}
       </body>
     </html>
   );

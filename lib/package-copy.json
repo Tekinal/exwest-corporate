@@ -1,0 +1,353 @@
+{
+  "en": {
+    "setup": "One-time setup",
+    "month": "per month",
+    "quote": "Individually quoted",
+    "net": "EUR · net prices, excluding applicable VAT.",
+    "cta": "Discuss {name}",
+    "exampleTitle": "One workflow can cover several sales stages.",
+    "example": "For example: an incoming product enquiry → requirements → offer draft → approved follow-up. This is one agreed workflow, not four package allocations. It is not a conversation allowance.",
+    "labels": [
+      "Setup",
+      "Ongoing service",
+      "Your involvement",
+      "Limits",
+      "Additional charges"
+    ],
+    "availability": "Before you start, agree the exact activities and available functionality in writing. Email, calls, messaging and CRM connections are included only where expressly agreed and available.",
+    "scopes": [
+      "One business. One agreed workflow.",
+      "Up to three agreed commercial workflows.",
+      "Up to five agreed workflows with more complex configuration.",
+      "Multi-brand, specialist or larger requirements."
+    ],
+    "setupTexts": [
+      "Business information, products or services, price and approval rules, one workflow configuration and one handover.",
+      "Business information and commercial rules across up to three workflows, configuration and two handovers.",
+      "Detailed products, services and decision rules, up to five workflow configurations, integration scoping and handover within the agreed scope.",
+      "Business information, products, rules, configuration and handover defined in your proposal."
+    ],
+    "ongoing": [
+      "The configured enquiry, quotation or research workflow: organise requirements, prepare drafts from approved information and keep customer context and next actions connected.",
+      "Coordinate the agreed enquiry, quotation, research and follow-up workflows, with connected context and clear decisions for responsible people.",
+      "Coordinate the agreed commercial workflows and approval queues under more complex business rules, with connected opportunity context.",
+      "Commercial activities and recurring deliverables tailored to the agreed business scope."
+    ],
+    "customer": [
+      "Provide approved information and a decision owner; approve exceptions and commitments.",
+      "Keep product and pricing information current; appoint reviewers for each workflow and approve exceptions.",
+      "Provide process owners, reliable business information and access approvals; retain responsibility for exceptions and commitments.",
+      "Agree information owners, approval responsibilities and any specialist checks."
+    ],
+    "limits": [
+      "One workflow. Channels, usage budget and support boundaries agreed before starting.",
+      "Up to three workflows. Channels, usage budget and support boundaries agreed before starting.",
+      "Up to five workflows. Integrations require a separately evidenced scope; channels, usage and support boundaries are agreed.",
+      "Workflow count, channels, usage, support and integrations specified in the proposal."
+    ],
+    "charges": "Approved provider usage, paid research/data, voice or messaging charges and separately scoped work. Custom connectors, migration and extra workflows are quoted separately.",
+    "supportTitle": "Agree the service, then choose the package.",
+    "support": "Prepare a typical enquiry or opportunity, approximate volumes, your products and rules, current systems and decision owners. Your proposal specifies supported activities, channels, usage and spending limits, support and additional charges. No numerical usage allowance or response-time promise is implied.",
+    "whoLabel": "Best for",
+    "who": [
+      "A business starting with one repeatable commercial task.",
+      "Teams connecting enquiries, offers and follow-up across several tasks.",
+      "Businesses with complex rules, more workflows and coordinated oversight.",
+      "Multi-brand or specialist requirements with an individually agreed scope."
+    ],
+    "channelsLabel": "Channels and connections",
+    "channels": "Required email, calling or messaging channels are confirmed for your configuration. CRM, REST, webhook and MCP connections are planned or separately scoped; no connector is automatically included.",
+    "usageLabel": "How usage is measured",
+    "usage": "Workflows define the work, not a conversation allowance. Estimate enquiries or opportunities per month, research tasks, messages and call minutes where applicable. Numerical allowances, provider budgets and support hours are confirmed in the proposal.",
+    "comparisonTitle": "Compare the agreed scope",
+    "comparisonRows": [
+      "One-time setup",
+      "Full monthly fee",
+      "Agreed workflows",
+      "Configuration and handover",
+      "Monthly service and scoped support",
+      "Channels, integrations and consumption"
+    ],
+    "comparisonValues": [
+      "Included in the agreed setup scope",
+      "Agreed commercial activities, configuration and support",
+      "Confirmed separately for your business"
+    ],
+    "firstTitle": "Your first month, clearly calculated",
+    "firstText": "One-time setup + one full monthly fee. These examples exclude applicable VAT and all separately charged usage or work; they are not an activation-date or prorating commitment.",
+    "firstTotal": "First-month base amount",
+    "plus": "Setup + full monthly fee",
+    "faqTitle": "Pricing questions, answered",
+    "faq": [
+      [
+        "Is a workflow a conversation allowance?",
+        "No. A workflow is a repeatable commercial process, such as enquiry → requirements → offer draft → approved follow-up. Several lifecycle stages can belong to one workflow. Conversation and usage volumes are agreed separately."
+      ],
+      [
+        "What does the monthly fee cover?",
+        "The agreed commercial activities in your configured CIE scope, maintaining that configuration and the support described in your proposal. Reviews support the work; they are not a substitute for defining the work itself."
+      ],
+      [
+        "Are email, calls, messaging and CRM integrations included?",
+        "Only the channels and connections expressly agreed and available for your configuration. The website does not promise universal CRM compatibility or an operational connector for every system. Custom integration work is separately scoped."
+      ],
+      [
+        "Which costs are additional?",
+        "Approved provider consumption, voice minutes and numbers, messaging fees, paid research/data, custom integration, migration and work outside the agreed scope may be charged separately. Units, budget, billing basis and any additional rate must be specified in the proposal."
+      ],
+      [
+        "What happens when our requirements change?",
+        "Bring the new requirement to Exwest. We assess whether it fits the existing scope or needs a separate proposal. Extra workflows, custom integration and other out-of-scope work require agreement before proceeding; no automatic overage price is implied."
+      ],
+      [
+        "How do we buy?",
+        "Choose a package and describe a typical enquiry or opportunity, approximate volumes, required channels and decision owners. Exwest confirms business fit, available functionality, inclusions, limits and additional costs in a scoped proposal."
+      ],
+      [
+        "Which contract and billing terms apply?",
+        "The accepted proposal establishes the terms. This page does not introduce a cancellation period, minimum term, guaranteed activation date or unlimited usage. All displayed amounts are EUR net, excluding applicable VAT."
+      ]
+    ],
+    "supportTexts": [
+      "Monthly workflow review and support within the proposal’s limits.",
+      "Monthly coordination review and scoped support.",
+      "Monthly managed-support review and support for the agreed configuration.",
+      "Review schedule and support defined in the proposal."
+    ],
+    "supportLabel": "Configuration and support"
+  },
+  "de": {
+    "setup": "Einmalige Einrichtung",
+    "month": "pro Monat",
+    "quote": "Individuelles Angebot",
+    "net": "EUR · netto, zuzüglich anfallender Umsatzsteuer.",
+    "cta": "{name} besprechen",
+    "exampleTitle": "Ein Ablauf kann mehrere Vertriebsschritte umfassen.",
+    "example": "Zum Beispiel: Produktanfrage → Bedarf klären → Angebotsentwurf → freigegebenes Nachfassen. Das ist ein vereinbarter Ablauf, nicht vier getrennte Paketleistungen. Es ist kein Gesprächskontingent.",
+    "labels": [
+      "Einrichtung",
+      "Laufende Leistung",
+      "Ihr Beitrag",
+      "Leistungsgrenzen",
+      "Zusätzliche Kosten"
+    ],
+    "availability": "Vor dem Start halten wir Aufgaben und verfügbare Funktionen schriftlich fest. E-Mail, Telefonie, Nachrichten und CRM-Anbindungen gehören nur dazu, wenn sie ausdrücklich vereinbart und verfügbar sind.",
+    "scopes": [
+      "Ein Unternehmen. Ein vereinbarter Ablauf.",
+      "Bis zu drei vereinbarte Vertriebsabläufe.",
+      "Bis zu fünf vereinbarte Abläufe mit anspruchsvollerer Konfiguration.",
+      "Mehrere Marken, Spezialfälle oder größerer Bedarf."
+    ],
+    "setupTexts": [
+      "Unternehmens-, Produkt- oder Leistungsinformationen, Preis- und Freigaberegeln, Einrichtung eines Ablaufs und ein Einführungstermin.",
+      "Geschäftsinformationen und kaufmännische Regeln für bis zu drei Abläufe, Einrichtung und zwei Einführungstermine.",
+      "Produkte, Leistungen und Entscheidungsregeln im Detail, Einrichtung von bis zu fünf Abläufen, Planung der Anbindungen und Einführung im vereinbarten Umfang.",
+      "Geschäftsinformationen, Produkte, Regeln, Einrichtung und Einführung gemäß individuellem Angebot."
+    ],
+    "ongoing": [
+      "Der konfigurierte Anfrage-, Angebots- oder Rechercheablauf: Bedarf ordnen, Entwürfe aus freigegebenen Informationen vorbereiten und Kundeninformationen mit nächsten Schritten verbinden.",
+      "Vereinbarte Anfrage-, Angebots-, Recherche- und Nachfassabläufe koordinieren, mit zusammenhängenden Informationen und klaren Entscheidungen für zuständige Personen.",
+      "Vereinbarte Vertriebsabläufe und Freigaben unter anspruchsvolleren Geschäftsregeln koordinieren und Informationen bei der jeweiligen Chance zusammenhalten.",
+      "Vertriebsaufgaben und regelmäßige Leistungen passend zum vereinbarten Unternehmensbedarf."
+    ],
+    "customer": [
+      "Freigegebene Informationen und eine zuständige Person bereitstellen; über Ausnahmen und verbindliche Zusagen entscheiden.",
+      "Produkt- und Preisangaben aktuell halten, Zuständige je Ablauf benennen und Ausnahmen freigeben.",
+      "Prozessverantwortliche, verlässliche Informationen und Zugriffsfreigaben bereitstellen; Ausnahmen und Zusagen selbst entscheiden.",
+      "Informationsverantwortliche, Freigaben und erforderliche fachliche Prüfungen festlegen."
+    ],
+    "limits": [
+      "Ein Ablauf. Kanäle, Nutzungsbudget und Betreuungsumfang werden vor dem Start festgelegt.",
+      "Bis zu drei Abläufe. Kanäle, Nutzungsbudget und Betreuungsumfang werden vor dem Start festgelegt.",
+      "Bis zu fünf Abläufe. Anbindungen brauchen einen gesondert belegten Leistungsumfang; Kanäle, Nutzung und Betreuung werden abgestimmt.",
+      "Anzahl der Abläufe, Kanäle, Nutzung, Betreuung und Anbindungen stehen im Angebot."
+    ],
+    "charges": "Freigegebene Anbieternutzung, kostenpflichtige Recherche und Daten, Telefonie oder Nachrichten sowie separat beauftragte Aufgaben. Individuelle Schnittstellen, Migration und zusätzliche Abläufe werden gesondert angeboten.",
+    "supportTitle": "Erst den Bedarf klären, dann das Paket wählen.",
+    "support": "Bringen Sie eine typische Anfrage oder Geschäftschance, ungefähre Mengen, Produkte und Regeln, vorhandene Systeme und zuständige Personen mit. Im Angebot stehen Aufgaben, Kanäle, Nutzungs- und Budgetgrenzen, Betreuung und Zusatzkosten. Pauschale Nutzungskontingente oder feste Reaktionszeiten sind damit nicht zugesagt.",
+    "whoLabel": "Geeignet für",
+    "who": [
+      "Unternehmen, die mit einer wiederkehrenden Vertriebsaufgabe beginnen.",
+      "Teams, die Anfragen, Angebote und Nachfassen in mehreren Abläufen verbinden.",
+      "Unternehmen mit anspruchsvollen Regeln, mehr Abläufen und abgestimmter Verantwortung.",
+      "Mehrere Marken oder Spezialaufgaben mit individuell festgelegtem Umfang."
+    ],
+    "channelsLabel": "Kanäle und Anbindungen",
+    "channels": "Benötigte E-Mail-, Telefonie- oder Nachrichtenkanäle werden für Ihre Konfiguration bestätigt. CRM-, REST-, Webhook- und MCP-Anbindungen sind geplant oder separat zu vereinbaren; eine Schnittstelle ist nicht automatisch enthalten.",
+    "usageLabel": "So wird die Nutzung erfasst",
+    "usage": "Abläufe beschreiben die Aufgabe, kein Gesprächskontingent. Planen Sie monatliche Anfragen oder Chancen, Rechercheaufgaben, Nachrichten und gegebenenfalls Telefonminuten. Kontingente, Anbieterbudgets und Betreuungsstunden werden im Angebot festgelegt.",
+    "comparisonTitle": "Den vereinbarten Umfang vergleichen",
+    "comparisonRows": [
+      "Einmalige Einrichtung",
+      "Volle Monatsgebühr",
+      "Vereinbarte Abläufe",
+      "Einrichtung und Einführung",
+      "Laufende Leistung und vereinbarte Betreuung",
+      "Kanäle, Anbindungen und Verbrauch"
+    ],
+    "comparisonValues": [
+      "Im vereinbarten Einrichtungsumfang enthalten",
+      "Vereinbarte Vertriebsaufgaben, Konfiguration und Betreuung",
+      "Für Ihr Unternehmen gesondert festgelegt"
+    ],
+    "firstTitle": "Der erste Monat, nachvollziehbar gerechnet",
+    "firstText": "Einmalige Einrichtung + eine volle Monatsgebühr. Die Beispiele verstehen sich ohne anfallende Umsatzsteuer und ohne separat berechneten Verbrauch oder zusätzliche Aufgaben. Sie sagen keinen Starttermin oder anteiligen Monatsbetrag zu.",
+    "firstTotal": "Grundbetrag im ersten Monat",
+    "plus": "Einrichtung + volle Monatsgebühr",
+    "faqTitle": "Fragen zu Preisen und Leistungen",
+    "faq": [
+      [
+        "Ist ein Ablauf ein Gesprächskontingent?",
+        "Nein. Ein Ablauf ist eine wiederkehrende Vertriebsaufgabe, etwa Anfrage → Bedarf klären → Angebotsentwurf → freigegebenes Nachfassen. Mehrere Vertriebsschritte können zu einem Ablauf gehören. Gesprächs- und Nutzungsmengen werden separat vereinbart."
+      ],
+      [
+        "Was deckt die Monatsgebühr ab?",
+        "Die vereinbarten Vertriebsaufgaben Ihrer CIE-Konfiguration, deren laufende Betreuung und die Unterstützung gemäß Angebot. Abstimmungstermine begleiten die Arbeit; sie ersetzen keine klare Beschreibung der Leistung."
+      ],
+      [
+        "Sind E-Mail, Telefonie, Nachrichten und CRM-Anbindungen enthalten?",
+        "Nur ausdrücklich vereinbarte und für Ihre Konfiguration verfügbare Kanäle und Anbindungen. Die Web sitesi verspricht weder Kompatibilität mit jedem CRM noch eine betriebsbereite Schnittstelle zu jedem System. Individuelle Anbindungen werden separat geplant."
+      ],
+      [
+        "Welche Kosten kommen hinzu?",
+        "Freigegebene Anbieternutzung, Telefonminuten und Rufnummern, Nachrichten, kostenpflichtige Recherche und Daten, individuelle Anbindungen, Migration und zusätzliche Aufgaben können gesondert berechnet werden. Einheiten, Budget, Abrechnung und eventuelle Zusatzpreise stehen im Angebot."
+      ],
+      [
+        "Was geschieht bei neuen Anforderungen?",
+        "Besprechen Sie den neuen Bedarf mit Exwest. Wir prüfen, ob er zum vereinbarten Umfang gehört oder ein separates Angebot braucht. Zusätzliche Abläufe, individuelle Anbindungen und andere Aufgaben außerhalb des Pakets werden vorab abgestimmt; automatische Mehrverbrauchspreise sind nicht zugesagt."
+      ],
+      [
+        "Wie beauftragen wir CIE?",
+        "Wählen Sie ein Paket und nennen Sie eine typische Anfrage oder Chance, ungefähre Mengen, benötigte Kanäle und zuständige Personen. Exwest bestätigt die Passung, verfügbare Funktionen, Leistungen, Grenzen und Zusatzkosten im konkreten Angebot."
+      ],
+      [
+        "Welche Vertrags- und Zahlungsbedingungen gelten?",
+        "Maßgeblich ist das angenommene Angebot. Diese Seite legt keine Kündigungsfrist, Mindestlaufzeit, garantierten Starttermin oder unbegrenzte Nutzung fest. Alle Beträge in EUR, netto zuzüglich anfallender Umsatzsteuer."
+      ]
+    ],
+    "supportTexts": [
+      "Monatliche Abstimmung und Betreuung gemäß den Grenzen im Angebot.",
+      "Monatliche Abstimmung der Abläufe und vereinbarte Betreuung.",
+      "Monatliche Abstimmung der Betreuung und Unterstützung für die festgelegte Konfiguration.",
+      "Abstimmungstermine und Betreuung gemäß Angebot."
+    ],
+    "supportLabel": "Konfiguration und Betreuung"
+  },
+  "tr": {
+    "setup": "Tek seferlik kurulum",
+    "month": "aylık",
+    "quote": "Özel teklif",
+    "net": "EUR · geçerli KDV hariç net fiyatlar.",
+    "cta": "{name} paketini görüşelim",
+    "exampleTitle": "Bir süreç, satışın birden fazla aşamasını kapsayabilir.",
+    "example": "Örneğin: gelen ürün talebi → ihtiyaçların netleştirilmesi → teklif taslağı → onaylı takip. Bunlar dört ayrı paket hakkı değil, üzerinde anlaşılan tek süreçtir. Bu, görüşme kotası değildir.",
+    "labels": [
+      "Kurulum",
+      "Aylık hizmet",
+      "Sizin sorumluluğunuz",
+      "Kapsam sınırları",
+      "Ek ücretler"
+    ],
+    "availability": "Başlamadan önce yapılacak işler ve kullanılabilir özellikler yazılı olarak belirlenir. E-posta, arama, mesajlaşma ve CRM bağlantıları yalnızca açıkça kararlaştırılmış ve kullanılabilir olduklarında kapsama girer.",
+    "scopes": [
+      "Tek işletme. Üzerinde anlaşılan tek süreç.",
+      "En fazla üç belirlenmiş satış süreci.",
+      "Daha kapsamlı yapılandırmayla en fazla beş süreç.",
+      "Çok markalı, uzmanlık gerektiren veya daha geniş ihtiyaçlar."
+    ],
+    "setupTexts": [
+      "İşletme, ürün veya hizmet bilgileri, fiyat ve onay kuralları, tek sürecin yapılandırılması ve bir kullanım eğitimi.",
+      "En fazla üç süreç için işletme bilgileri ve ticari kurallar, yapılandırma ve iki kullanım eğitimi.",
+      "Ayrıntılı ürün, hizmet ve karar kuralları, en fazla beş sürecin yapılandırılması, entegrasyon kapsamının belirlenmesi ve kararlaştırılan kullanım eğitimi.",
+      "İşletme bilgileri, ürünler, kurallar, yapılandırma ve eğitim özel teklifte belirlenir."
+    ],
+    "ongoing": [
+      "Belirlenen talep, teklif veya araştırma süreci: ihtiyaçları düzenleme, onaylı bilgilere göre taslak hazırlama, müşteri bilgilerini ve sonraki adımları bir arada tutma.",
+      "Kararlaştırılan talep, teklif, araştırma ve takip süreçlerini; bağlantılı bilgiler ve sorumlular için açık karar noktalarıyla koordine etme.",
+      "Daha kapsamlı iş kuralları altında belirlenen satış süreçlerini ve onayları koordine etme, fırsat bilgilerini bir arada tutma.",
+      "Kararlaştırılan işletme kapsamına uygun satış işleri ve düzenli hizmetler."
+    ],
+    "customer": [
+      "Onaylı bilgileri ve karar sorumlusunu belirleyin; istisnaları ve taahhütleri siz onaylayın.",
+      "Ürün ve fiyat bilgilerini güncel tutun; her süreç için sorumlu belirleyin ve istisnaları onaylayın.",
+      "Süreç sorumlularını, güvenilir bilgileri ve erişim onaylarını sağlayın; istisna ve taahhüt kararlarını siz verin.",
+      "Bilgi sorumlularını, onay yetkilerini ve uzman incelemesi gerektiren konuları belirleyin."
+    ],
+    "limits": [
+      "Tek süreç. Kanallar, kullanım bütçesi ve destek kapsamı başlamadan önce belirlenir.",
+      "En fazla üç süreç. Kanallar, kullanım bütçesi ve destek kapsamı başlamadan önce belirlenir.",
+      "En fazla beş süreç. Entegrasyon için ayrı ve doğrulanmış bir kapsam gerekir; kanallar, kullanım ve destek ayrıca belirlenir.",
+      "Süreç sayısı, kanallar, kullanım, destek ve entegrasyonlar teklifte belirtilir."
+    ],
+    "charges": "Onaylı sağlayıcı kullanımı, ücretli araştırma ve veri, arama veya mesajlaşma giderleri ve ayrıca kararlaştırılan işler. Özel bağlantılar, veri taşıma ve ek süreçler ayrıca tekliflendirilir.",
+    "supportTitle": "Önce ihtiyacı belirleyelim, sonra paketi seçelim.",
+    "support": "Tipik bir talep veya fırsat, yaklaşık işlem hacmi, ürünler ve kurallar, mevcut sistemler ve karar sorumlularıyla başlayın. Teklifte işler, kanallar, kullanım ve bütçe sınırları, destek ve ek ücretler belirtilir. Sayısal kullanım kotası veya belirli bir yanıt süresi taahhüt edilmez.",
+    "whoLabel": "Kimler için uygun?",
+    "who": [
+      "Tek bir tekrarlanan satış işiyle başlamak isteyen işletmeler.",
+      "Talepleri, teklifleri ve takibi birden fazla süreçte birleştiren ekipler.",
+      "Daha kapsamlı kuralları, çok sayıda süreci ve ortak karar takibi olan işletmeler.",
+      "Çok markalı veya uzmanlık gerektiren ihtiyaçlar için özel kapsam."
+    ],
+    "channelsLabel": "Kanallar ve bağlantılar",
+    "channels": "Gerekli e-posta, arama veya mesajlaşma kanalları yapılandırmanız için doğrulanır. CRM, REST, webhook ve MCP bağlantıları planlanan veya ayrıca belirlenen kapsamlardır; hiçbir bağlantı otomatik olarak pakete dahil değildir.",
+    "usageLabel": "Kullanım nasıl ölçülür?",
+    "usage": "Süreç, yapılacak işi tanımlar; görüşme kotası değildir. Aylık talep veya fırsat sayısını, araştırma işlerini, mesajları ve gerekiyorsa arama dakikalarını belirleyin. Kullanım miktarları, sağlayıcı bütçesi ve destek saatleri teklifte netleştirilir.",
+    "comparisonTitle": "Kararlaştırılan kapsamı karşılaştırın",
+    "comparisonRows": [
+      "Tek seferlik kurulum",
+      "Tam aylık ücret",
+      "Belirlenen süreçler",
+      "Yapılandırma ve kullanım eğitimi",
+      "Aylık hizmet ve belirlenen destek",
+      "Kanallar, bağlantılar ve tüketim"
+    ],
+    "comparisonValues": [
+      "Kararlaştırılan kurulum kapsamında",
+      "Belirlenen satış işleri, yapılandırma ve destek",
+      "İşletmenize göre ayrıca belirlenir"
+    ],
+    "firstTitle": "İlk ayın hesabı, açık ve anlaşılır",
+    "firstText": "Tek seferlik kurulum + bir tam aylık ücret. Bu örnekler geçerli KDV’yi ve ayrıca ücretlendirilen kullanımı veya ek işleri içermez. Başlangıç tarihi ya da orantılı aylık ücret taahhüdü değildir.",
+    "firstTotal": "İlk ayın temel tutarı",
+    "plus": "Kurulum + tam aylık ücret",
+    "faqTitle": "Fiyatlandırma hakkında sorular",
+    "faq": [
+      [
+        "Bir süreç, görüşme kotası mı?",
+        "Hayır. Süreç, gelen talep → ihtiyaçların netleştirilmesi → teklif taslağı → onaylı takip gibi tekrarlanan bir satış işidir. Bir süreç, satışın birden fazla aşamasını kapsayabilir. Görüşme ve kullanım miktarları ayrıca belirlenir."
+      ],
+      [
+        "Aylık ücret neleri kapsar?",
+        "CIE yapılandırmanız için kararlaştırılan satış işlerini, bu yapılandırmanın sürdürülmesini ve teklifte belirtilen desteği kapsar. Değerlendirme toplantıları işi destekler; yapılacak işin açıkça tanımlanmasının yerini tutmaz."
+      ],
+      [
+        "E-posta, arama, mesajlaşma ve CRM bağlantıları dahil mi?",
+        "Yalnızca açıkça kararlaştırılmış ve yapılandırmanızda kullanılabilir kanallar ve bağlantılar dahildir. Web sitesi her CRM ile uyumluluk veya her sisteme çalışan bir bağlantı vaat etmez. Özel entegrasyon işleri ayrıca belirlenir."
+      ],
+      [
+        "Hangi giderler ayrıca ücretlendirilir?",
+        "Onaylı sağlayıcı kullanımı, arama dakikaları ve numaralar, mesajlaşma, ücretli araştırma ve veri, özel entegrasyon, veri taşıma ve kapsam dışı işler ayrıca ücretlendirilebilir. Birimler, bütçe, hesaplama yöntemi ve varsa ek birim ücret teklifte belirtilir."
+      ],
+      [
+        "İhtiyaçlarımız değişirse ne olur?",
+        "Yeni ihtiyacı Exwest ile görüşün. Mevcut kapsama girip girmediğini veya ayrı teklif gerektirip gerektirmediğini değerlendiririz. Ek süreçler, özel bağlantılar ve paket dışı işler başlamadan önce kararlaştırılır; otomatik aşım ücreti varsayılmaz."
+      ],
+      [
+        "CIE’yi nasıl satın alırız?",
+        "Bir paket seçin; tipik bir talebi veya fırsatı, yaklaşık hacmi, gerekli kanalları ve karar sorumlularını paylaşın. Exwest uygunluğu, kullanılabilir özellikleri, kapsamı, sınırları ve ek ücretleri özel teklifte netleştirir."
+      ],
+      [
+        "Hangi sözleşme ve ödeme koşulları geçerli?",
+        "Kabul edilen teklifin koşulları geçerlidir. Bu sayfa iptal süresi, asgari sözleşme süresi, garantili başlangıç tarihi veya sınırsız kullanım belirlemez. Tüm tutarlar EUR cinsinde ve geçerli KDV hariç net tutarlardır."
+      ]
+    ],
+    "supportTexts": [
+      "Aylık süreç değerlendirmesi ve teklifte belirtilen sınırlar içinde destek.",
+      "Aylık koordinasyon değerlendirmesi ve belirlenen destek.",
+      "Aylık destek değerlendirmesi ve kararlaştırılan yapılandırma için destek.",
+      "Değerlendirme sıklığı ve destek teklifte belirlenir."
+    ],
+    "supportLabel": "Yapılandırma ve destek"
+  }
+}
