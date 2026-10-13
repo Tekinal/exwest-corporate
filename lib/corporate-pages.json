@@ -3,19 +3,19 @@
     "en": {
       "family": "home",
       "title": "Your AI commercial team. You set the direction.",
-      "lead": "Find potential customers, understand their needs and keep sales conversations moving. CIE connects research, enquiries, offers and follow-up—under your control.",
+      "lead": "CIE is AI software configured by Exwest to help your business find suitable buyers, prepare the approach and move promising opportunities towards a sales conversation. You provide the products and rules. Important decisions stay with you.",
       "blocks": [
         {
-          "title": "Where could your business use a hand?",
-          "body": "Find relevant buyers, respond to incoming enquiries and keep existing opportunities moving. Choose the commercial task you want to improve, then explore the workflow that fits your business."
+          "title": "Find buyers. Keep conversations moving.",
+          "body": "A new market needs suitable buyers. An incoming enquiry needs clear requirements. An open offer needs a next step. CIE supports both finding opportunities and progressing the customer conversation within your agreed service."
         },
         {
-          "title": "One business. One shared picture.",
-          "body": "Market research, sales representation and account coordination work with the same products, customer context and approved rules. Three familiar responsibilities, connected in one CIE system."
+          "title": "You supply the business. Exwest configures the service.",
+          "body": "Provide your products or services, target markets, approved prices and selling rules. Exwest configures CIE, the AI software supporting research, preparation and follow-up. You receive relevant opportunities, buyer information and a clear next step. Important decisions stay with you."
         },
         {
-          "title": "A clear starting point. Room to grow.",
-          "body": "Start with one agreed workflow. A one-time setup prepares your business context; a monthly subscription supports the agreed scope. Starter begins at €790 setup and €299 per month, net plus applicable VAT."
+          "title": "Start with one sales process.",
+          "body": "Start with one agreed workflow. Setup configures your information and rules; the monthly service covers the supported commercial work. Starter is €790 setup and €299 per month, excluding applicable VAT. Research volumes, communication and extra usage are agreed separately."
         }
       ],
       "links": [
@@ -25,24 +25,26 @@
         "pricing"
       ],
       "demo": "modular",
-      "parent": null
+      "parent": null,
+      "metadataLead": "Find potential customers, understand their needs and keep sales conversations moving. CIE connects research, enquiries, offers and follow-up—under your control.",
+      "presentationTitle": "More qualified opportunities. Faster progress towards a sale."
     },
     "de": {
       "family": "home",
       "title": "Ihr KI-Vertriebsteam. Sie geben die Richtung vor.",
-      "lead": "Potenzielle Kunden finden, ihren Bedarf verstehen und Gespräche voranbringen. CIE verbindet die Kundenrecherche mit der Bearbeitung von Anfragen, der Angebotserstellung und der Nachverfolgung. Sie behalten die Kontrolle.",
+      "lead": "CIE ist KI-Software, die Exwest für Ihr Unternehmen einrichtet. Sie hilft Ihnen, passende Käufer zu finden, die Ansprache vorzubereiten und Kontakte bis zum Vertriebsgespräch weiterzuentwickeln. Sie liefern Produkte und Regeln. Wichtige Entscheidungen bleiben bei Ihnen.",
       "blocks": [
         {
-          "title": "Wo braucht Ihr Vertrieb Unterstützung?",
-          "body": "Passende Käufer finden, eingehende Anfragen bearbeiten und offene Chancen weiterverfolgen: Wählen Sie die Aufgabe, die Sie verbessern möchten, und entdecken Sie den passenden Ablauf."
+          "title": "Käufer finden. Gespräche weiterführen.",
+          "body": "Ein neuer Markt braucht passende Käufer. Eine Anfrage braucht geklärte Anforderungen. Ein offenes Angebot braucht den nächsten Schritt. CIE unterstützt die Suche und die Entwicklung des Kundengesprächs im vereinbarten Serviceumfang."
         },
         {
-          "title": "Ein Unternehmen. Ein gemeinsamer Überblick.",
-          "body": "Marktrecherche, Vertriebsarbeit und Kundenbetreuung greifen auf dieselben Produkte, Kundeninformationen und freigegebenen Regeln zu. Drei vertraute Aufgaben, verbunden in einem CIE-System."
+          "title": "Sie liefern die Grundlagen. Exwest richtet den Service ein.",
+          "body": "Sie stellen Produkte oder Leistungen, Zielmärkte, freigegebene Preise und Vertriebsregeln bereit. Exwest richtet CIE ein: die KI-Software für Recherche, Vorbereitung und Nachverfolgung. Sie erhalten relevante Chancen, Käuferinformationen und einen konkreten nächsten Schritt. Wichtige Entscheidungen bleiben bei Ihnen."
         },
         {
-          "title": "Klar einsteigen. Gezielt erweitern.",
-          "body": "Beginnen Sie mit einem abgestimmten Ablauf. Die einmalige Einrichtung schafft die Grundlage, das Monatsabo deckt den vereinbarten Umfang ab. Starter: 790 € Einrichtung und 299 € monatlich, netto zuzüglich anfallender Umsatzsteuer."
+          "title": "Mit einem Vertriebsprozess starten.",
+          "body": "Beginnen Sie mit einem vereinbarten Ablauf. Die Einrichtung hinterlegt Informationen und Regeln; der monatliche Service umfasst die unterstützten Vertriebsaufgaben. Starter kostet €790 einmalig und €299 monatlich, jeweils zzgl. anwendbarer Umsatzsteuer. Recherchevolumen, Kommunikation und Zusatznutzung werden separat vereinbart."
         }
       ],
       "links": [
@@ -53,24 +55,25 @@
       ],
       "demo": "modular",
       "parent": null,
-      "metadataLead": "Potenzielle Kunden finden, ihren Bedarf verstehen und Gespräche voranbringen. CIE verbindet Recherche, Anfragen, Angebote und Nachfassen. Sie behalten die Kontrolle."
+      "metadataLead": "Potenzielle Kunden finden, ihren Bedarf verstehen und Gespräche voranbringen. CIE verbindet Recherche, Anfragen, Angebote und Nachfassen. Sie behalten die Kontrolle.",
+      "presentationTitle": "Mehr qualifizierte Verkaufschancen. Schneller zum Vertriebsgespräch."
     },
     "tr": {
       "family": "home",
       "title": "Yapay zekâ destekli satış ekibiniz. Yönü siz belirleyin.",
-      "lead": "Potansiyel müşterileri bulun, ihtiyaçlarını anlayın ve satış görüşmelerini ilerletin. CIE müşteri araştırmasını, gelen talepleri, teklif hazırlamayı ve satış takibini bir araya getirir. Kontrol sizde kalır.",
+      "lead": "CIE, Exwest’in işletmenize göre yapılandırdığı yapay zekâ yazılımıdır. Uygun alıcıları bulmanıza, ilk iletişimi hazırlamanıza ve fırsatları satış görüşmesine taşımanıza yardımcı olur. Ürün bilgileri ve kurallar sizden; önemli kararlar yine sizde.",
       "blocks": [
         {
-          "title": "Satış sürecinizde nerede desteğe ihtiyacınız var?",
-          "body": "Doğru alıcılara ulaşın, gelen talepleri karşılayın ve açık fırsatları takip edin. Önce iyileştirmek istediğiniz işi seçin; ardından işletmenize uygun süreci inceleyin."
+          "title": "Alıcı bulun. Görüşmeleri ilerletin.",
+          "body": "Yeni bir pazar için uygun alıcılar gerekir. Gelen bir talepte ihtiyaçlar netleşmelidir. Açık bir teklifin sonraki adımı belli olmalıdır. CIE, kararlaştırılan hizmet kapsamında hem fırsat bulmayı hem müşteri görüşmesini ilerletmeyi destekler."
         },
         {
-          "title": "Tek işletme. Ortak bir bakış.",
-          "body": "Pazar araştırması, satış desteği ve müşteri koordinasyonu aynı ürün bilgileriyle, müşteri geçmişiyle ve onaylı kurallarla çalışır. Üç temel görev, tek bir CIE sisteminde birleşir."
+          "title": "İş bilgileri sizden. Hizmetin kurulumu Exwest’ten.",
+          "body": "Ürün veya hizmetlerinizi, hedef pazarları, onaylı fiyatları ve satış kurallarını sağlarsınız. Exwest araştırma, hazırlık ve satış takibini destekleyen CIE yapay zekâ yazılımını yapılandırır. Uygun fırsatlar, alıcı bilgileri ve net bir sonraki adım alırsınız. Önemli kararlar sizde kalır."
         },
         {
-          "title": "Net bir başlangıç. İhtiyaca göre büyüme.",
-          "body": "Önce üzerinde anlaşılan tek bir süreçle başlayın. İşletme bilgileri tek seferlik kurulumla hazırlanır; aylık abonelik belirlenen kapsamı karşılar. Starter: €790 kurulum ve aylık €299; KDV hariçtir."
+          "title": "Tek bir satış süreciyle başlayın.",
+          "body": "Kararlaştırılan tek süreçle başlayın. Kurulumda bilgileriniz ve kurallarınız tanımlanır; aylık hizmet desteklenen satış faaliyetlerini kapsar. Starter kurulum ücreti €790, aylık ücreti €299’dur; uygulanabilir KDV hariçtir. Araştırma hacmi, iletişim ve ek kullanım ayrıca belirlenir."
         }
       ],
       "links": [
@@ -81,14 +84,15 @@
       ],
       "demo": "modular",
       "parent": null,
-      "metadataLead": "Potansiyel müşterileri bulun, ihtiyaçlarını anlayın ve satış görüşmelerini ilerletin. CIE araştırmayı, talepleri, teklifleri ve takibi bir araya getirir. Kontrol sizde kalır."
+      "metadataLead": "Potansiyel müşterileri bulun, ihtiyaçlarını anlayın ve satış görüşmelerini ilerletin. CIE araştırmayı, talepleri, teklifleri ve takibi bir araya getirir. Kontrol sizde kalır.",
+      "presentationTitle": "Daha nitelikli satış fırsatları. Satış görüşmesine daha hızlı ilerleyin."
     }
   },
   "cie": {
     "en": {
       "family": "product",
       "title": "One commercial operator. A connected journey.",
-      "lead": "CIE is Exwest’s flagship product: an AI commercial operator for businesses that research opportunities, gather requirements and prepare tailored offers under human control.",
+      "lead": "From a suitable buyer to a useful sales conversation: CIE supports research, requirements, offer preparation and follow-up. Exwest provides and configures the service; your team approves important commercial decisions.",
       "blocks": [
         {
           "title": "Research, represent, coordinate.",
@@ -101,35 +105,10 @@
         {
           "title": "Progress is more than a completed sale.",
           "body": "An outcome may be a reviewed offer, a confirmed next meeting, an agreed order subject to final terms, or a reasoned no-go. Learning means reviewing what happened and proposing improvements. Changes to pricing, authority or business rules still need the responsible person."
-        }
-      ],
-      "links": [
-        "signals",
-        "strategy",
-        "operations",
-        "control",
-        "gettingStarted",
-        "crmCommunications"
-      ],
-      "demo": null,
-      "parent": null
-    },
-    "de": {
-      "family": "product",
-      "title": "Ein KI-System für den gesamten Vertriebsablauf.",
-      "lead": "CIE ist das KI-System von Exwest für Unternehmen, die Marktchancen recherchieren, Kundenbedarf klären und passende Angebote unter Ihrer Kontrolle vorbereiten.",
-      "blocks": [
-        {
-          "title": "Recherchieren, beraten, koordinieren.",
-          "body": "Die Marktrecherche erklärt, welche Unternehmen passen könnten und warum. Die Vertriebsunterstützung ordnet Anforderungen, Angebotsentwürfe und Nachfassaktionen. Die Kundenbetreuung hält Verlauf, Zuständigkeiten und offene Entscheidungen zusammen. Diese Aufgaben greifen innerhalb eines CIE-Systems ineinander."
         },
         {
-          "title": "Ausgangspunkt ist Ihr bestehendes Geschäft.",
-          "body": "Sie bringen Produkt- oder Leistungsinformationen, Zielregionen, Kundenprofile, freigegebene Preise, typische Anfragen und zuständige Personen ein. Diese Grundlagen sollen passende Chancen von ungeeigneten Anfragen unterscheiden. Fehlende Angaben führen zu Rückfragen statt zu erfundenen Antworten."
-        },
-        {
-          "title": "Fortschritt bedeutet mehr als einen Abschluss.",
-          "body": "Ein Ergebnis kann ein geprüftes Angebot, ein vereinbarter Termin, ein Auftrag unter abschließenden Bedingungen oder eine begründete Absage sein. Lernen bedeutet, Ergebnisse auszuwerten und Verbesserungen vorzuschlagen. Preis- und Freigaberegeln ändern weiterhin die zuständigen Menschen."
+          "title": "Preparation, communication and future extensions.",
+          "body": "Research and draft preparation are agreed with Exwest. Email, calls and messaging are available only as confirmed for your service; sending also requires contact permission. Later autonomous conversations and closing are separate future extensions."
         }
       ],
       "links": [
@@ -142,12 +121,48 @@
       ],
       "demo": null,
       "parent": null,
-      "metadataLead": "CIE ist das Leitprodukt von Exwest: ein KI-System für Unternehmen, die Marktchancen recherchieren, Kundenbedarf klären und passende Angebote unter menschlicher Kontrolle vorbereiten."
+      "metadataLead": "CIE is Exwest’s flagship product: an AI commercial operator for businesses that research opportunities, gather requirements and prepare tailored offers under human control.",
+      "presentationTitle": "Find the buyer. Understand the need. Prepare the next step."
+    },
+    "de": {
+      "family": "product",
+      "title": "Ein KI-System für den gesamten Vertriebsablauf.",
+      "lead": "Vom passenden Käufer zum fundierten Vertriebsgespräch: CIE unterstützt Kundenrecherche, Bedarfsklärung, Angebotserstellung und Nachverfolgung. Exwest stellt den Service bereit und richtet ihn ein. Wichtige kaufmännische Entscheidungen bleiben bei Ihnen.",
+      "blocks": [
+        {
+          "title": "Recherchieren, beraten, koordinieren.",
+          "body": "Die Marktrecherche erklärt, welche Unternehmen passen könnten und warum. Die Vertriebsunterstützung ordnet Anforderungen, Angebotsentwürfe und Nachfassaktionen. Die Kundenbetreuung hält Verlauf, Zuständigkeiten und offene Entscheidungen zusammen. Diese Aufgaben greifen innerhalb eines CIE-Systems ineinander."
+        },
+        {
+          "title": "Ausgangspunkt ist Ihr bestehendes Geschäft.",
+          "body": "Sie bringen Produkt- oder Leistungsinformationen, Zielregionen, Kundenprofile, freigegebene Preise, typische Anfragen und zuständige Personen ein. Diese Grundlagen sollen passende Chancen von ungeeigneten Anfragen unterscheiden. Fehlende Angaben führen zu Rückfragen statt zu erfundenen Antworten."
+        },
+        {
+          "title": "Fortschritt bedeutet mehr als einen Abschluss.",
+          "body": "Ein Ergebnis kann ein geprüftes Angebot, ein vereinbarter Termin, ein Auftrag unter abschließenden Bedingungen oder eine begründete Absage sein. Lernen bedeutet, Ergebnisse auszuwerten und Verbesserungen vorzuschlagen. Preis- und Freigaberegeln ändern weiterhin die zuständigen Menschen."
+        },
+        {
+          "title": "Vorbereitung, Kommunikation und spätere Erweiterungen.",
+          "body": "Recherche und Entwurfsvorbereitung werden mit Exwest vereinbart. E-Mail, Anrufe und Nachrichten stehen nur im bestätigten Serviceumfang zur Verfügung; für den Versand ist zusätzlich eine Kontakterlaubnis nötig. Spätere autonome Gespräche und Abschlüsse sind separate Zukunftserweiterungen."
+        }
+      ],
+      "links": [
+        "signals",
+        "strategy",
+        "operations",
+        "control",
+        "gettingStarted",
+        "crmCommunications"
+      ],
+      "demo": null,
+      "parent": null,
+      "metadataLead": "CIE ist das Leitprodukt von Exwest: ein KI-System für Unternehmen, die Marktchancen recherchieren, Kundenbedarf klären und passende Angebote unter menschlicher Kontrolle vorbereiten.",
+      "presentationTitle": "Käufer finden. Bedarf verstehen. Den nächsten Schritt vorbereiten."
     },
     "tr": {
       "family": "product",
       "title": "Ticari sürecin tamamı için tek sistem.",
-      "lead": "Exwest’in geliştirdiği ana ürün CIE; fırsat araştıran, müşteri ihtiyaçlarını netleştiren ve ekibin kontrolünde müşteriye özel teklifler hazırlayan işletmeler için bir yapay zekâ çözümüdür.",
+      "lead": "Uygun alıcıdan verimli bir satış görüşmesine: CIE müşteri araştırmasını, ihtiyaçların netleştirilmesini, teklif hazırlamayı ve satış takibini destekler. Exwest hizmeti sağlar ve yapılandırır; önemli ticari kararları siz onaylarsınız.",
       "blocks": [
         {
           "title": "Araştırın, görüşün, koordine edin.",
@@ -160,6 +175,10 @@
         {
           "title": "İlerleme, yalnızca satış yapmak değildir.",
           "body": "Sonuç; incelenmiş bir teklif, kararlaştırılmış bir görüşme, son koşullara bağlı bir sipariş veya gerekçeli bir vazgeçme kararı olabilir. Öğrenme, sonuçları inceleyip iyileştirme önermektir. Fiyatları, yetkileri ve iş kurallarını değiştirme kararı sorumlu kişide kalır."
+        },
+        {
+          "title": "Hazırlık, iletişim ve sonraki genişlemeler.",
+          "body": "Araştırma ve taslak hazırlama Exwest ile belirlenir. E-posta, arama ve mesajlaşma yalnızca hizmetiniz için doğrulanan kapsamda sunulur; gönderim ayrıca iletişim izni gerektirir. İlerideki otonom görüşmeler ve satış kapatma ayrı gelecek genişlemeleridir."
         }
       ],
       "links": [
@@ -171,14 +190,16 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Exwest’in geliştirdiği ana ürün CIE; fırsat araştıran, müşteri ihtiyaçlarını netleştiren ve ekibin kontrolünde müşteriye özel teklifler hazırlayan işletmeler için bir yapay zekâ çözümüdür.",
+      "presentationTitle": "Alıcıyı bulun. İhtiyacı anlayın. Sonraki adımı hazırlayın."
     }
   },
   "signals": {
     "en": {
       "family": "capability",
       "title": "Know which opportunity deserves attention.",
-      "lead": "Commercial Signal Intelligence connects a relevant company or project with a reason to investigate. It is designed to show fit, sources and unanswered questions before sales effort begins.",
+      "lead": "CIE finds businesses your offering could suit, and shows you why.",
       "blocks": [
         {
           "title": "A list of names is not a sales opportunity.",
@@ -199,12 +220,14 @@
         "articleSignals"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Commercial Signal Intelligence connects a relevant company or project with a reason to investigate. It is designed to show fit, sources and unanswered questions before sales effort begins.",
+      "presentationTitle": "Discover buyers who fit."
     },
     "de": {
       "family": "capability",
       "title": "Erkennen Sie, welche Marktchance Aufmerksamkeit verdient.",
-      "lead": "Commercial Signal Intelligence soll Unternehmen und Projekte mit einem nachvollziehbaren Anlass verbinden. Passung, Quellen und offene Fragen stehen vor dem ersten Vertriebsaufwand.",
+      "lead": "CIE findet Unternehmen, zu denen Ihr Angebot passen könnte, und zeigt Ihnen warum.",
       "blocks": [
         {
           "title": "Eine Namensliste ist noch keine Verkaufschance.",
@@ -225,12 +248,14 @@
         "articleSignals"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Commercial Signal Intelligence soll Unternehmen und Projekte mit einem nachvollziehbaren Anlass verbinden. Passung, Quellen und offene Fragen stehen vor dem ersten Vertriebsaufwand.",
+      "presentationTitle": "Passende Käufer entdecken."
     },
     "tr": {
       "family": "capability",
       "title": "Hangi fırsatın ilgiyi hak ettiğini görün.",
-      "lead": "Commercial Signal Intelligence, bir şirketi veya projeyi araştırmak için somut bir gerekçe sunmayı amaçlar. Satış çalışmasına başlamadan önce uygunluk, kaynaklar ve açık sorular görünür olur.",
+      "lead": "CIE teklifinize uygun olabilecek şirketleri bulur ve neden uygun olduklarını gösterir.",
       "blocks": [
         {
           "title": "İsim listesi, satış fırsatı değildir.",
@@ -251,14 +276,16 @@
         "articleSignals"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Commercial Signal Intelligence, bir şirketi veya projeyi araştırmak için somut bir gerekçe sunmayı amaçlar. Satış çalışmasına başlamadan önce uygunluk, kaynaklar ve açık sorular görünür olur.",
+      "presentationTitle": "Uygun alıcıları keşfedin."
     }
   },
   "strategy": {
     "en": {
       "family": "capability",
       "title": "Your products. Your rules. Your direction.",
-      "lead": "Commercial Strategy is the business context that guides CIE: what you sell, where you operate, who fits and which prices or commitments need approval.",
+      "lead": "Your products, target markets and approved prices guide buyer selection and offer preparation. Exceptions come back to the person responsible.",
       "blocks": [
         {
           "title": "Replace implicit knowledge with clear boundaries.",
@@ -270,7 +297,7 @@
         },
         {
           "title": "Keep changes deliberate.",
-          "body": "New customer information can change an opportunity without silently changing your business policy. Review proposed improvements against products, prices and responsibilities. Configuration and rule changes are agreed with the person who owns the decision."
+          "body": "Your review receives the product, approved price basis and the exception that needs a decision. Updating a buyer requirement does not change your selling rules; you approve those changes."
         }
       ],
       "links": [
@@ -279,12 +306,13 @@
         "pricing"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Commercial Strategy is the business context that guides CIE: what you sell, where you operate, who fits and which prices or commitments need approval."
     },
     "de": {
       "family": "capability",
       "title": "Ihre Produkte. Ihre Regeln. Ihre Richtung.",
-      "lead": "Commercial Strategy gibt CIE den geschäftlichen Rahmen: Ihr Angebot, Ihre Regionen, passende Kunden und die Preis- oder Zusagegrenzen, die eine Freigabe erfordern.",
+      "lead": "Ihre Produkte, Zielmärkte und freigegebenen Preise bestimmen die Käuferauswahl und Angebotserstellung. Bei Ausnahmen entscheidet die zuständige Person.",
       "blocks": [
         {
           "title": "Machen Sie Erfahrungswissen zu klaren Leitplanken.",
@@ -296,7 +324,7 @@
         },
         {
           "title": "Änderungen bleiben bewusste Entscheidungen.",
-          "body": "Neue Kundeninformationen können eine Verkaufschance verändern, ohne Ihre Geschäftsregeln stillschweigend anzupassen. Prüfen Sie Verbesserungen anhand von Produkten, Preisen und Zuständigkeiten. Konfiguration und Regeländerungen werden mit den Verantwortlichen abgestimmt."
+          "body": "Zur Prüfung liegen Produkt, freigegebene Preisgrundlage und die zu entscheidende Ausnahme vor. Ein geänderter Käuferbedarf ändert nicht Ihre Vertriebsregeln; solche Änderungen geben Sie frei."
         }
       ],
       "links": [
@@ -305,12 +333,13 @@
         "pricing"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Commercial Strategy gibt CIE den geschäftlichen Rahmen: Ihr Angebot, Ihre Regionen, passende Kunden und die Preis- oder Zusagegrenzen, die eine Freigabe erfordern."
     },
     "tr": {
       "family": "capability",
       "title": "Ürünleriniz. Kurallarınız. Sizin yönünüz.",
-      "lead": "Commercial Strategy; ne sattığınızı, hangi bölgelerde çalıştığınızı, uygun müşteri profilini ve onay gerektiren fiyat ya da taahhütleri CIE’ye yön veren iş kurallarında birleştirir.",
+      "lead": "Ürünleriniz, hedef pazarlarınız ve onaylı fiyatlarınız alıcı seçimine ve teklif hazırlamaya yön verir. İstisnalar karar sorumlusuna iletilir.",
       "blocks": [
         {
           "title": "Deneyimi açık iş kurallarına dönüştürün.",
@@ -322,7 +351,7 @@
         },
         {
           "title": "Kurallar bilinçli olarak değiştirilir.",
-          "body": "Yeni müşteri bilgisi fırsatı değiştirebilir; işletme politikanızı kendiliğinden değiştirmemelidir. Önerilen iyileştirmeleri ürünler, fiyatlar ve sorumluluklarla birlikte değerlendirin. Yapılandırma ve kural değişiklikleri karar sahibiyle kararlaştırılır."
+          "body": "İncelemeniz için ürün, onaylı fiyat dayanağı ve karar gerektiren istisna sunulur. Alıcının değişen ihtiyacı satış kurallarınızı değiştirmez; bu değişiklikleri siz onaylarsınız."
         }
       ],
       "links": [
@@ -331,14 +360,15 @@
         "pricing"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Commercial Strategy; ne sattığınızı, hangi bölgelerde çalıştığınızı, uygun müşteri profilini ve onay gerektiren fiyat ya da taahhütleri CIE’ye yön veren iş kurallarında birleştirir."
     }
   },
   "operations": {
     "en": {
       "family": "capability",
       "title": "Move from an enquiry to a useful next step.",
-      "lead": "Sales Operations is designed to coordinate requirements, conversations, offer drafts and follow-up with the same commercial context throughout.",
+      "lead": "Turn an enquiry into understood requirements, an offer draft and a clear follow-up. Keep each customer reply connected to the next commercial step.",
       "blocks": [
         {
           "title": "First understand the request.",
@@ -360,12 +390,13 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Sales Operations is designed to coordinate requirements, conversations, offer drafts and follow-up with the same commercial context throughout."
     },
     "de": {
       "family": "capability",
       "title": "Von der Anfrage zum sinnvollen nächsten Schritt.",
-      "lead": "Sales Operations soll Anforderungen, Gespräche, Angebotsentwürfe und Nachfassaktionen mit durchgängigen Kundeninformationen koordinieren.",
+      "lead": "Aus einer Anfrage werden geklärte Anforderungen, ein Angebotsentwurf und ein konkreter nächster Schritt. Jede Kundenantwort bleibt mit der weiteren Bearbeitung verbunden.",
       "blocks": [
         {
           "title": "Zuerst den Bedarf verstehen.",
@@ -387,12 +418,13 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Sales Operations soll Anforderungen, Gespräche, Angebotsentwürfe und Nachfassaktionen mit durchgängigen Kundeninformationen koordinieren."
     },
     "tr": {
       "family": "capability",
       "title": "Bir talepten anlamlı bir sonraki adıma.",
-      "lead": "Sales Operations; ihtiyaçları, görüşmeleri, teklif taslaklarını ve takibi aynı müşteri bilgileriyle yürütmek için tasarlanıyor.",
+      "lead": "Bir talebi net ihtiyaçlara, teklif taslağına ve somut bir sonraki adıma dönüştürün. Her müşteri yanıtı satış sürecindeki ilgili adıma bağlı kalsın.",
       "blocks": [
         {
           "title": "Önce ihtiyacı anlayın.",
@@ -414,14 +446,15 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "Sales Operations; ihtiyaçları, görüşmeleri, teklif taslaklarını ve takibi aynı müşteri bilgileriyle yürütmek için tasarlanıyor."
     }
   },
   "control": {
     "en": {
       "family": "capability",
       "title": "See the context. Own the decision.",
-      "lead": "CRM & Human Control is designed to keep opportunities, customer history, ownership and decisions together so a person can intervene with context.",
+      "lead": "Receive the buyer information, current offer, open questions and decision together. Your responsible person can approve, revise or stop the next step.",
       "blocks": [
         {
           "title": "Review the whole opportunity.",
@@ -443,12 +476,13 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "CRM & Human Control is designed to keep opportunities, customer history, ownership and decisions together so a person can intervene with context."
     },
     "de": {
       "family": "capability",
       "title": "Den Überblick behalten. Die Entscheidung treffen.",
-      "lead": "CRM & Human Control soll Verkaufschancen, Kundenverlauf, Zuständigkeiten und Entscheidungen zusammenhalten, damit Ihr Team informiert eingreifen kann.",
+      "lead": "Käuferinformationen, aktuelles Angebot, offene Fragen und anstehende Entscheidung liegen zusammen vor. Die zuständige Person kann den nächsten Schritt freigeben, ändern oder stoppen.",
       "blocks": [
         {
           "title": "Die gesamte Verkaufschance prüfen.",
@@ -470,12 +504,13 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "CRM & Human Control soll Verkaufschancen, Kundenverlauf, Zuständigkeiten und Entscheidungen zusammenhalten, damit Ihr Team informiert eingreifen kann."
     },
     "tr": {
       "family": "capability",
       "title": "Bilgiyi görün. Karar sizde kalsın.",
-      "lead": "CRM & Human Control; fırsatları, müşteri geçmişini, sorumluları ve kararları bir arada tutarak ekibinizin gerekli bilgilerle müdahale etmesini amaçlar.",
+      "lead": "Alıcı bilgilerini, güncel teklifi, açık soruları ve bekleyen kararı birlikte görün. Sorumlu kişi sonraki adımı onaylayabilir, değiştirebilir veya durdurabilir.",
       "blocks": [
         {
           "title": "Fırsatın tamamını inceleyin.",
@@ -497,14 +532,15 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": "cie"
+      "parent": "cie",
+      "metadataLead": "CRM & Human Control; fırsatları, müşteri geçmişini, sorumluları ve kararları bir arada tutarak ekibinizin gerekli bilgilerle müdahale etmesini amaçlar."
     }
   },
   "platform": {
     "en": {
       "family": "platform",
       "title": "Your business information becomes a working context.",
-      "lead": "CIE’s platform connects products, signals, conversations, rules and human decisions. It is built around the owner’s commercial work, not around a collection of disconnected assistants.",
+      "lead": "Keep buyer research, customer replies, products, prices and approvals connected. See why an opportunity matters and what should happen next.",
       "blocks": [
         {
           "title": "Five inputs, one connected opportunity.",
@@ -516,7 +552,7 @@
         },
         {
           "title": "Adaptation with a responsible owner.",
-          "body": "Configure product knowledge, regions, languages, qualification criteria and approval rules for each business. Review outcomes to propose improvements. A changed customer requirement updates a workflow; changing the underlying business policy still requires approval."
+          "body": "For each opportunity, you should receive a clear buyer brief, the latest requirements, a prepared approach or offer and the next action. Exwest agrees which of these activities your service supports, and your responsible person reviews commitments."
         }
       ],
       "links": [
@@ -526,12 +562,13 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "CIE’s platform connects products, signals, conversations, rules and human decisions. It is built around the owner’s commercial work, not around a collection of disconnected assistants."
     },
     "de": {
       "family": "platform",
       "title": "Ihr Geschäft. Ein gemeinsamer Arbeitsrahmen.",
-      "lead": "Die vorgesehene Plattform verbindet Produkte, Marktsignale, Gespräche, Regeln und menschliche Entscheidungen. Im Mittelpunkt steht Ihre Vertriebsarbeit statt einer Sammlung einzelner Assistenten.",
+      "lead": "Kundenrecherche, Antworten, Produkte, Preise und Freigaben bleiben verbunden. Sie sehen, warum eine Verkaufschance relevant ist und was als Nächstes ansteht.",
       "blocks": [
         {
           "title": "Fünf Grundlagen, eine zusammenhängende Verkaufschance.",
@@ -543,7 +580,7 @@
         },
         {
           "title": "Anpassung mit klarer Verantwortung.",
-          "body": "Produktwissen, Regionen, Sprachen, Auswahlkriterien und Freigaberegeln sollen je Unternehmen eingerichtet werden. Ergebnisse liefern Verbesserungsvorschläge. Eine neue Kundenanforderung ändert den Ablauf; eine neue Geschäftsregel benötigt weiterhin eine Freigabe."
+          "body": "Für jede Verkaufschance sollen Käuferübersicht, aktuelle Anforderungen, vorbereitete Ansprache oder Angebot und nächste Aufgabe zusammen vorliegen. Exwest vereinbart die unterstützten Leistungen; Zusagen prüft die zuständige Person."
         }
       ],
       "links": [
@@ -553,12 +590,13 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Die vorgesehene Plattform verbindet Produkte, Marktsignale, Gespräche, Regeln und menschliche Entscheidungen. Im Mittelpunkt steht Ihre Vertriebsarbeit statt einer Sammlung einzelner Assistenten."
     },
     "tr": {
       "family": "platform",
       "title": "İşletmenizin bilgileri çalışma temelini oluşturur.",
-      "lead": "CIE’nin hedeflenen platformu; ürünleri, pazar sinyallerini, görüşmeleri, iş kurallarını ve insan kararlarını birleştirir. Amaç, birbirinden kopuk asistanlar değil, işletmenin ticari sürecidir.",
+      "lead": "Alıcı araştırması, müşteri yanıtları, ürünler, fiyatlar ve onaylar bir arada kalır. Fırsatın neden önemli olduğunu ve sonraki adımı görün.",
       "blocks": [
         {
           "title": "Beş bilgi kaynağı, bağlantılı bir fırsat.",
@@ -570,7 +608,7 @@
         },
         {
           "title": "Sorumlusu belli bir uyarlama.",
-          "body": "Ürün bilgisi, bölgeler, diller, değerlendirme ölçütleri ve onay kuralları işletmeye göre belirlenir. Sonuçlar iyileştirme önerilerine temel olur. Müşterinin değişen ihtiyacı iş akışını etkiler; temel iş kuralını değiştirmek ayrıca onay gerektirir."
+          "body": "Her fırsat için alıcı özeti, güncel ihtiyaçlar, hazırlanmış ileti veya teklif ve sonraki adım bir arada sunulmalıdır. Exwest desteklenen faaliyetleri sizinle belirler; taahhütleri sorumlu kişi inceler."
         }
       ],
       "links": [
@@ -580,14 +618,15 @@
         "crmCommunications"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "CIE’nin hedeflenen platformu; ürünleri, pazar sinyallerini, görüşmeleri, iş kurallarını ve insan kararlarını birleştirir. Amaç, birbirinden kopuk asistanlar değil, işletmenin ticari sürecidir."
     }
   },
   "integrations": {
     "en": {
       "family": "platform",
       "title": "Connect the information your business needs.",
-      "lead": "CRM, REST, webhooks and MCP are planned integration approaches. Start with your business purpose, data ownership and the actions that need human review.",
+      "lead": "Discuss where your customer and product information is held and what needs to connect. Connections are assessed for your systems; ready-made compatibility is not assumed.",
       "blocks": [
         {
           "title": "Customer context first",
@@ -599,7 +638,7 @@
         },
         {
           "title": "Agree permissions and decisions",
-          "body": "Confirm the source of record, required fields, authorized people and actions that need approval. Reading information, drafting a quotation and changing a customer record are different permissions. The handbook helps prepare an integration discussion."
+          "body": "The first deliverable is a connection scope: which information is needed, where it comes from and who may approve an update. Exwest assesses your systems and quotes custom work separately. Planned connections are not ready-made package inclusions."
         }
       ],
       "links": [
@@ -607,12 +646,13 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": "platform"
+      "parent": "platform",
+      "metadataLead": "CRM, REST, webhooks and MCP are planned integration approaches. Start with your business purpose, data ownership and the actions that need human review."
     },
     "de": {
       "family": "platform",
       "title": "Die Informationen verbinden, die Ihr Geschäft braucht.",
-      "lead": "CRM, REST, Webhooks und MCP sind geplante Anbindungskonzepte. Beginnen Sie mit Geschäftszweck, Datenverantwortung und den Aktionen, die menschliche Prüfung brauchen.",
+      "lead": "Klären Sie, wo Ihre Kunden- und Produktinformationen liegen und welche Anbindung nötig ist. Verbindungen werden für Ihre Systeme geprüft; fertige Kompatibilität wird nicht vorausgesetzt.",
       "blocks": [
         {
           "title": "Kundeninformationen zuerst",
@@ -624,7 +664,7 @@
         },
         {
           "title": "Berechtigungen und Entscheidungen abstimmen",
-          "body": "Klären Sie führendes System, benötigte Felder, berechtigte Personen und freigabepflichtige Aktionen. Informationen lesen, ein Angebot entwerfen und einen Kundendatensatz ändern sind unterschiedliche Rechte. Das Handbuch hilft bei der Vorbereitung."
+          "body": "Zuerst entsteht ein Anbindungsumfang: welche Informationen nötig sind, woher sie kommen und wer Änderungen freigibt. Exwest prüft Ihre Systeme und bietet individuelle Arbeiten separat an. Geplante Verbindungen sind keine fertigen Paketbestandteile."
         }
       ],
       "links": [
@@ -632,12 +672,13 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": "platform"
+      "parent": "platform",
+      "metadataLead": "CRM, REST, Webhooks und MCP sind geplante Anbindungskonzepte. Beginnen Sie mit Geschäftszweck, Datenverantwortung und den Aktionen, die menschliche Prüfung brauchen."
     },
     "tr": {
       "family": "platform",
       "title": "İşletmenizin ihtiyaç duyduğu bilgileri bağlayın.",
-      "lead": "CRM, REST, webhook ve MCP planlanan entegrasyon yaklaşımlarıdır. Önce iş amacını, veri sorumluluğunu ve insan incelemesi gereken işlemleri belirleyin.",
+      "lead": "Müşteri ve ürün bilgilerinizin nerede tutulduğunu, hangi bağlantıya ihtiyaç duyduğunuzu belirleyin. Bağlantılar sistemlerinize göre değerlendirilir; hazır uyumluluk varsayılmaz.",
       "blocks": [
         {
           "title": "Önce müşteri bağlamı",
@@ -649,7 +690,7 @@
         },
         {
           "title": "İzinleri ve kararları belirleyin",
-          "body": "Esas alınan sistemi, gerekli alanları, yetkili kişileri ve onay gerektiren işlemleri belirleyin. Bilgi okumak, teklif taslağı hazırlamak ve müşteri kaydını değiştirmek farklı yetkilerdir. İş rehberi entegrasyon görüşmesine hazırlanmanıza yardımcı olur."
+          "body": "İlk çıktı bağlantı kapsamıdır: hangi bilgi gerekli, nereden alınacak ve güncellemeyi kim onaylayacak? Exwest sistemlerinizi değerlendirir ve özel çalışmayı ayrıca fiyatlandırır. Planlanan bağlantılar hazır paket içeriği değildir."
         }
       ],
       "links": [
@@ -657,18 +698,19 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": "platform"
+      "parent": "platform",
+      "metadataLead": "CRM, REST, webhook ve MCP planlanan entegrasyon yaklaşımlarıdır. Önce iş amacını, veri sorumluluğunu ve insan incelemesi gereken işlemleri belirleyin."
     }
   },
   "solutions": {
     "en": {
       "family": "index",
       "title": "Start with the work you need to move forward.",
-      "lead": "Different businesses need different commercial workflows. Explore enquiry handling, RFQ coordination, buyer discovery and follow-up within the same CIE system.",
+      "lead": "Find new buyers, turn enquiries into offers or coordinate supplier responses. Choose the business problem first, then agree the service and decisions with Exwest.",
       "blocks": [
         {
           "title": "Choose a workflow, then define fit.",
-          "body": "A configured workflow needs a repeatable problem, reliable business information and someone who owns the decisions. Choose the commercial work to improve, then agree its inputs, channels and approval rules with Exwest."
+          "body": "Choose the result you need: a suitable-buyer shortlist, a clearer customer enquiry, comparable supplier offers or a prepared sales conversation. Bring one example. Exwest defines the workflow, customer information and approval steps with you before you choose a package."
         }
       ],
       "links": [
@@ -681,16 +723,17 @@
         "ecommerce"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Different businesses need different commercial workflows. Explore enquiry handling, RFQ coordination, buyer discovery and follow-up within the same CIE system."
     },
     "de": {
       "family": "index",
       "title": "Beginnen Sie mit Ihrer konkreten Aufgabe.",
-      "lead": "Unternehmen brauchen unterschiedliche Vertriebsabläufe. Entdecken Sie Anfragebearbeitung, Angebotskoordination, Käuferrecherche und Nachfassen innerhalb des vorgesehenen CIE-Systems.",
+      "lead": "Neue Käufer finden, Anfragen zu Angeboten entwickeln oder Lieferantenantworten koordinieren: Wählen Sie zuerst die Vertriebsaufgabe. Danach vereinbaren Sie Service und Entscheidungsregeln mit Exwest.",
       "blocks": [
         {
           "title": "Erst den Ablauf wählen, dann die Passung klären.",
-          "body": "Ein sinnvoller Ablauf braucht ein wiederkehrendes Problem, verlässliche Geschäftsinformationen und klare Zuständigkeiten. Wählen Sie die Aufgabe, die Sie verbessern möchten, und stimmen Sie Informationen, Kanäle und Freigaben mit Exwest ab."
+          "body": "Wählen Sie Ihr gewünschtes Ergebnis: eine Liste passender Käufer, eine geklärte Anfrage, vergleichbare Lieferantenangebote oder ein vorbereitetes Vertriebsgespräch. Bringen Sie ein Beispiel mit. Exwest legt Ablauf, Kundeninformationen und Freigaben mit Ihnen fest, bevor Sie ein Paket wählen."
         }
       ],
       "links": [
@@ -703,16 +746,17 @@
         "ecommerce"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Unternehmen brauchen unterschiedliche Vertriebsabläufe. Entdecken Sie Anfragebearbeitung, Angebotskoordination, Käuferrecherche und Nachfassen innerhalb des vorgesehenen CIE-Systems."
     },
     "tr": {
       "family": "index",
       "title": "İlerletmek istediğiniz işten başlayın.",
-      "lead": "Her işletmenin ticari süreci farklıdır. Aynı CIE sistemi içinde müşteri taleplerini, teklif koordinasyonunu, alıcı araştırmasını ve takibi inceleyin.",
+      "lead": "Yeni alıcılar bulun, talepleri tekliflere dönüştürün veya tedarikçi yanıtlarını karşılaştırın. Önce iş ihtiyacını seçin, ardından hizmet kapsamını ve kararları Exwest ile belirleyin.",
       "blocks": [
         {
           "title": "Önce süreci seçin, ardından uygunluğu belirleyin.",
-          "body": "Yapılandırılmış bir süreç, tekrar eden bir ihtiyaç, güvenilir işletme bilgisi ve karar sorumlusu gerektirir. İyileştirmek istediğiniz işi seçin; ardından girdileri, kanalları ve onay kurallarını Exwest ile belirleyin."
+          "body": "İhtiyacınız olan çıktıyı seçin: uygun alıcı listesi, netleşmiş müşteri talebi, karşılaştırılabilir tedarikçi teklifleri veya hazırlanmış satış görüşmesi. Bir örnekle başlayın. Paket seçmeden önce Exwest süreci, müşteri bilgilerini ve onay adımlarını sizinle belirler."
         }
       ],
       "links": [
@@ -725,14 +769,15 @@
         "ecommerce"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Her işletmenin ticari süreci farklıdır. Aynı CIE sistemi içinde müşteri taleplerini, teklif koordinasyonunu, alıcı araştırmasını ve takibi inceleyin."
     }
   },
   "productEnquiries": {
     "en": {
       "family": "solution",
       "title": "Turn a product enquiry into a reviewable offer.",
-      "lead": "For manufacturers, distributors and configurable-product businesses whose enquiries need scope, options and delivery checks.",
+      "lead": "Help a potential customer move from an initial product request to an offer worth discussing. Clarify quantity, use, delivery and missing details before asking for a decision.",
       "blocks": [
         {
           "title": "What your company provides",
@@ -753,12 +798,13 @@
         "modular"
       ],
       "demo": "modular",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "For manufacturers, distributors and configurable-product businesses whose enquiries need scope, options and delivery checks."
     },
     "de": {
       "family": "solution",
       "title": "Aus einer Produktanfrage wird ein prüfbares Angebot.",
-      "lead": "Für Hersteller, Händler und Unternehmen mit konfigurierbaren Produkten, deren Anfragen Umfang, Optionen und Lieferprüfung erfordern.",
+      "lead": "Begleiten Sie Interessenten von der ersten Produktanfrage zu einem besprechbaren Angebot. Klären Sie Menge, Nutzung, Lieferung und fehlende Angaben, bevor eine Entscheidung ansteht.",
       "blocks": [
         {
           "title": "Was Ihr Unternehmen bereitstellt",
@@ -779,12 +825,13 @@
         "modular"
       ],
       "demo": "modular",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Für Hersteller, Händler und Unternehmen mit konfigurierbaren Produkten, deren Anfragen Umfang, Optionen und Lieferprüfung erfordern."
     },
     "tr": {
       "family": "solution",
       "title": "Ürün talebinden incelenebilir bir teklife.",
-      "lead": "Kapsam, seçenek ve teslim koşullarını netleştirmesi gereken üreticiler, distribütörler ve yapılandırılabilir ürün satan işletmeler için.",
+      "lead": "Potansiyel müşteriyi ilk ürün talebinden görüşülebilecek bir teklife taşıyın. Karar öncesinde miktarı, kullanım amacını, teslimatı ve eksik bilgileri netleştirin.",
       "blocks": [
         {
           "title": "İşletmenizin sağlayacağı bilgiler",
@@ -805,14 +852,15 @@
         "modular"
       ],
       "demo": "modular",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Kapsam, seçenek ve teslim koşullarını netleştirmesi gereken üreticiler, distribütörler ve yapılandırılabilir ürün satan işletmeler için."
     }
   },
   "rfq": {
     "en": {
       "family": "solution",
       "title": "Coordinate requests and compare like with like.",
-      "lead": "For logistics, sourcing and supplier/service teams that need comparable responses to a request for quotation (RFQ).",
+      "lead": "A clear request gets more useful supplier responses. CIE supports requirements, comparable quotations and follow-up so your coordinator can choose the next step.",
       "blocks": [
         {
           "title": "What your company provides",
@@ -824,7 +872,7 @@
         },
         {
           "title": "The decision and intended outcome",
-          "body": "People decide which response is acceptable and approve the commercial offer. CIE coordination should expose missing evidence rather than certify suppliers, aircraft parts or delivery performance."
+          "body": "You receive supplier responses compared on the same requirement, with timing, exclusions and unanswered questions visible. Your coordinator chooses the supplier and approves the quotation. Technical suitability and delivery commitments remain subject to the responsible people’s checks."
         }
       ],
       "links": [
@@ -833,12 +881,13 @@
         "tasgo"
       ],
       "demo": "tasgo",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "For logistics, sourcing and supplier/service teams that need comparable responses to a request for quotation (RFQ)."
     },
     "de": {
       "family": "solution",
       "title": "Anfragen koordinieren. Angebote fair vergleichen.",
-      "lead": "Für Logistik-, Beschaffungs- und Dienstleistungsteams, die vergleichbare Antworten auf eine Angebotsanfrage benötigen.",
+      "lead": "Eine klare Angebotsanfrage führt zu besser vergleichbaren Lieferantenantworten. CIE unterstützt Bedarfsklärung, Angebotsvergleich und Nachverfolgung, damit Ihre Koordination den nächsten Schritt wählen kann.",
       "blocks": [
         {
           "title": "Was Ihr Unternehmen bereitstellt",
@@ -850,7 +899,7 @@
         },
         {
           "title": "Entscheidung und vorgesehenes Ergebnis",
-          "body": "Menschen wählen eine geeignete Antwort und geben das kommerzielle Angebot frei. Die Koordination soll fehlende Nachweise sichtbar machen, nicht Lieferanten, Flugzeugteile oder Lieferleistungen zertifizieren."
+          "body": "Sie erhalten Lieferantenantworten auf derselben Anforderungsgrundlage, mit sichtbaren Terminen, Ausschlüssen und offenen Fragen. Ihre Koordination wählt den Anbieter und gibt das Angebot frei. Technische Eignung und Lieferzusagen bleiben Gegenstand der verantwortlichen Prüfung."
         }
       ],
       "links": [
@@ -859,12 +908,13 @@
         "tasgo"
       ],
       "demo": "tasgo",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Für Logistik-, Beschaffungs- und Dienstleistungsteams, die vergleichbare Antworten auf eine Angebotsanfrage benötigen."
     },
     "tr": {
       "family": "solution",
       "title": "Talepleri koordine edin. Teklifleri aynı temelde karşılaştırın.",
-      "lead": "Bir teklif talebine, yani RFQ’ya, karşılaştırılabilir yanıtlar toplaması gereken lojistik, tedarik ve hizmet ekipleri için.",
+      "lead": "Net bir teklif talebi daha anlamlı tedarikçi yanıtları sağlar. CIE ihtiyaçları, karşılaştırılabilir teklifleri ve takibi destekler; sonraki adımı koordinatörünüz seçer.",
       "blocks": [
         {
           "title": "İşletmenizin sağlayacağı bilgiler",
@@ -876,7 +926,7 @@
         },
         {
           "title": "Karar ve hedeflenen sonuç",
-          "body": "Uygun yanıtı kişiler seçer ve ticari teklifi onaylar. CIE’nin koordinasyonu, eksik bilgiyi göstermek içindir; tedarikçiyi, uçak parçasını veya teslim performansını belgelendirmek için değil."
+          "body": "Aynı ihtiyaç temelinde karşılaştırılan tedarikçi yanıtlarını; süreler, kapsam dışı işler ve açık sorularla birlikte alırsınız. Koordinatörünüz sağlayıcıyı seçer ve teklifi onaylar. Teknik uygunluk ve teslim taahhütleri sorumluların incelemesine bağlıdır."
         }
       ],
       "links": [
@@ -885,14 +935,15 @@
         "tasgo"
       ],
       "demo": "tasgo",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Bir teklif talebine, yani RFQ’ya, karşılaştırılabilir yanıtlar toplaması gereken lojistik, tedarik ve hizmet ekipleri için."
     }
   },
   "tenders": {
     "en": {
       "family": "solution",
       "title": "Discover opportunities. Decide whether to bid.",
-      "lead": "For businesses researching institutional buyers, municipalities and international tenders with strict requirements and deadlines.",
+      "lead": "Find relevant buyers and public purchasing opportunities, then assess product fit, deadlines and eligibility questions before deciding whether to pursue them.",
       "blocks": [
         {
           "title": "What your company provides",
@@ -904,7 +955,7 @@
         },
         {
           "title": "The decision and intended outcome",
-          "body": "A person makes the bid/no-bid decision after checking eligibility, capacity and terms. The intended result is a reasoned shortlist and a review packet. No tender submission or eligibility guarantee is implied."
+          "body": "You receive a shortlist with source, deadline, quantity, delivery requirements and eligibility questions. Your responsible person checks capacity and decides whether to bid. Research does not establish eligibility or submit an offer."
         }
       ],
       "links": [
@@ -913,12 +964,13 @@
         "canceviz"
       ],
       "demo": "canceviz",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "For businesses researching institutional buyers, municipalities and international tenders with strict requirements and deadlines."
     },
     "de": {
       "family": "solution",
       "title": "Chancen entdecken. Über ein Angebot entscheiden.",
-      "lead": "Für Unternehmen, die institutionelle Käufer, Kommunen und internationale Ausschreibungen mit konkreten Bedingungen und Fristen recherchieren.",
+      "lead": "Finden Sie passende Käufer und öffentliche Beschaffungsvorhaben. Prüfen Sie Produktpassung, Fristen und Eignungsfragen, bevor Sie über die Weiterverfolgung entscheiden.",
       "blocks": [
         {
           "title": "Was Ihr Unternehmen bereitstellt",
@@ -930,7 +982,7 @@
         },
         {
           "title": "Entscheidung und vorgesehenes Ergebnis",
-          "body": "Eine Person entscheidet nach Prüfung von Eignung, Kapazität und Bedingungen über ein Angebot. Ziel sind eine begründete Auswahl und Entscheidungsunterlagen. Weder automatische Einreichung noch eine Eignungsgarantie werden zugesagt."
+          "body": "Sie erhalten eine Auswahlliste mit Quelle, Frist, Menge, Lieferanforderungen und Eignungsfragen. Die zuständige Person prüft Kapazität und entscheidet über die Teilnahme. Recherche bestätigt keine Eignung und reicht kein Angebot ein."
         }
       ],
       "links": [
@@ -939,12 +991,13 @@
         "canceviz"
       ],
       "demo": "canceviz",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Für Unternehmen, die institutionelle Käufer, Kommunen und internationale Ausschreibungen mit konkreten Bedingungen und Fristen recherchieren."
     },
     "tr": {
       "family": "solution",
       "title": "Fırsatları keşfedin. Teklif verip vermemeye karar verin.",
-      "lead": "Şartları ve son tarihleri olan uluslararası ihaleleri, belediyeleri ve kurumsal alıcıları araştıran işletmeler için.",
+      "lead": "Uygun alıcıları ve kamu alım fırsatlarını bulun. Devam kararı öncesinde ürün uygunluğunu, son tarihleri ve yeterlilik sorularını değerlendirin.",
       "blocks": [
         {
           "title": "İşletmenizin sağlayacağı bilgiler",
@@ -956,7 +1009,7 @@
         },
         {
           "title": "Karar ve hedeflenen sonuç",
-          "body": "Uygunluk, kapasite ve koşullar incelendikten sonra teklif verip vermeme kararını bir kişi alır. Amaç, gerekçeli kısa liste ve karar özeti hazırlamaktır. Otomatik ihale başvurusu veya uygunluk garantisi verilmez."
+          "body": "Kaynak, son tarih, miktar, teslim koşulları ve yeterlilik sorularını içeren kısa liste alırsınız. Sorumlu kişi kapasiteyi inceler ve teklif verip vermemeye karar verir. Araştırma yeterliliği doğrulamaz veya teklif sunmaz."
         }
       ],
       "links": [
@@ -965,14 +1018,15 @@
         "canceviz"
       ],
       "demo": "canceviz",
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Şartları ve son tarihleri olan uluslararası ihaleleri, belediyeleri ve kurumsal alıcıları araştıran işletmeler için."
     }
   },
   "serviceEnquiries": {
     "en": {
       "family": "solution",
       "title": "Keep a service conversation moving.",
-      "lead": "For consultancies and service businesses whose enquiries need clarification, scheduling context and a responsible handoff.",
+      "lead": "Understand what a prospective client needs and prepare a useful conversation with the right person. Service commitments and specialist decisions stay with your team.",
       "blocks": [
         {
           "title": "What your company provides",
@@ -984,7 +1038,7 @@
         },
         {
           "title": "The decision and intended outcome",
-          "body": "The owner reviews commitments and passes specialist questions to qualified professionals. For Rgnetic, the proposed CIE context is commercial enquiry coordination; clinical assessment and treatment decisions stay with healthcare professionals."
+          "body": "You receive the prospective client’s need, suitable service, unanswered questions and a proposed next conversation. Your team approves commitments and assigns specialist questions to qualified people. For Rgnetic, this concerns commercial enquiries; clinical decisions remain with healthcare professionals."
         }
       ],
       "links": [
@@ -994,12 +1048,13 @@
         "modular"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "For consultancies and service businesses whose enquiries need clarification, scheduling context and a responsible handoff."
     },
     "de": {
       "family": "solution",
       "title": "Serviceanfragen gezielt weiterführen.",
-      "lead": "Für Beratungs- und Dienstleistungsunternehmen, deren Anfragen Klärung, Terminabstimmung und eine eindeutige Übergabe brauchen.",
+      "lead": "Verstehen Sie den Bedarf eines Interessenten und bereiten Sie ein fundiertes Gespräch mit der richtigen Person vor. Leistungszusagen und fachliche Entscheidungen bleiben bei Ihrem Team.",
       "blocks": [
         {
           "title": "Was Ihr Unternehmen bereitstellt",
@@ -1011,7 +1066,7 @@
         },
         {
           "title": "Entscheidung und vorgesehenes Ergebnis",
-          "body": "Verbindliche Zusagen prüft die verantwortliche Person; Fachfragen gehen an qualifizierte Fachleute. Bei Rgnetic ist der vorgeschlagene CIE-Kontext die kommerzielle Anfragekoordination. Medizinische Beurteilung und Behandlung bleiben bei Gesundheitsfachkräften."
+          "body": "Sie erhalten Bedarf, passende Leistung, offene Fragen und einen Vorschlag für das nächste Gespräch. Ihr Team gibt Zusagen frei und übergibt Fachfragen an qualifizierte Personen. Bei Rgnetic geht es um kommerzielle Anfragen; medizinische Entscheidungen bleiben beim Fachpersonal."
         }
       ],
       "links": [
@@ -1021,12 +1076,13 @@
         "modular"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Für Beratungs- und Dienstleistungsunternehmen, deren Anfragen Klärung, Terminabstimmung und eine eindeutige Übergabe brauchen."
     },
     "tr": {
       "family": "solution",
       "title": "Hizmet görüşmesini ilerletin.",
-      "lead": "Taleplerinde ihtiyaç netleştirme, görüşme planlama ve sorumlu kişiye aktarım gereken danışmanlık ve hizmet işletmeleri için.",
+      "lead": "Potansiyel müşterinin ihtiyacını anlayın ve doğru kişiyle verimli bir görüşme hazırlayın. Hizmet taahhütleri ve uzmanlık gerektiren kararlar ekibinizde kalır.",
       "blocks": [
         {
           "title": "İşletmenizin sağlayacağı bilgiler",
@@ -1038,7 +1094,7 @@
         },
         {
           "title": "Karar ve hedeflenen sonuç",
-          "body": "Taahhütleri sorumlu kişi inceler; uzmanlık soruları yetkin kişilere aktarılır. Rgnetic için önerilen CIE kapsamı ticari talep koordinasyonudur. Klinik değerlendirme ve tedavi kararları sağlık profesyonellerinde kalır."
+          "body": "Potansiyel müşterinin ihtiyacını, uygun hizmeti, açık soruları ve önerilen sonraki görüşmeyi alırsınız. Taahhütleri ekibiniz onaylar; uzmanlık soruları yetkin kişilere aktarılır. Rgnetic için konu ticari taleplerdir; klinik kararlar sağlık uzmanlarında kalır."
         }
       ],
       "links": [
@@ -1048,7 +1104,8 @@
         "modular"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "Taleplerinde ihtiyaç netleştirme, görüşme planlama ve sorumlu kişiye aktarım gereken danışmanlık ve hizmet işletmeleri için."
     }
   },
   "references": {
@@ -1080,7 +1137,9 @@
         "canceviz"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "TasGO, Exwest Modular and Canceviz use CIE in logistics, modular products and buyer research. Discover their business context and how commercial work stays connected.",
+      "presentationTitle": "Real businesses. Real use."
     },
     "de": {
       "family": "references",
@@ -1110,7 +1169,9 @@
         "canceviz"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "TasGO, Exwest Modular und Canceviz nutzen CIE für Logistik, modulare Produkte und Käuferrecherche. Entdecken Sie ihre Geschäftsfelder und zusammenhängenden Vertriebsabläufe.",
+      "presentationTitle": "Echte Unternehmen. Konkreter Einsatz."
     },
     "tr": {
       "family": "references",
@@ -1140,7 +1201,9 @@
         "canceviz"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "TasGO, Exwest Modular ve Canceviz CIE’yi lojistikte, modüler ürünlerde ve alıcı araştırmasında kullanır. İş alanlarını ve bağlantılı ticari süreçlerini inceleyin.",
+      "presentationTitle": "Gerçek işletmeler. Gerçek kullanım."
     }
   },
   "modular": {
@@ -1423,7 +1486,7 @@
     "en": {
       "family": "pricing",
       "title": "Choose the scope that fits your business.",
-      "lead": "A one-time setup establishes your business context. A monthly subscription covers the agreed workflows and support. Variable channel usage and custom integration work are scoped separately.",
+      "lead": "Pay once to configure the agreed work, then monthly for the supported service. Choose a workflow scope, confirm the activities and set separate usage and support limits before accepting a quotation.",
       "blocks": [
         {
           "title": "Setup and onboarding",
@@ -1448,12 +1511,13 @@
         "integrations"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "A one-time setup establishes your business context. A monthly subscription covers the agreed workflows and support. Variable channel usage and custom integration work are scoped separately."
     },
     "de": {
       "family": "pricing",
       "title": "Wählen Sie den Umfang, der zu Ihrem Unternehmen passt.",
-      "lead": "Bei der Einrichtung stimmen wir Produkte, Regeln und Abläufe ab. Das Monatsabo deckt vereinbarte Abläufe und Betreuung ab. Variable Kanalnutzung und individuelle Anbindungen werden separat vereinbart.",
+      "lead": "Sie zahlen einmal für die Einrichtung und anschließend monatlich für den vereinbarten Service. Wählen Sie den Ablaufumfang und klären Sie Leistungen, Nutzung und Support, bevor Sie ein Angebot annehmen.",
       "blocks": [
         {
           "title": "Einrichtung und Einstieg",
@@ -1478,12 +1542,13 @@
         "integrations"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Bei der Einrichtung stimmen wir Produkte, Regeln und Abläufe ab. Das Monatsabo deckt vereinbarte Abläufe und Betreuung ab. Variable Kanalnutzung und individuelle Anbindungen werden separat vereinbart."
     },
     "tr": {
       "family": "pricing",
       "title": "İşletmenize uygun kapsamı seçin.",
-      "lead": "Kurulumda ürünleriniz, iş kurallarınız ve süreçleriniz belirlenir. Aylık abonelik üzerinde anlaşılan süreçleri ve desteği kapsar. Değişken kanal kullanımı ve özel entegrasyonlar ayrıca belirlenir.",
+      "lead": "Kararlaştırılan sürecin kurulumu için bir defa, desteklenen hizmet için aylık ödeme yaparsınız. Teklifi kabul etmeden önce süreç kapsamını, faaliyetleri, kullanım ve destek sınırlarını netleştirin.",
       "blocks": [
         {
           "title": "Kurulum ve başlangıç",
@@ -1508,14 +1573,15 @@
         "integrations"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Kurulumda ürünleriniz, iş kurallarınız ve süreçleriniz belirlenir. Aylık abonelik üzerinde anlaşılan süreçleri ve desteği kapsar. Değişken kanal kullanımı ve özel entegrasyonlar ayrıca belirlenir."
     }
   },
   "company": {
     "en": {
       "family": "company",
       "title": "Experience that understands commercial work.",
-      "lead": "Exwest brings together IT, sales and business development. CIE turns hands-on commercial experience into connected opportunity research, customer communication and follow-up.",
+      "lead": "Exwest combines sales, business development and software expertise to configure CIE for your business.",
       "blocks": [
         {
           "title": "Built from the work, not just the technology.",
@@ -1540,12 +1606,14 @@
         "solutions"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Exwest brings together IT, sales and business development. CIE turns hands-on commercial experience into connected opportunity research, customer communication and follow-up.",
+      "presentationTitle": "Sales experience. Smart technology."
     },
     "de": {
       "family": "company",
       "title": "Erfahrung, die Vertriebsarbeit versteht.",
-      "lead": "Exwest vereint IT, Vertrieb und Geschäftsentwicklung. Aus praktischer Erfahrung entstand CIE: für zusammenhängende Chancenrecherche, Kundenkommunikation und Nachverfolgung.",
+      "lead": "Exwest verbindet Vertrieb, Geschäftsentwicklung und Softwarekompetenz, um CIE für Ihr Unternehmen einzurichten.",
       "blocks": [
         {
           "title": "Aus der Praxis entstanden.",
@@ -1570,12 +1638,14 @@
         "solutions"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Exwest vereint IT, Vertrieb und Geschäftsentwicklung. Aus praktischer Erfahrung entstand CIE: für zusammenhängende Chancenrecherche, Kundenkommunikation und Nachverfolgung.",
+      "presentationTitle": "Vertriebserfahrung. Intelligente Technologie."
     },
     "tr": {
       "family": "company",
       "title": "Satışın içinden gelen deneyim.",
-      "lead": "Exwest; BT, satış ve iş geliştirme deneyimini bir araya getirir. CIE, sahadaki bu deneyimden doğdu: fırsat araştırması, müşteri iletişimi ve satış takibini birbirine bağlar.",
+      "lead": "Exwest; satış, iş geliştirme ve yazılım deneyimini birleştirerek CIE’yi işletmenize göre yapılandırır.",
       "blocks": [
         {
           "title": "Teknolojiden önce işin kendisi.",
@@ -1600,14 +1670,16 @@
         "solutions"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Exwest; BT, satış ve iş geliştirme deneyimini bir araya getirir. CIE, sahadaki bu deneyimden doğdu: fırsat araştırması, müşteri iletişimi ve satış takibini birbirine bağlar.",
+      "presentationTitle": "Satış deneyimi. Akıllı teknoloji."
     }
   },
   "resources": {
     "en": {
       "family": "index",
       "title": "Understand the work before choosing the system.",
-      "lead": "Practical reading for opportunity research, enquiries, offers and human decisions. Guides to commercial workflows and better decisions.",
+      "lead": "Practical explanations for finding suitable buyers and progressing customer enquiries. Prepare better questions, clearer offers and a useful next sales step.",
       "blocks": [
         {
           "title": "Read, explore, prepare",
@@ -1622,12 +1694,13 @@
         "references"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Practical reading for opportunity research, enquiries, offers and human decisions. Guides to commercial workflows and better decisions."
     },
     "de": {
       "family": "index",
       "title": "Den Ablauf verstehen, bevor Sie ein System wählen.",
-      "lead": "Praxiswissen zu Chancenrecherche, Anfragen, Angeboten und menschlichen Entscheidungen. Eigene Fachbeiträge statt Kundenankündigungen.",
+      "lead": "Praktische Hilfen zur Käufersuche und Anfragebearbeitung: Stellen Sie gezieltere Fragen, bereiten Sie klare Angebote vor und schaffen Sie einen sinnvollen nächsten Vertriebsschritt.",
       "blocks": [
         {
           "title": "Lesen, erkunden, vorbereiten",
@@ -1642,12 +1715,13 @@
         "references"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Praxiswissen zu Chancenrecherche, Anfragen, Angeboten und menschlichen Entscheidungen. Eigene Fachbeiträge statt Kundenankündigungen."
     },
     "tr": {
       "family": "index",
       "title": "Sistem seçmeden önce işi anlayın.",
-      "lead": "Fırsat araştırması, talepler, teklifler ve insan kararları için pratik içerikler. Müşteri duyuruları değil, özgün eğitici yazılar.",
+      "lead": "Uygun alıcıları bulmak ve müşteri taleplerini ilerletmek için pratik açıklamalar. Daha doğru sorular, daha net teklifler ve anlamlı bir sonraki satış adımı hazırlayın.",
       "blocks": [
         {
           "title": "Okuyun, inceleyin, hazırlanın",
@@ -1662,14 +1736,15 @@
         "references"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Fırsat araştırması, talepler, teklifler ve insan kararları için pratik içerikler. Müşteri duyuruları değil, özgün eğitici yazılar."
     }
   },
   "blog": {
     "en": {
       "family": "index",
       "title": "Commercial work, explained plainly.",
-      "lead": "Original guides to clearer requirements and better opportunity decisions.",
+      "lead": "Read how to qualify a potential buyer, clarify an enquiry and prepare the next sales conversation. Each guide gives you questions to apply to your own business.",
       "blocks": [
         {
           "title": "Useful questions for your own workflow",
@@ -1681,12 +1756,13 @@
         "articleSignals"
       ],
       "demo": null,
-      "parent": "resources"
+      "parent": "resources",
+      "metadataLead": "Original guides to clearer requirements and better opportunity decisions."
     },
     "de": {
       "family": "index",
       "title": "Vertriebsarbeit verständlich erklärt.",
-      "lead": "Eigene Leitfäden für klarere Anforderungen und bessere Chancenbewertung.",
+      "lead": "Erfahren Sie, wie Sie potenzielle Käufer prüfen, Anfragen klären und das nächste Vertriebsgespräch vorbereiten. Jeder Leitfaden liefert Fragen für Ihre eigene Praxis.",
       "blocks": [
         {
           "title": "Nützliche Fragen für Ihren eigenen Ablauf",
@@ -1698,12 +1774,13 @@
         "articleSignals"
       ],
       "demo": null,
-      "parent": "resources"
+      "parent": "resources",
+      "metadataLead": "Eigene Leitfäden für klarere Anforderungen und bessere Chancenbewertung."
     },
     "tr": {
       "family": "index",
       "title": "Ticari süreçler, sade bir anlatımla.",
-      "lead": "Daha net ihtiyaçlar ve daha iyi fırsat değerlendirmesi için özgün rehberler.",
+      "lead": "Potansiyel alıcıyı değerlendirme, talebi netleştirme ve sonraki satış görüşmesini hazırlama yollarını okuyun. Her rehber işletmenizde kullanabileceğiniz sorular sunar.",
       "blocks": [
         {
           "title": "Kendi süreciniz için yararlı sorular",
@@ -1715,14 +1792,15 @@
         "articleSignals"
       ],
       "demo": null,
-      "parent": "resources"
+      "parent": "resources",
+      "metadataLead": "Daha net ihtiyaçlar ve daha iyi fırsat değerlendirmesi için özgün rehberler."
     }
   },
   "articleEnquiries": {
     "en": {
       "family": "article",
       "title": "From an enquiry to an offer people can trust.",
-      "lead": "A useful offer starts with understood requirements. A faster reply is only progress when the next person can see what was asked, assumed and agreed.",
+      "lead": "An offer moves a conversation forward when the buyer’s need, proposed scope and remaining questions are clear. Use this guide to prepare a useful decision.",
       "blocks": [
         {
           "title": "1. Separate the request from your assumptions",
@@ -1756,12 +1834,13 @@
         "modular"
       ],
       "demo": null,
-      "parent": "blog"
+      "parent": "blog",
+      "metadataLead": "A useful offer starts with understood requirements. A faster reply is only progress when the next person can see what was asked, assumed and agreed."
     },
     "de": {
       "family": "article",
       "title": "Von der Anfrage zum nachvollziehbaren Angebot.",
-      "lead": "Ein gutes Angebot beginnt mit geklärten Anforderungen. Eine schnelle Antwort ist erst dann Fortschritt, wenn alle Beteiligten Anfrage, Annahmen und Vereinbarungen nachvollziehen können.",
+      "lead": "Ein Angebot bringt das Gespräch voran, wenn Käuferbedarf, Leistungsumfang und offene Fragen klar sind. Dieser Leitfaden hilft bei der Vorbereitung einer fundierten Entscheidung.",
       "blocks": [
         {
           "title": "1. Anfrage und Annahmen trennen",
@@ -1795,12 +1874,13 @@
         "modular"
       ],
       "demo": null,
-      "parent": "blog"
+      "parent": "blog",
+      "metadataLead": "Ein gutes Angebot beginnt mit geklärten Anforderungen. Eine schnelle Antwort ist erst dann Fortschritt, wenn alle Beteiligten Anfrage, Annahmen und Vereinbarungen nachvollziehen können."
     },
     "tr": {
       "family": "article",
       "title": "Bir talepten güvenle incelenebilen teklife.",
-      "lead": "Yararlı bir teklif, anlaşılmış ihtiyaçlarla başlar. Hızlı yanıt ancak sonraki kişi ne istendiğini, neyin varsayıldığını ve neyin kararlaştırıldığını görebiliyorsa ilerlemedir.",
+      "lead": "Alıcının ihtiyacı, teklif kapsamı ve açık sorular netse teklif görüşmeyi ilerletir. Bu rehberi sağlıklı bir karar hazırlamak için kullanın.",
       "blocks": [
         {
           "title": "1. Talebi varsayımdan ayırın",
@@ -1834,14 +1914,15 @@
         "modular"
       ],
       "demo": null,
-      "parent": "blog"
+      "parent": "blog",
+      "metadataLead": "Yararlı bir teklif, anlaşılmış ihtiyaçlarla başlar. Hızlı yanıt ancak sonraki kişi ne istendiğini, neyin varsayıldığını ve neyin kararlaştırıldığını görebiliyorsa ilerlemedir."
     }
   },
   "articleSignals": {
     "en": {
       "family": "article",
       "title": "A buying signal is a reason to investigate, not proof.",
-      "lead": "Good opportunity research separates observation, business fit and uncertainty. That distinction protects your team’s time and improves the next conversation.",
+      "lead": "A suitable company is a starting point, not an interested buyer. Learn to separate research evidence, product fit and the customer response you still need.",
       "blocks": [
         {
           "title": "1. Establish what the source actually says",
@@ -1875,12 +1956,13 @@
         "gettingStarted"
       ],
       "demo": null,
-      "parent": "blog"
+      "parent": "blog",
+      "metadataLead": "Good opportunity research separates observation, business fit and uncertainty. That distinction protects your team’s time and improves the next conversation."
     },
     "de": {
       "family": "article",
       "title": "Ein Kaufsignal ist ein Rechercheanlass, kein Beweis.",
-      "lead": "Gute Chancenrecherche trennt Beobachtung, geschäftliche Passung und Unsicherheit. Das schützt die Zeit Ihres Teams und verbessert das nächste Gespräch.",
+      "lead": "Ein passendes Unternehmen ist ein Ausgangspunkt, noch kein interessierter Käufer. Unterscheiden Sie Recherchebelege, Produktpassung und die noch ausstehende Kundenantwort.",
       "blocks": [
         {
           "title": "1. Die tatsächliche Quellenaussage festhalten",
@@ -1914,12 +1996,13 @@
         "gettingStarted"
       ],
       "demo": null,
-      "parent": "blog"
+      "parent": "blog",
+      "metadataLead": "Gute Chancenrecherche trennt Beobachtung, geschäftliche Passung und Unsicherheit. Das schützt die Zeit Ihres Teams und verbessert das nächste Gespräch."
     },
     "tr": {
       "family": "article",
       "title": "Satın alma sinyali, kanıt değil araştırma gerekçesidir.",
-      "lead": "İyi fırsat araştırması; gözlemi, iş uyumunu ve belirsizliği ayırır. Bu ayrım ekibinizin zamanını korur ve sonraki görüşmeyi daha anlamlı kılar.",
+      "lead": "Uygun bir şirket başlangıç noktasıdır; ilgilenen alıcı olduğu anlamına gelmez. Araştırma bulgularını, ürün uygunluğunu ve henüz alınmamış müşteri yanıtını birbirinden ayırın.",
       "blocks": [
         {
           "title": "1. Kaynağın gerçekten ne dediğini belirleyin",
@@ -1953,14 +2036,15 @@
         "gettingStarted"
       ],
       "demo": null,
-      "parent": "blog"
+      "parent": "blog",
+      "metadataLead": "İyi fırsat araştırması; gözlemi, iş uyumunu ve belirsizliği ayırır. Bu ayrım ekibinizin zamanını korur ve sonraki görüşmeyi daha anlamlı kılar."
     }
   },
   "docs": {
     "en": {
       "family": "docs",
       "title": "CIE business handbook.",
-      "lead": "Prepare your business information, define the workflow and decide who approves what. Find practical guidance for customer context, channels and configuration.",
+      "lead": "Prepare what you sell, who you want to reach and which decisions need you. Understand what Exwest sets up and what your configured CIE service can deliver.",
       "blocks": [
         {
           "title": "Start with one representative workflow",
@@ -1978,12 +2062,13 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Prepare your business information, define the workflow and decide who approves what. Find practical guidance for customer context, channels and configuration."
     },
     "de": {
       "family": "docs",
       "title": "Das CIE-Praxishandbuch.",
-      "lead": "Bereiten Sie Ihre Geschäftsinformationen vor, legen Sie Abläufe fest und klären Sie Freigaben. Hier finden Sie praktische Hinweise zu Kundeninformationen, Kanälen und Konfiguration.",
+      "lead": "Bereiten Sie Ihr Angebot, Ihre Zielkunden und Ihre Entscheidungsregeln vor. Erfahren Sie, was Exwest einrichtet und welche Ergebnisse der vereinbarte CIE-Service liefern kann.",
       "blocks": [
         {
           "title": "Mit einem typischen Ablauf beginnen",
@@ -2001,12 +2086,13 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "Bereiten Sie Ihre Geschäftsinformationen vor, legen Sie Abläufe fest und klären Sie Freigaben. Hier finden Sie praktische Hinweise zu Kundeninformationen, Kanälen und Konfiguration."
     },
     "tr": {
       "family": "docs",
       "title": "CIE iş rehberi.",
-      "lead": "İşletme bilgilerinizi hazırlayın, süreci tanımlayın ve hangi kararları kimin onaylayacağını belirleyin. Müşteri bağlamı, kanallar ve yapılandırma için pratik rehberler bulun.",
+      "lead": "Ne sattığınızı, kime ulaşmak istediğinizi ve hangi kararlarda devreye gireceğinizi hazırlayın. Exwest’in neleri kurduğunu ve yapılandırılmış CIE hizmetinizin neler sunabileceğini öğrenin.",
       "blocks": [
         {
           "title": "Tipik bir süreçle başlayın",
@@ -2024,14 +2110,15 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": null
+      "parent": null,
+      "metadataLead": "İşletme bilgilerinizi hazırlayın, süreci tanımlayın ve hangi kararları kimin onaylayacağını belirleyin. Müşteri bağlamı, kanallar ve yapılandırma için pratik rehberler bulun."
     }
   },
   "gettingStarted": {
     "en": {
       "family": "docs",
       "title": "Getting started: prepare the business information.",
-      "lead": "A useful first discussion starts with one real workflow, reliable business information and people who can make the decisions. This guide helps you prepare.",
+      "lead": "Bring your products or services, target markets, approved prices and a typical enquiry. Exwest uses these to agree the first workflow, deliverables and review responsibilities with you.",
       "blocks": [
         {
           "title": "1. Choose the scope",
@@ -2052,12 +2139,13 @@
         "pricing"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "A useful first discussion starts with one real workflow, reliable business information and people who can make the decisions. This guide helps you prepare."
     },
     "de": {
       "family": "docs",
       "title": "Einstieg: Informationen für Ihr Unternehmen.",
-      "lead": "Ein gutes Erstgespräch beginnt mit einem konkreten Ablauf, verlässlichen Geschäftsinformationen und zuständigen Personen. Dieser Leitfaden hilft bei der Vorbereitung.",
+      "lead": "Bringen Sie Produkte oder Leistungen, Zielmärkte, freigegebene Preise und eine typische Anfrage mit. Damit vereinbart Exwest den ersten Ablauf, Ergebnisse und Freigabeverantwortung mit Ihnen.",
       "blocks": [
         {
           "title": "1. Den Umfang wählen",
@@ -2078,12 +2166,13 @@
         "pricing"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "Ein gutes Erstgespräch beginnt mit einem konkreten Ablauf, verlässlichen Geschäftsinformationen und zuständigen Personen. Dieser Leitfaden hilft bei der Vorbereitung."
     },
     "tr": {
       "family": "docs",
       "title": "Başlangıç: işletme bilgilerini hazırlayın.",
-      "lead": "İlk görüşmeye gerçek bir süreç örneği, güvenilir işletme bilgileri ve karar sorumlularıyla hazırlanın. Bu rehber nereden başlayacağınızı gösterir.",
+      "lead": "Ürün veya hizmetlerinizi, hedef pazarları, onaylı fiyatları ve tipik bir talebi hazırlayın. Exwest bunlarla ilk süreci, teslim edilecek çıktıları ve onay sorumluluklarını sizinle belirler.",
       "blocks": [
         {
           "title": "1. Kapsamı seçin",
@@ -2104,14 +2193,15 @@
         "pricing"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "İlk görüşmeye gerçek bir süreç örneği, güvenilir işletme bilgileri ve karar sorumlularıyla hazırlanın. Bu rehber nereden başlayacağınızı gösterir."
     }
   },
   "crmDocs": {
     "en": {
       "family": "docs",
       "title": "Customer context and human decisions.",
-      "lead": "The CRM approach should let a person understand the opportunity and intervene without rebuilding the conversation from scattered messages.",
+      "lead": "Keep the buyer, need, customer reply and next action together. Define who can review an offer or approve a commitment before connecting systems.",
       "blocks": [
         {
           "title": "Keep facts, assumptions and proposals separate",
@@ -2132,12 +2222,13 @@
         "modular"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "The CRM approach should let a person understand the opportunity and intervene without rebuilding the conversation from scattered messages."
     },
     "de": {
       "family": "docs",
       "title": "Kundeninformationen und menschliche Entscheidungen.",
-      "lead": "Die vorgesehene CRM-Ansicht soll eine Chance verständlich machen und Eingreifen ermöglichen, ohne verstreute Nachrichten neu zusammensuchen zu müssen.",
+      "lead": "Halten Sie Käufer, Bedarf, Kundenantwort und nächste Aufgabe zusammen. Legen Sie fest, wer Angebote prüft und Zusagen freigibt, bevor Systeme verbunden werden.",
       "blocks": [
         {
           "title": "Fakten, Annahmen und Vorschläge trennen",
@@ -2158,12 +2249,13 @@
         "modular"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "Die vorgesehene CRM-Ansicht soll eine Chance verständlich machen und Eingreifen ermöglichen, ohne verstreute Nachrichten neu zusammensuchen zu müssen."
     },
     "tr": {
       "family": "docs",
       "title": "Müşteri bilgileri ve insan kararları.",
-      "lead": "Hedeflenen CRM deneyimi, kişinin dağınık mesajlardan görüşmeyi yeniden kurmadan fırsatı anlamasını ve müdahale etmesini sağlamalıdır.",
+      "lead": "Alıcıyı, ihtiyacı, müşteri yanıtını ve sonraki adımı bir arada tutun. Sistemleri bağlamadan önce teklifleri ve taahhütleri kimin onaylayacağını belirleyin.",
       "blocks": [
         {
           "title": "Gerçekleri, varsayımları ve önerileri ayırın",
@@ -2184,14 +2276,15 @@
         "modular"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "Hedeflenen CRM deneyimi, kişinin dağınık mesajlardan görüşmeyi yeniden kurmadan fırsatı anlamasını ve müdahale etmesini sağlamalıdır."
     }
   },
   "integrationDocs": {
     "en": {
       "family": "docs",
       "title": "Integration approaches: agree the purpose and boundary.",
-      "lead": "CRM, REST, webhooks and MCP are planned connection approaches. Learn which business purpose, data scope and decisions to define before discussing an integration.",
+      "lead": "Prepare your data sources and the actions a connection would support. CRM, REST, webhooks and MCP are integration approaches to scope, not automatically included working connectors.",
       "blocks": [
         {
           "title": "CRM connections",
@@ -2212,12 +2305,13 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "CRM, REST, webhooks and MCP are planned connection approaches. Learn which business purpose, data scope and decisions to define before discussing an integration."
     },
     "de": {
       "family": "docs",
       "title": "Anbindungen: Zweck und Grenzen vereinbaren.",
-      "lead": "CRM, REST, Webhooks und MCP sind geplante Anbindungsansätze. Klären Sie Geschäftszweck, Datenumfang und Entscheidungen, bevor Sie eine Anbindung besprechen.",
+      "lead": "Bereiten Sie Datenquellen und die Aufgaben einer Anbindung vor. CRM, REST, Webhooks und MCP sind zu prüfende Ansätze, keine automatisch enthaltenen fertigen Verbindungen.",
       "blocks": [
         {
           "title": "CRM-Anbindungen",
@@ -2238,12 +2332,13 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "CRM, REST, Webhooks und MCP sind geplante Anbindungsansätze. Klären Sie Geschäftszweck, Datenumfang und Entscheidungen, bevor Sie eine Anbindung besprechen."
     },
     "tr": {
       "family": "docs",
       "title": "Entegrasyon yaklaşımları: amaç ve sınırları belirleyin.",
-      "lead": "CRM, REST, webhook ve MCP için bağlantı yaklaşımları planlanıyor. Entegrasyonu görüşmeden önce iş amacını, paylaşılacak bilgileri ve karar sınırlarını belirleyin.",
+      "lead": "Veri kaynaklarını ve bağlantının destekleyeceği işlemleri hazırlayın. CRM, REST, webhook ve MCP kapsamı belirlenecek yaklaşımlardır; otomatik olarak dahil çalışan bağlantılar değildir.",
       "blocks": [
         {
           "title": "CRM bağlantıları",
@@ -2264,18 +2359,19 @@
         "capabilityDocs"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "CRM, REST, webhook ve MCP için bağlantı yaklaşımları planlanıyor. Entegrasyonu görüşmeden önce iş amacını, paylaşılacak bilgileri ve karar sınırlarını belirleyin."
     }
   },
   "capabilityDocs": {
     "en": {
       "family": "docs",
       "title": "Scope, availability and configuration.",
-      "lead": "A useful CIE scope starts with your business requirements. Confirm workflows, channel availability, permissions and human responsibilities before deciding how to begin.",
+      "lead": "Understand what Exwest can prepare, which communication channels your service supports and which extensions are planned. Agree the scope before making customer commitments.",
       "blocks": [
         {
-          "title": "Four connected responsibilities",
-          "body": "Signal Intelligence finds reasons to investigate. Commercial Strategy supplies products, territories and rules. Sales Operations connects enquiries, offers and follow-up. CRM and Human Control keep context and decisions together. Agree which work belongs in your first scope."
+          "title": "Preparation, communication and future extensions.",
+          "body": "Research and draft preparation are agreed with Exwest. Email, calls and messaging are available only as confirmed for your service; sending also requires contact permission. Later autonomous conversations and closing are separate future extensions."
         },
         {
           "title": "Channels depend on agreed readiness",
@@ -2292,16 +2388,17 @@
         "integrationDocs"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "A useful CIE scope starts with your business requirements. Confirm workflows, channel availability, permissions and human responsibilities before deciding how to begin."
     },
     "de": {
       "family": "docs",
       "title": "Umfang, Verfügbarkeit und Konfiguration.",
-      "lead": "Ein sinnvoller CIE-Umfang beginnt bei Ihrem Geschäftsbedarf. Klären Sie Abläufe, verfügbare Kanäle, Berechtigungen und menschliche Zuständigkeiten, bevor Sie den Einstieg festlegen.",
+      "lead": "Erfahren Sie, was Exwest vorbereiten kann, welche Kommunikationskanäle Ihr Service unterstützt und welche Erweiterungen geplant sind. Vereinbaren Sie den Umfang, bevor Sie Kunden Zusagen machen.",
       "blocks": [
         {
-          "title": "Vier verbundene Bereiche",
-          "body": "Marktchancen liefern Rechercheanlässe. Die Vertriebsstrategie legt Produkte, Gebiete und Regeln fest. Vertriebsabläufe verbinden Anfragen, Angebote und Nachfassen. CRM und menschliche Kontrolle halten Kontext und Entscheidungen zusammen. Legen Sie den ersten Umfang gemeinsam fest."
+          "title": "Vorbereitung, Kommunikation und spätere Erweiterungen.",
+          "body": "Recherche und Entwurfsvorbereitung werden mit Exwest vereinbart. E-Mail, Anrufe und Nachrichten stehen nur im bestätigten Serviceumfang zur Verfügung; für den Versand ist zusätzlich eine Kontakterlaubnis nötig. Spätere autonome Gespräche und Abschlüsse sind separate Zukunftserweiterungen."
         },
         {
           "title": "Kanäle nach abgestimmter Verfügbarkeit",
@@ -2318,16 +2415,17 @@
         "integrationDocs"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "Ein sinnvoller CIE-Umfang beginnt bei Ihrem Geschäftsbedarf. Klären Sie Abläufe, verfügbare Kanäle, Berechtigungen und menschliche Zuständigkeiten, bevor Sie den Einstieg festlegen."
     },
     "tr": {
       "family": "docs",
       "title": "Kapsam, kullanılabilirlik ve yapılandırma.",
-      "lead": "CIE kapsamı işletmenizin ihtiyaçlarıyla başlar. Başlangıcı belirlemeden önce süreçleri, kanal uygunluğunu, izinleri ve insan sorumluluklarını netleştirin.",
+      "lead": "Exwest’in neleri hazırlayabildiğini, hizmetinizin hangi iletişim kanallarını desteklediğini ve hangi genişlemelerin planlandığını öğrenin. Müşteriye taahhüt vermeden önce kapsamı belirleyin.",
       "blocks": [
         {
-          "title": "Birbirine bağlı dört alan",
-          "body": "Pazar fırsatları araştırmaya gerekçe sağlar. Satış stratejisi ürünleri, bölgeleri ve kuralları belirler. Satış süreçleri talepleri, teklifleri ve takibi birleştirir. CRM ve insan kontrolü bağlamı ve kararları korur. İlk kapsamı birlikte belirleyin."
+          "title": "Hazırlık, iletişim ve sonraki genişlemeler.",
+          "body": "Araştırma ve taslak hazırlama Exwest ile belirlenir. E-posta, arama ve mesajlaşma yalnızca hizmetiniz için doğrulanan kapsamda sunulur; gönderim ayrıca iletişim izni gerektirir. İlerideki otonom görüşmeler ve satış kapatma ayrı gelecek genişlemeleridir."
         },
         {
           "title": "Kanalların uygunluğu birlikte belirlenir",
@@ -2344,14 +2442,15 @@
         "integrationDocs"
       ],
       "demo": null,
-      "parent": "docs"
+      "parent": "docs",
+      "metadataLead": "CIE kapsamı işletmenizin ihtiyaçlarıyla başlar. Başlangıcı belirlemeden önce süreçleri, kanal uygunluğunu, izinleri ve insan sorumluluklarını netleştirin."
     }
   },
   "trade": {
     "en": {
       "family": "service",
       "title": "International trade, coordinated with context.",
-      "lead": "CIE supports international sourcing, supplier qualification, RFQ comparison and market-entry research. Your products, territories and business rules guide the commercial work.",
+      "lead": "Find suitable suppliers and buyers for your target market. Prepare comparable requests, understand the terms and decide which commercial opportunity to pursue.",
       "blocks": [
         {
           "title": "Begin with the requirement",
@@ -2368,12 +2467,13 @@
         "strategy"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "CIE supports international sourcing, supplier qualification, RFQ comparison and market-entry research. Your products, territories and business rules guide the commercial work."
     },
     "de": {
       "family": "service",
       "title": "Internationalen Handel fundiert koordinieren.",
-      "lead": "CIE unterstützt internationale Beschaffung, Lieferantenprüfung, Angebotsvergleiche und Markteintrittsrecherche. Ihre Produkte, Gebiete und Geschäftsregeln leiten die Arbeit.",
+      "lead": "Finden Sie passende Lieferanten und Käufer für Ihren Zielmarkt. Bereiten Sie vergleichbare Anfragen vor, prüfen Sie Konditionen und entscheiden Sie, welche Geschäftschance Sie weiterverfolgen.",
       "blocks": [
         {
           "title": "Mit dem Bedarf beginnen",
@@ -2390,12 +2490,13 @@
         "strategy"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "CIE unterstützt internationale Beschaffung, Lieferantenprüfung, Angebotsvergleiche und Markteintrittsrecherche. Ihre Produkte, Gebiete und Geschäftsregeln leiten die Arbeit."
     },
     "tr": {
       "family": "service",
       "title": "Uluslararası ticareti bilgiye dayalı koordine edin.",
-      "lead": "CIE uluslararası tedarik, tedarikçi değerlendirmesi, teklif karşılaştırması ve pazara giriş araştırmasını destekler. Ürünleriniz, bölgeleriniz ve iş kurallarınız sürece yön verir.",
+      "lead": "Hedef pazarınıza uygun tedarikçileri ve alıcıları bulun. Karşılaştırılabilir talepler hazırlayın, koşulları değerlendirin ve hangi fırsata devam edeceğinizi belirleyin.",
       "blocks": [
         {
           "title": "İhtiyaçtan başlayın",
@@ -2412,14 +2513,15 @@
         "strategy"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "CIE uluslararası tedarik, tedarikçi değerlendirmesi, teklif karşılaştırması ve pazara giriş araştırmasını destekler. Ürünleriniz, bölgeleriniz ve iş kurallarınız sürece yön verir."
     }
   },
   "ecommerce": {
     "en": {
       "family": "service",
       "title": "Choose the right market for the product.",
-      "lead": "CIE connects product positioning, marketplace research and sales enquiries with the economics of pricing, stock and fulfilment. Build the commercial context for your e-commerce business.",
+      "lead": "Decide where your product can find suitable customers. Compare demand, pricing and fulfilment, then prepare the offer and customer-enquiry workflow for the selected channel.",
       "blocks": [
         {
           "title": "Readiness before reach",
@@ -2436,12 +2538,13 @@
         "productEnquiries"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "CIE connects product positioning, marketplace research and sales enquiries with the economics of pricing, stock and fulfilment. Build the commercial context for your e-commerce business."
     },
     "de": {
       "family": "service",
       "title": "Den passenden Markt für Ihr Produkt wählen.",
-      "lead": "CIE verbindet Produktpositionierung, Marktplatzrecherche und Verkaufsanfragen mit Preisen, Bestand und Lieferung. Schaffen Sie den Geschäftskontext für Ihr E-Commerce-Unternehmen.",
+      "lead": "Entscheiden Sie, wo Ihr Produkt passende Kunden erreichen kann. Vergleichen Sie Nachfrage, Preise und Abwicklung und bereiten Sie Angebot und Anfragebearbeitung für den gewählten Kanal vor.",
       "blocks": [
         {
           "title": "Marktreife vor Reichweite",
@@ -2458,12 +2561,13 @@
         "productEnquiries"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "CIE verbindet Produktpositionierung, Marktplatzrecherche und Verkaufsanfragen mit Preisen, Bestand und Lieferung. Schaffen Sie den Geschäftskontext für Ihr E-Commerce-Unternehmen."
     },
     "tr": {
       "family": "service",
       "title": "Ürününüz için doğru pazarı seçin.",
-      "lead": "CIE ürün konumlandırmasını, pazaryeri araştırmasını ve satış taleplerini fiyat, stok ve teslimat koşullarıyla birleştirir. E-ticaret işletmeniz için ticari çalışma temelini kurun.",
+      "lead": "Ürününüzün hangi kanalda uygun müşterilere ulaşabileceğini belirleyin. Talebi, fiyatları ve sipariş karşılamayı değerlendirin; seçilen kanal için teklif ve müşteri talebi sürecini hazırlayın.",
       "blocks": [
         {
           "title": "Erişimden önce pazara hazırlık",
@@ -2480,13 +2584,14 @@
         "productEnquiries"
       ],
       "demo": null,
-      "parent": "solutions"
+      "parent": "solutions",
+      "metadataLead": "CIE ürün konumlandırmasını, pazaryeri araştırmasını ve satış taleplerini fiyat, stok ve teslimat koşullarıyla birleştirir. E-ticaret işletmeniz için ticari çalışma temelini kurun."
     }
   },
   "crmCommunications": {
     "en": {
       "title": "Every conversation. The same opportunity.",
-      "lead": "Connect customer information, correspondence, quotations and next actions. CIE brings commercial context together so your people can continue the conversation and make informed decisions.",
+      "lead": "Keep each enquiry, reply, offer and follow-up connected to the same buyer. Your team receives the information and next action needed to continue the sales conversation.",
       "blocks": [
         {
           "title": "Scattered channels slow down the next step.",
@@ -2514,11 +2619,12 @@
       ],
       "family": "solution",
       "parent": "solutions",
-      "demo": null
+      "demo": null,
+      "metadataLead": "Connect customer information, correspondence, quotations and next actions. CIE brings commercial context together so your people can continue the conversation and make informed decisions."
     },
     "de": {
       "title": "Jedes Gespräch. Dieselbe Verkaufschance.",
-      "lead": "Kundeninformationen, Korrespondenz, Angebote und nächste Schritte verbinden: CIE hält den Geschäftskontext zusammen, damit Ihr Team Gespräche fortsetzen und fundiert entscheiden kann.",
+      "lead": "Jede Anfrage, Antwort, jedes Angebot und jede Nachverfolgung bleibt beim selben Käufer. Ihr Team erhält die Informationen und nächste Aufgabe, um das Vertriebsgespräch fortzuführen.",
       "blocks": [
         {
           "title": "Verteilte Kanäle erschweren den nächsten Schritt.",
@@ -2546,11 +2652,12 @@
       ],
       "family": "solution",
       "parent": "solutions",
-      "demo": null
+      "demo": null,
+      "metadataLead": "Kundeninformationen, Korrespondenz, Angebote und nächste Schritte verbinden: CIE hält den Geschäftskontext zusammen, damit Ihr Team Gespräche fortsetzen und fundiert entscheiden kann."
     },
     "tr": {
       "title": "Her görüşme, aynı satış fırsatında.",
-      "lead": "Müşteri bilgilerini, yazışmaları, teklifleri ve sonraki adımları birleştirin. CIE ticari bağlamı bir arada tutar; ekibiniz görüşmeye kaldığı yerden devam edip bilinçli karar verebilir.",
+      "lead": "Her talep, yanıt, teklif ve takip aynı alıcıyla ilişkilendirilir. Ekibiniz satış görüşmesine devam etmek için gereken bilgileri ve sonraki adımı alır.",
       "blocks": [
         {
           "title": "Dağınık iletişim sonraki adımı zorlaştırır.",
@@ -2578,7 +2685,8 @@
       ],
       "family": "solution",
       "parent": "solutions",
-      "demo": null
+      "demo": null,
+      "metadataLead": "Müşteri bilgilerini, yazışmaları, teklifleri ve sonraki adımları birleştirin. CIE ticari bağlamı bir arada tutar; ekibiniz görüşmeye kaldığı yerden devam edip bilinçli karar verebilir."
     }
   }
 }

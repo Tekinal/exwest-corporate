@@ -28,10 +28,10 @@
       "Business information, products, rules, configuration and handover defined in your proposal."
     ],
     "ongoing": [
-      "The configured enquiry, quotation or research workflow: organise requirements, prepare drafts from approved information and keep customer context and next actions connected.",
-      "Coordinate the agreed enquiry, quotation, research and follow-up workflows, with connected context and clear decisions for responsible people.",
-      "Coordinate the agreed commercial workflows and approval queues under more complex business rules, with connected opportunity context.",
-      "Commercial activities and recurring deliverables tailored to the agreed business scope."
+      "For the agreed research or enquiry workflow, receive buyer information or clarified requirements, draft approaches or offers from approved information, and the next action where supported by your configuration.",
+      "Across the agreed workflows, receive researched opportunities, prepared approaches or offer drafts, and connected customer replies and next actions where supported.",
+      "Across the agreed workflows, receive prepared opportunities and offers, questions needing your review and an updated next step under your business rules.",
+      "Receive the commercial outputs specified for your business in the agreed proposal."
     ],
     "customer": [
       "Provide approved information and a decision owner; approve exceptions and commitments.",
@@ -145,10 +145,10 @@
       "Geschäftsinformationen, Produkte, Regeln, Einrichtung und Einführung gemäß individuellem Angebot."
     ],
     "ongoing": [
-      "Der konfigurierte Anfrage-, Angebots- oder Rechercheablauf: Bedarf ordnen, Entwürfe aus freigegebenen Informationen vorbereiten und Kundeninformationen mit nächsten Schritten verbinden.",
-      "Vereinbarte Anfrage-, Angebots-, Recherche- und Nachfassabläufe koordinieren, mit zusammenhängenden Informationen und klaren Entscheidungen für zuständige Personen.",
-      "Vereinbarte Vertriebsabläufe und Freigaben unter anspruchsvolleren Geschäftsregeln koordinieren und Informationen bei der jeweiligen Chance zusammenhalten.",
-      "Vertriebsaufgaben und regelmäßige Leistungen passend zum vereinbarten Unternehmensbedarf."
+      "Für den vereinbarten Recherche- oder Anfrageablauf erhalten Sie Käuferinformationen oder geklärte Anforderungen, Ansprache- oder Angebotsentwürfe aus freigegebenen Informationen und die nächste Aufgabe, soweit Ihre Konfiguration dies unterstützt.",
+      "Für die vereinbarten Abläufe erhalten Sie recherchierte Chancen, vorbereitete Ansprachen oder Angebotsentwürfe sowie zugeordnete Kundenantworten und nächste Aufgaben, soweit unterstützt.",
+      "Für die vereinbarten Abläufe erhalten Sie vorbereitete Chancen und Angebote, anstehende Freigaben und einen aktualisierten nächsten Schritt nach Ihren Geschäftsregeln.",
+      "Sie erhalten die für Ihr Unternehmen im Angebot vereinbarten Vertriebsergebnisse."
     ],
     "customer": [
       "Freigegebene Informationen und eine zuständige Person bereitstellen; über Ausnahmen und verbindliche Zusagen entscheiden.",
@@ -262,10 +262,10 @@
       "İşletme bilgileri, ürünler, kurallar, yapılandırma ve eğitim özel teklifte belirlenir."
     ],
     "ongoing": [
-      "Belirlenen talep, teklif veya araştırma süreci: ihtiyaçları düzenleme, onaylı bilgilere göre taslak hazırlama, müşteri bilgilerini ve sonraki adımları bir arada tutma.",
-      "Kararlaştırılan talep, teklif, araştırma ve takip süreçlerini; bağlantılı bilgiler ve sorumlular için açık karar noktalarıyla koordine etme.",
-      "Daha kapsamlı iş kuralları altında belirlenen satış süreçlerini ve onayları koordine etme, fırsat bilgilerini bir arada tutma.",
-      "Kararlaştırılan işletme kapsamına uygun satış işleri ve düzenli hizmetler."
+      "Kararlaştırılan araştırma veya talep sürecinde, yapılandırmanızın desteklediği ölçüde alıcı bilgileri veya netleşmiş ihtiyaçlar, onaylı bilgilere dayanan ileti veya teklif taslakları ve sonraki adımı alırsınız.",
+      "Kararlaştırılan süreçlerde, desteklendiği ölçüde araştırılmış fırsatlar, hazırlanmış iletiler veya teklif taslakları, ilgili müşteri yanıtları ve sonraki adımları alırsınız.",
+      "Kararlaştırılan süreçlerde iş kurallarınıza göre hazırlanmış fırsat ve teklifler, onayınızı bekleyen sorular ve güncellenmiş sonraki adımı alırsınız.",
+      "İşletmeniz için teklifte kararlaştırılan ticari çıktıları alırsınız."
     ],
     "customer": [
       "Onaylı bilgileri ve karar sorumlusunu belirleyin; istisnaları ve taahhütleri siz onaylayın.",
